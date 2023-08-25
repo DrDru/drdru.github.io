@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+
+<head>
+	<html lang="ja">
+<meta charset="utf-8"/>
+
+<style>
+
+
+.pixelart-to-css {
+  box-shadow: 50px 10px 0 0 rgba(0, 0, 0, 1), 60px 10px 0 0 rgba(0, 0, 0, 1), 70px 10px 0 0 rgba(0, 0, 0, 1), 80px 10px 0 0 rgba(0, 0, 0, 1), 90px 10px 0 0 rgba(0, 0, 0, 1), 100px 10px 0 0 rgba(0, 0, 0, 1), 110px 10px 0 0 rgba(0, 0, 0, 1), 120px 10px 0 0 rgba(0, 0, 0, 1), 30px 20px 0 0 rgba(0, 0, 0, 1), 40px 20px 0 0 rgba(0, 0, 0, 1), 50px 20px 0 0 rgba(255, 152, 0, 1), 60px 20px 0 0 rgba(255, 152, 0, 1), 70px 20px 0 0 rgba(255, 152, 0, 1), 80px 20px 0 0 rgba(255, 152, 0, 1), 90px 20px 0 0 rgba(255, 152, 0, 1), 100px 20px 0 0 rgba(255, 193, 7, 1), 110px 20px 0 0 rgba(255, 193, 7, 1), 120px 20px 0 0 rgba(255, 193, 7, 1), 130px 20px 0 0 rgba(0, 0, 0, 1), 20px 30px 0 0 rgba(0, 0, 0, 1), 30px 30px 0 0 rgba(255, 152, 0, 1), 40px 30px 0 0 rgba(255, 152, 0, 1), 50px 30px 0 0 rgba(255, 255, 255, 1), 60px 30px 0 0 rgba(255, 255, 255, 1), 70px 30px 0 0 rgba(255, 152, 0, 1), 80px 30px 0 0 rgba(255, 152, 0, 1), 90px 30px 0 0 rgba(255, 193, 7, 1), 100px 30px 0 0 rgba(0, 0, 0, 1), 110px 30px 0 0 rgba(0, 0, 0, 1), 120px 30px 0 0 rgba(0, 0, 0, 1), 10px 40px 0 0 rgba(0, 0, 0, 1), 20px 40px 0 0 rgba(255, 152, 0, 1), 30px 40px 0 0 rgba(255, 152, 0, 1), 40px 40px 0 0 rgba(0, 0, 0, 1), 50px 40px 0 0 rgba(0, 0, 0, 1), 60px 40px 0 0 rgba(255, 255, 255, 1), 70px 40px 0 0 rgba(255, 152, 0, 1), 80px 40px 0 0 rgba(255, 152, 0, 1), 90px 40px 0 0 rgba(0, 0, 0, 1), 100px 40px 0 0 rgba(255, 193, 7, 1), 110px 40px 0 0 rgba(0, 0, 0, 1), 10px 50px 0 0 rgba(0, 0, 0, 1), 20px 50px 0 0 rgba(255, 152, 0, 1), 30px 50px 0 0 rgba(255, 152, 0, 1), 40px 50px 0 0 rgba(0, 0, 0, 1), 50px 50px 0 0 rgba(0, 0, 0, 1), 60px 50px 0 0 rgba(255, 255, 255, 1), 70px 50px 0 0 rgba(255, 152, 0, 1), 80px 50px 0 0 rgba(255, 152, 0, 1), 90px 50px 0 0 rgba(255, 193, 7, 1), 100px 50px 0 0 rgba(0, 0, 0, 1), 10px 60px 0 0 rgba(0, 0, 0, 1), 20px 60px 0 0 rgba(255, 152, 0, 1), 30px 60px 0 0 rgba(255, 152, 0, 1), 40px 60px 0 0 rgba(255, 152, 0, 1), 50px 60px 0 0 rgba(255, 152, 0, 1), 60px 60px 0 0 rgba(255, 152, 0, 1), 70px 60px 0 0 rgba(255, 152, 0, 1), 80px 60px 0 0 rgba(255, 193, 7, 1), 90px 60px 0 0 rgba(255, 193, 7, 1), 100px 60px 0 0 rgba(0, 0, 0, 1), 150px 60px 0 0 rgba(0, 0, 0, 1), 10px 70px 0 0 rgba(0, 0, 0, 1), 20px 70px 0 0 rgba(255, 152, 0, 1), 30px 70px 0 0 rgba(0, 0, 0, 1), 40px 70px 0 0 rgba(0, 0, 0, 1), 50px 70px 0 0 rgba(0, 0, 0, 1), 60px 70px 0 0 rgba(0, 0, 0, 1), 70px 70px 0 0 rgba(0, 0, 0, 1), 80px 70px 0 0 rgba(255, 193, 7, 1), 90px 70px 0 0 rgba(0, 0, 0, 1), 140px 70px 0 0 rgba(0, 0, 0, 1), 150px 70px 0 0 rgba(255, 193, 7, 1), 160px 70px 0 0 rgba(0, 0, 0, 1), 20px 80px 0 0 rgba(0, 0, 0, 1), 50px 80px 0 0 rgba(0, 0, 0, 1), 60px 80px 0 0 rgba(0, 0, 0, 1), 70px 80px 0 0 rgba(255, 193, 7, 1), 80px 80px 0 0 rgba(255, 193, 7, 1), 90px 80px 0 0 rgba(0, 0, 0, 1), 130px 80px 0 0 rgba(0, 0, 0, 1), 140px 80px 0 0 rgba(255, 193, 7, 1), 150px 80px 0 0 rgba(0, 0, 0, 1), 40px 90px 0 0 rgba(0, 0, 0, 1), 50px 90px 0 0 rgba(255, 235, 59, 1), 60px 90px 0 0 rgba(255, 235, 59, 1), 70px 90px 0 0 rgba(255, 193, 7, 1), 80px 90px 0 0 rgba(255, 193, 7, 1), 90px 90px 0 0 rgba(0, 0, 0, 1), 110px 90px 0 0 rgba(0, 0, 0, 1), 120px 90px 0 0 rgba(0, 0, 0, 1), 130px 90px 0 0 rgba(255, 193, 7, 1), 140px 90px 0 0 rgba(255, 193, 7, 1), 150px 90px 0 0 rgba(255, 193, 7, 1), 160px 90px 0 0 rgba(0, 0, 0, 1), 30px 100px 0 0 rgba(0, 0, 0, 1), 40px 100px 0 0 rgba(255, 235, 59, 1), 50px 100px 0 0 rgba(255, 235, 59, 1), 60px 100px 0 0 rgba(255, 235, 59, 1), 70px 100px 0 0 rgba(255, 193, 7, 1), 80px 100px 0 0 rgba(255, 193, 7, 1), 90px 100px 0 0 rgba(255, 193, 7, 1), 100px 100px 0 0 rgba(0, 0, 0, 1), 110px 100px 0 0 rgba(255, 193, 7, 1), 120px 100px 0 0 rgba(255, 193, 7, 1), 130px 100px 0 0 rgba(255, 193, 7, 1), 140px 100px 0 0 rgba(255, 193, 7, 1), 150px 100px 0 0 rgba(0, 0, 0, 1), 30px 110px 0 0 rgba(0, 0, 0, 1), 40px 110px 0 0 rgba(255, 235, 59, 1), 50px 110px 0 0 rgba(255, 235, 59, 1), 60px 110px 0 0 rgba(255, 235, 59, 1), 70px 110px 0 0 rgba(255, 152, 0, 1), 80px 110px 0 0 rgba(255, 152, 0, 1), 90px 110px 0 0 rgba(0, 0, 0, 1), 100px 110px 0 0 rgba(255, 193, 7, 1), 110px 110px 0 0 rgba(255, 193, 7, 1), 120px 110px 0 0 rgba(255, 193, 7, 1), 130px 110px 0 0 rgba(255, 193, 7, 1), 140px 110px 0 0 rgba(0, 0, 0, 1), 40px 120px 0 0 rgba(0, 0, 0, 1), 50px 120px 0 0 rgba(255, 235, 59, 1), 60px 120px 0 0 rgba(255, 152, 0, 1), 70px 120px 0 0 rgba(255, 152, 0, 1), 80px 120px 0 0 rgba(255, 152, 0, 1), 90px 120px 0 0 rgba(255, 152, 0, 1), 100px 120px 0 0 rgba(255, 193, 7, 1), 110px 120px 0 0 rgba(255, 193, 7, 1), 120px 120px 0 0 rgba(255, 193, 7, 1), 130px 120px 0 0 rgba(0, 0, 0, 1), 50px 130px 0 0 rgba(0, 0, 0, 1), 60px 130px 0 0 rgba(255, 235, 59, 1), 70px 130px 0 0 rgba(255, 152, 0, 1), 80px 130px 0 0 rgba(255, 152, 0, 1), 90px 130px 0 0 rgba(255, 152, 0, 1), 100px 130px 0 0 rgba(255, 193, 7, 1), 110px 130px 0 0 rgba(0, 0, 0, 1), 120px 130px 0 0 rgba(0, 0, 0, 1), 60px 140px 0 0 rgba(0, 0, 0, 1), 70px 140px 0 0 rgba(0, 0, 0, 1), 80px 140px 0 0 rgba(255, 152, 0, 1), 90px 140px 0 0 rgba(0, 0, 0, 1), 100px 140px 0 0 rgba(0, 0, 0, 1), 70px 150px 0 0 rgba(0, 0, 0, 1), 80px 150px 0 0 rgba(0, 0, 0, 1), 90px 150px 0 0 rgba(255, 152, 0, 1), 100px 150px 0 0 rgba(0, 0, 0, 1), 110px 150px 0 0 rgba(0, 0, 0, 1), 60px 160px 0 0 rgba(0, 0, 0, 1), 70px 160px 0 0 rgba(255, 152, 0, 1), 80px 160px 0 0 rgba(255, 152, 0, 1), 90px 160px 0 0 rgba(255, 152, 0, 1), 100px 160px 0 0 rgba(255, 152, 0, 1), 110px 160px 0 0 rgba(255, 152, 0, 1), 120px 160px 0 0 rgba(0, 0, 0, 1);
+  height: 10px;
+  width: 10px;
+    display: inline-block;
+  margin: 0 auto;
+}
+
+
+.ruby_under {
+
+  ruby-position: under;
+
+}
+
+a {
+	
+	color: white;
+	text-decoration: none;
+
+}
+
+.next{
+
+	text-align: right;
+	margin-right : 10%;
+	font-size: 130%;
+	
+}
+
+
+.centered_bold {
+
+	text-align: center;
+	
+
+}
+
+#left {
+
+	text-align : left;
+	margin-left : 10%;
+}
+
+#right {
+
+	text-align : right;
+	margin-right : 10%;
+}
+
+.particle {
+
+	font-weight: normal;
+
+}
+
+.full_screen {
+
+   font-size: 260%;
+
+}
+
+
+.onomatopea {
+
+    font-weight: normal;
+	font-style: italic;
+	
+}
+
+.big {
+
+   font-size: 350%;
+
+}
+
+
+
+
+.card{
+
+   margin-bottom: 170px;
+ 
+ }
+ 
+td, th {
+  
+  text-align: center;
+  
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+} 
+
+
+
+.black {
+
+	color: black;
+	
+}
+
+.yellow{
+
+	color: yellow;
+	
+}
+
+.green {
+
+	color: green;
+	
+}
+
+
+.white {
+
+	color: white;
+	
+}
+
+.red {
+
+	color: red;
+	
+}
+
+.blue {or: black;
+
+}
+
+.white_background {
+
+	background-color:white;
+	
+}
+
+.orange_background {
+
+	background-color: orange;
+	color: orange;
+}
+
+
+
+.yellow_background {
+
+	background-color: yellow;
+
+}
+
+
+
+
+ 
+.main_background {
+
+	background-color: #333a42;
+	
+
+}
+
+.black_background {
+
+	background-color:black;
+	
+	
+}
+
+
+.blue_background {
+
+	background-color:blue;
+	
+	
+}
+
+.bg_col {
+
+	color: #333a42;
+	
+	
+}
+
+.green_bg {
+
+	background-color: green;
+
+	
+}
+
+
+
+.grey_background {
+
+	background-color: grey;
+
+	
+}
+
+.big_twittemoji .emoji {
+    height: 160px;
+    width: 160px;
+
+}
+
+.small_twittemoji .emoji {
+    height: 50px;
+    width: 50px;
+
+}
+
+p {
+	
+	color: white;
+
+}
+
+
+.hole {
+
+ border-radius: 190px;
+  display: inline-block;
+  background-color: black;
+    color: black;
+    
+
+}
+
+.eye {
+
+    border: 1px solid white;
+	border-radius: 190px;
+}
+
+.chest_edge {
+
+    border: 10px solid #7c652a;
+	border-radius: 10px 10px 10px 10px;
+	color: black;
+	
+}
+
+.boat2 {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.chest2 {
+
+    border: 5px solid gold;
+	border-radius: 20px 20px 1px 1px;
+	color: gold;
+	background-color: #635545;
+}
+
+.fight {
+  padding: 3% 3% 1% 3%;
+	border: 5px solid white;
+  color: white;
+  background-color: #4e6b66;
+  border-radius: 30px;
+  font-weight: bold;
+
+}
+
+.fight_score {
+
+	font-size: 50%;
+	border-radius: 60px;
+  padding: 1% 1% 1% 1%;
+	border: 5px solid white;
+  color: white;
+  background-color: #4e6b66;
+  font-weight: bold;
+  
+}
+
+.fight_score_red {
+
+	font-size: 50%;
+	border-radius: 60px;
+  padding: 1% 1% 1% 1%;
+	border: 5px solid red;
+  color: red;
+  background-color: #4e6b66;
+  font-weight: bold;
+  
+}
+
+.fight_col {
+
+  color: #4e6b66;
+
+}
+</style>
+
+</head>
+
+<body  class="centered_bold main_background">
+
+
+
+
+<div class='card big'>
+<p>&#9729;&#65039; &#9925; &#9729;&#65039;
+	<br>&#9968;&#9968; &#9968;&#9968;&#9968;
+	<br>
+  
+	&#127794;&#127794;&#127794;&#127794;&#127794;&#127794;&#127794;
+	<br>&#127794;&#127794;&#127794;  &#128694;&#8205;&#9792;&#65039;  &#128694; &#127794;
+	<br>
+&#127794;&#127794;&#127794;&#127794;&#127794;&#127794;&#127794;
+
+</p>
+</div>
+
+
+
+<div class='card big'>
+	
+<p>
+&#128130;
+<br>
+ここで何してるの？
+<!-- Our destell me a bit more about the order. bla bla bla -->
+</p>
+
+</div>
+
+<div class='card big'>
+	
+<p>
+🧙‍♀️ 
+<br>
+フェイリアの<ruby>魔女<rt> まじょ </rt></ruby> に
+<br>
+<ruby>古<rt>ふる</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>探<rt>さが</rt></ruby>しています。
+</p>
+
+</div>
+
+<div class='card big'>
+	
+<p>
+&#128130; 
+<br>
+<ruby>魔<rt>ま</rt></ruby><ruby>法<rt>ほう</rt></ruby>が使えるのか？
+</p>
+
+</div>
+
+<div class='card big'>
+	
+<p>
+🧙‍♀️ 
+<br>
+
+<!-- The order has discovered secrets over the years. Some people call it magic.-->
+<ruby>自然<rt> しぜん </rt></ruby>を研究しています。
+<br>
+<ruby>自然<rt> しぜん </rt></ruby>の<ruby>力<rt>ちから</rt></ruby>を<ruby>利用<rt>  りよう  </rt></ruby>しているの。
+<br>
+それは<ruby>魔<rt>ま</rt></ruby><ruby>法<rt>ほう</rt></ruby>か？
+</p>
+</div>
+
+<div class='card big'>
+	
+<p>
+&#9203;
+</p>
+
+</div>
+<div class='card big'>
+	
+<p>
+🧙‍♀️ 
+<br>近いだ。感じるんだ 
+<!--
+Our destination is close. I can feel it.-->
+</p>
+
+</div>
+
+
+
+<div class='card big'>
+
+<p>&#127794;&#127794;&#127794;&#127794;
+	<br>
+&#127794;&#127794;&#127794;&#127794;&#127794; &#127794;
+<br>
+&#127794;&#127794; <span class="bg_col">-  --  -- - - -</span> &#127794; &#127794;
+<br>
+&#127794;&#127794; <span class="bg_col"> --  -</span><span class="chest2">-o-</span><span class="bg_col">- - -</span> &#127794;&#127794;
+<br>
+&#127794;&#127794; <span class="bg_col"></span>🧙‍♀️ <span class="bg_col">--</span> &#128114;    &#127794;&#127794; 
+<br>
+&#127794;&#127794; <span class="bg_col">-----</span> &#127794; &#127794;
+</p>
+</div>
+
+
+
+
+<div class='card big'>
+	
+<p>
+🧙‍♀️ 
+<br>
+これ。その<ruby>箱<rt>はこ</rt></ruby>。
+<br>
+ここにいて
+</p>
+
+</div>
+
+
+<div class='card big'>
+	
+<p>
+🧙‍♀️
+<br>
+&#128274; &#128273; 
+</p>
+
+</div>
+
+
+<div class='card big'>
+	
+<p>
+カチッ	
+<br>
+&#128275;
+</p>
+
+</div>
+
+<div class='card big'>
+	
+<p>
+&#128023;
+<br>
+これは俺のものだ！
+<!--This belongs to me !-->
+</p>
+
+</div>
+
+
+
+<div class='card big'>
+	
+<p>
+&#9876;&#65039;
+</p>
+
+</div>
+
+
+
+<div class='card big'>
+<p>
+&#128023; <span class="bg_col">-----------</span>🧙‍♀️ <br>
+<span class="bg_col">-------------------</span>&#128130;
+  
+  <!--
+They are all around. I can't escape.-->
+</p>
+</div>
+
+<div class='card  big''>
+<p>
+<span class="fight_score">100</span>
+<span class="fight">
+<ruby class="ruby_under ">&#128023;</ruby>
+<span class="fight_col">-</span>
+<ruby class="">&#10093;&#10093;&#10093;<rt></rt></ruby> 
+<span class="fight_col">--&#128165;--</span>
+<ruby class=" red">&#10093;&#10093;&#10093;<rt>25</rt></ruby>
+<span class="fight_col">-</span>
+<ruby>🧙‍♀️<rt></rt></ruby></span>
+<span class="fight_score">75</span>
+
+
+</p>
+</div>
+
+<div class='card  big''>
+<p>
+<span class="fight_score">95</span>
+<span class="fight">
+<ruby class="ruby_under ">&#128023;</ruby>
+<span class="fight_col">-</span>
+<ruby class="red">&#10092;&#10092;&#10092;<rt>5</rt></ruby> 
+<span class="fight_col">--&#128293;--</span>
+<ruby class="">&#10092;&#10092;&#10092;<rt></rt></ruby>
+<span class="fight_col">-</span>
+<ruby>🧙‍♀️<rt></rt></ruby></span>
+<span class="fight_score">75</span>
+
+
+</p>
+</div>
+
+<div class='card  big''>
+<p>
+<span class="fight_score">95</span>
+<span class="fight">
+<ruby class="ruby_under ">&#128023;</ruby>
+<span class="fight_col">-</span>
+<ruby class="">&#10093;&#10093;&#10093;<rt></rt></ruby> 
+<span class="fight_col">--&#128165;--</span>
+<ruby class=" red">&#10093;&#10093;&#10093;<rt>25</rt></ruby>
+<span class="fight_col">-</span>
+<ruby>🧙‍♀️<rt></rt></ruby></span>
+<span class="fight_score">50</span>
+
+
+</p>
+</div>
+
+<div class='card big'>
+	
+<p>
+🧙‍♀️ 
+<br>
+助けてくれ
+</p>
+</div>
+
+<div class='card big'>
+	
+<p>
+	&#128130;
+<br>
+ジュジュ！
+</p>
+</div>
+
+
+
+
+<div class='card  big''>
+<p><span class="fight_score">65</span>
+<span class="fight">
+<ruby class="">&#128023;</ruby>
+<span class="fight_col">-</span>
+<ruby class=" red">&#10092;&#10092;&#10092;<rt>30</rt></ruby>
+<span class="fight_col">--&#128481;&#65039;--</span>
+<ruby class="">&#10092;&#10092;&#10092;<rt></rt></ruby>
+<span class="fight_col">-</span>
+<ruby>&#128130;<rt></rt></ruby></span>
+<span class="fight_score">100</span>
+</p>
+</div>
+
+
+<div class='card  big''>
+<p>
+<span class="fight_score">65</span>
+<span class="fight">
+<ruby class="ruby_under ">&#128023;</ruby>
+<span class="fight_col">-</span>
+<ruby class="">&#10093;&#10093;&#10093;<rt></rt></ruby> 
+<span class="fight_col">--&#128165;--</span>
+<ruby class=" red">&#10093;&#10093;&#10093;<rt> ミス </rt></ruby>
+<span class="fight_col">-</span>
+<ruby>&#128130;<rt></rt></ruby></span>
+<span class="fight_score"><span class=" ">100</span></span>
+</p>
+</div>
+
+<div class='card  big''>
+<p>
+<span class="fight_score">45</span>
+<span class="fight">
+<ruby class="ruby_under ">&#128023;</ruby>
+<span class="fight_col">-</span>
+<ruby class="red">&#10092;&#10092;&#10092;<rt>20</rt></ruby> 
+<span class="fight_col">--&#128293;--</span>
+<ruby class="">&#10092;&#10092;&#10092;<rt></rt></ruby>
+<span class="fight_col">-</span>
+<ruby>🧙‍♀️<rt></rt></ruby></span>
+<span class="fight_score">75</span>
+
+
+</p>
+</div>
+
+<div class='card  big'>
+<p><span class="fight_score_red">15</span>
+<span class="fight">
+<ruby class="">&#128023;</ruby>
+<span class="fight_col">-</span>
+<ruby class=" red">&#10092;&#10092;&#10092;<rt>30</rt></ruby>
+<span class="fight_col">--&#128481;&#65039;--</span>
+<ruby class="">&#10092;&#10092;&#10092;<rt></rt></ruby>
+<span class="fight_col">-</span>
+<ruby>&#128130;<rt></rt></ruby></span>
+<span class="fight_score">100</span>
+</p>
+</div>
+
+
+<div class='card  big''>
+<p>
+&#128023;
+<br>
+勝てません
+</p>
+</div>
+
+
+<div class='card  big''>
+<p>
+***
+</p>
+</div>
+
+
+<div class='card big'>
+	
+<p>	
+🧙‍♀️
+<br>
+<span class="black_background black chest_edge">-----</span> 
+<br>
+<br>見つけた！
+<br>
+これは私のもの。
+</p>
+</div>
+
+<!--
+<div class='card full_screen'>	
+<p>
+&#127890;
+<br>
+ジュジュは
+<br>	
+「古いもの」 を手に入れた
+</p>
+</div>
+-->
+
+<div class='card big'>
+	
+<p>
+🧙‍♀️ 
+<!--I have taken my thing. Feel free the keep the piece of metal.-->
+<br>
+<ruby>箱<rt>はこ</rt></ruby>の中にも
+<br>
+<ruby>鉄<rt>てつ</rt></ruby>のものが<ruby>入<rt>はい</rt></ruby>っている。
+<br>
+ほしいのか？
+</p>
+</div>
+
+
+
+<div class='card big'>	
+<p>
+&#128130; 
+<br>
+<ruby>鉄<rt>てつ</rt></ruby>？
+</p>
+</div>
+
+
+<div class='card big'>	
+<p>
+&#128562;
+<br>
+これは...
+</p>
+</div>
+
+<div class='card big'>	
+<p>
+&#128516;
+<br>
+<ruby>剣<rt>けん</rt></ruby> だ！本当にいいね。
+<br>
+ジュジュさん
+<br>
+ありがとうございます。
+</p>
+</div>
+<!--
+<div class='card full_screen'>	
+<p>
+&#127890;
+<br>
+ジネディーヌは
+<br>	
+「古い剣」 を手に入れた
+</p>
+</div>
+-->
+<div class='card big'>
+<p>
+🧙‍♀️ 
+<br>
+<ruby>旅<rt>たび</rt></ruby>を続けよう。
+<br>
+今日はたくさん歩く。
+<!--Let's continue our journey. There is still a long way to go.-->
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#9203;
+</p>
+</div>
+
+
+<div class='card big'>
+<p>&#9729;&#65039; &#9925; &#9729;&#65039;
+	<br> &#9968;&#9968; &#9968;&#9968;&#9968;
+	<br><span class="hole small_twittemoji">-&#128130;&#127997;-</span><span class="bg_col">-----</span><span class=hole>---</span>
+  
+<span class="bg_col">-----</span><span class=hole>---</span>
+	<br><span class=hole>---</span> <span class="bg_col">---</span> &#128694;   &#128694;&#8205;&#9792;&#65039; 
+	<br>&#9968;&#9968; &#9968;&#9968;&#9968;
+
+
+</p>
+</div>
+
+<div class='card big'>	
+<p>
+&#128130; 
+<br>
+見ろよ
+<br>
+道に<ruby>穴<rt>あな</rt></ruby>が<ruby>開<rt>ひら</rt></ruby>いてる
+<!--Look. There are holes in the road. And here... James !-->
+</p>
+</div>
+
+<div class='card big'>
+	
+<p>
+🧙‍♀️ 
+<br>
+タイタンが来た
+</p>
+</div>
+
+<div class='card big'>	
+<p>
+&#128172;
+<br>
+ジネディーヌ、お前か？
+
+</p>
+</div>
+
+<div class='card big'>	
+<p>
+&#128130; 
+<br>
+その声。バルタザール！
+<br>
+どこにいるの？
+</p>
+</div>
+
+<div class='card big'>	
+<p>
+&#128130;&#127997;
+
+<br>これだ。
+<ruby>穴<rt>あな</rt></ruby>の中で。
+<br>
+<ruby>血<rt>ち</rt></ruby>が出ています。
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128130; 
+	<br>
+大丈夫か？
+</p>
+</div>
+
+<div class='card big'>	
+<p>
+&#128556;
+<br>
+モンスターは...
+<br>
+軍は...
+<br>
+お<ruby>腹<rt>なか</rt></ruby>の中に...
+<!--
+The monster... our crew... in its stomach..-->
+</p>
+</div>
+
+<div class='card big'>	
+<p>
+&#128130; 
+<br>
+ヤニス 生きてるのか？
+</p>
+</div>
+
+
+<div class='card big'>	
+<p>
+&#128556;
+<br>
+ええ 彼は...
+</p>
+</div>
+
+
+<div class='card big'>	
+<p>
+&#128529;
+</p>
+</div>
+
+
+
+<div class='card big'>	
+<p>
+&#128130;
+<br>
+バルタザール。
+<br>
+本当の友人だった。
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#9203;
+</p>
+</div>
+
+
+
+
+
+
+<div class='card big'>
+<p>
+
+&#128532; &#129702;  🧙‍♀️ 
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#9203;
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p>&#9968;&#9968; &#9968;&#9968;&#9968;
+
+	<br>  &#128694;&#8205;&#9792;&#65039;  &#128694; 
+	<br>
+&#9968;&#9968; &#9968;&#9968;&#9968;
+</p>
+</div>
+
+
+<div class='card big'>	
+<p>
+<span class="bg_col">-----</span>&#128173;
+<br>
+&#128130;
+<br>
+兄は生きている
+<br>
+と言った。
+<br>
+でもどこにいるの？ <!-- I don't know how to find him though.-->
+</p>
+
+</div>
+
+
+<div class='card big'>	
+<p>
+
+&#128130;
+<br>
+<ruby>平<rt> へ </rt></ruby><ruby>野<rt> や </rt></ruby>は遠いのか？
+<!--How far do you think the plain is?-->
+</p>
+
+</div>
+
+
+<div class='card big'>
+	
+<p>
+🧙‍♀️ 
+<br>
+とても近い
+<!--We should be there very soon.-->
+
+
+</p>
+</div>
+
+
+<div class="big last_div">
+<p>
+  <span class="ruby_under"><a href="../."><ruby>&#127968;<rt> ホーム </rt></ruby></a></span> *** <ruby>終<rt>お</rt></ruby>わり *** <a href="./twc_4_the_prairies.html"><ruby> &#10140;<rt><ruby>次<rt>つぎ</rt></ruby></rt></ruby></a></p>
+
+</div>
+
+    
+    <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+      twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
+    </script>
+</body>

@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8"/>
+<html lang="ja">
+<link rel="stylesheet" type="text/css" href="map.css">
+
+<style>
+
+.ruby_under {
+
+  ruby-position: under;
+
+}
+
+a {
+	
+	color: white;
+	text-decoration: none;
+
+}
+
+.next{
+
+	text-align: right;
+	margin-right : 10%;
+	font-size: 130%;
+	
+}
+
+
+.centered_bold {
+
+	text-align: center;
+	
+
+}
+
+#left {
+
+	text-align : left;
+	margin-left : 10%;
+}
+
+#right {
+
+	text-align : right;
+	margin-right : 10%;
+}
+
+.particle {
+
+	font-weight: normal;
+
+}
+
+.full_screen {
+
+   font-size: 260%;
+
+}
+
+div.square {
+  
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.onomatopeia {
+
+    font-weight: normal;
+	font-style: italic;
+	
+}
+
+.big {
+
+   font-size: 350%;
+
+}
+
+.lefter {
+
+font-size: 75%;
+
+}
+
+.big_card {
+
+	font-size: 400%;	
+}
+
+.card{
+
+   margin-bottom: 170px;
+ 
+ }
+
+.map_card {
+
+	margin-bottom: 500px;
+}
+ 
+td, th {
+  
+  text-align: center;
+  
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+} 
+
+#christmas_tree {
+
+	font-size: 200%;	
+	
+}
+
+.black {
+
+	color: black;
+	
+}
+
+.yellow{
+
+	color: yellow;
+	
+}
+
+.green {
+
+	color: green;
+	
+}
+
+.blue {
+
+	color: blue;
+	
+}
+
+
+.white {
+
+	color: white;
+	
+}
+
+.red {
+
+	color: red;
+	
+}
+
+
+
+.white_background {
+
+	background-color:white;
+	
+}
+
+.orange_background {
+
+	background-color: orange;
+	color: orange;
+}
+
+.black {
+
+	color: black;
+}
+
+.yellow_background {
+
+	background-color: yellow;
+
+}
+
+
+
+div.white_square {
+  
+  width: 80px;
+  height: 80px;
+  background-color:white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.blue_square {
+  
+  width: 80px;
+  height: 80px;
+  background-color:blue;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.green_square {
+  
+  width: 80px;
+  height: 80px;
+  background-color:green;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.whiter {
+
+    background-color: white;
+	
+}
+.card {
+
+   margin-bottom: 170px;
+ 
+ }
+
+ 
+.main_background {
+
+	background-color: #066b26;
+	
+
+}
+
+.black_background {
+
+	background-color:black;
+	
+	
+}
+
+
+.blue_background {
+
+	background-color:blue;
+	
+	
+}
+
+
+
+
+.grey_background {
+
+	background-color: grey;
+	
+}
+
+.big_twittemoji .emoji {
+    height: 160px;
+    width: 160px;
+
+}
+
+
+p {
+	
+	color: white;
+
+}
+
+
+.hole {
+
+ border-radius: 190px;
+  display: inline-block;
+  
+    color: black;
+    border: 8px solid white;
+
+}
+
+.eye {
+
+border: 1px solid white;
+	border-radius: 190px;
+}
+
+.ocean {
+
+display: inline-block;
+  height: 120px;
+  width: 400px;
+}
+
+.light_green_background {
+
+	background-color: #7cbf5b;
+
+
+
+}
+
+.town {
+
+border-radius: 30px;
+  background-color: #05b560;
+	width: 350px;
+	  display: inline-block;
+  margin: 0 auto;
+
+}
+
+.town_bg {
+
+color: #05b560;
+	
+}
+
+
+.big_twittemoji .emoji {
+    height: 160px;
+    width: 160px;
+
+}
+
+.test {   
+
+      display: flex;
+        width: 100%;
+        justify-content: center;
+ }
+
+ .brown_bg {
+    
+	background-color: #824e05;
+
+}
+.bg_col {
+
+	color: #066b26;
+}	
+	
+.center_div {
+
+
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 -320px;
+}
+
+
+
+.fight {
+  padding: 3% 3% 1% 3%;
+	border: 5px solid black;
+  color: black;
+  background-color: #9dd65c;
+  border-radius: 30px;
+  font-weight: bold;
+
+}
+
+.fight_score {
+
+	font-size: 50%;
+	border-radius: 60px;
+  padding: 1% 1% 1% 1%;
+	border: 5px solid black;
+  color: black;
+  background-color: #9dd65c;
+  font-weight: bold;
+  
+}
+
+.fight_score_red {
+
+	font-size: 50%;
+	border-radius: 60px;
+  padding: 1% 1% 1% 1%;
+	border: 5px solid red;
+  color: red;
+  background-color: #9dd65c;
+  font-weight: bold;
+  
+}
+
+.fight_col {
+
+  color: #9dd65c;
+
+}
+
+.spinned .emoji {
+
+	transform: rotateY(180deg);
+
+}
+
+
+.map_center {
+
+
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 -260px;
+}
+
+
+</style>
+
+</head>
+<body  class="centered_bold main_background">
+
+<div class='card big'>
+	
+<p>
+&#9728;&#65039;
+<br>
+	&#127794;&#127794;&#127794;&#127794;&#127794;&#127794;&#127794;
+	<br>
+&#127794;&#127794;&#127794;&#127794;&#127794;&#127794;
+<br>
+🧙‍♀️ &#128130;
+</p>
+</div>
+
+
+<div class='card big'>
+	
+<p>
+🧙‍♀️ 
+<br>
+ やっと森から出てきた 
+ <!--
+We are finall out of the forest-->
+</p>
+</div>
+
+
+<div class='card big'>
+	
+<p>
+&#128130;
+<br>
+マナハの平原は
+<br>
+広くて素晴らしい
+
+<!--The prairies are wonderful. And wide.-->
+</p>
+</div>
+
+
+<div class='card big'>
+	
+<p>
+🧙‍♀️ 
+<br>
+そして、危ない ！<br>
+マナハの平原には
+<br>
+怖い生き物や盗賊がいる。
+<!-- !Is it your first time ?
+And dangerous. Their are brigand and the wildlife is angerous as well.-->
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#9203;
+</p>
+</div>	
+
+
+<div class='card big'>
+<p>
+&#128003;&#128003;<br>
+&#128003; &#128003; &#128003;
+	<br><br><br>
+<span class="bg_col">---------</span>&#128694; &#128694;&#8205;&#9792;&#65039;
+</p> 
+</div>	
+
+
+<div class='card big'>
+<p>
+🧙‍♀️ 
+<br>
+このバッファローを見て
+<!--<br>
+<ruby>騒<rt>さわ</rt></ruby>ぐなよ。-->
+</p>
+</div>	
+
+<div class='card big'>
+<p>
+&#128130;
+<br>
+動物ってすごいですね。
+</p>
+</div>	
+
+<div class='card big'>
+<p>
+🧙‍♀️
+<br>
+私たち魔女は
+<br>
+動物の勉強に
+<br>
+時間をかけている
+</p>
+</div>	
+
+
+<div class='card big'>
+<p>
+&#128130;
+<br>
+動物の研究のために
+<br>
+魔女になったのか？
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#128532;
+<br> 
+そうではありません。
+<!-- No, it isn't. / Not exactly / Because of her sad story in her village -->
+</p>
+</div>
+
+<div class='card big'>
+<p>
+🧙‍♀️ 
+<br>
+なぜ兵士になったのか？
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128130;
+<br>
+私と弟は人助けのために
+<br>
+参加した。
+<br>
+世界をより良い場所にしたいと  <!-- make the world a better place-->
+<br>
+思っている。
+</p>
+</div>
+
+<div class='card big'>
+<p>
+🧙‍♀️
+<br>
+どうして？
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#128130;
+<br>
+兵士は戦うだけだと思っているんだろう。
+<br>
+でも旅を安全にしてくれる。 <!-- See what grammar point ot use to make everything in one sentence-->
+<br>
+兵士は学校を作る。
+<br>
+人が使えるように道路を作ってくれます。
+</p>
+</div>
+
+<div class='card big'>
+<p>
+🧙‍♀️
+<br>
+なるほど
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+	🧙‍♀️
+<br>
+また、世界をより良い場所にしたいと
+<br>
+思っています。<br>
+<ruby>植物<rt>しょくぶつ</rt></ruby>や動物の勉強をしている。<br> 
+<!-- See what grammar point ot use to make everything in one sentence-->
+人を治すための薬を作っている。<br>
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#9203;
+
+</p>
+</div>	
+
+<div class='card big'>
+<p>
+&#9728;&#65039;	<span class="bg_col">---------</span>
+<br>
+<br>
+&#128726; &#128037; <span class="bg_col">---------</span> &#128694;&#8205;&#9792;&#65039;&#128694;
+</p> 
+</div>	
+
+<div class='card big'>
+	
+<p>
+&#128130;
+<br>
+見て！旅人の小屋。
+<br>
+そして、外にはチョコボがいる。
+<br>
+一人です。
+<br>
+チョコボがあると
+<br>
+旅が楽になりる。
+<!--
+Une hu、tte. Avec un chocobo. With him we ll be able to travel faster in the plain. 
+There are a lot of huts on the plain. Froma long time ago.-->
+</p>
+</div>
+
+
+<div class='card big'>
+	
+<p>
+🧙‍♀️ 
+<br>
+そうだな、少し休もう<!--
+Right. Let's go and have some rest.-->
+</p>
+</div>
+
+
+
+<div class='card big'>
+	
+<p>
+&#129399;<span class="big_twittemoji">&#128726;</span>&#128037; <span class="bg_col">----</span>  &#128694;&#8205;&#9792;&#65039;  &#128694;
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+	<span class="big_twittemoji">&#128726;</span>&#128037;
+	<br>
+  &#129399;&#129399;&#129399;
+	
+	<br> &#128130;  🧙‍♀️  
+	<br>
+&#129399;&#129399;&#129399;
+
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#128130;
+	<br><span class="onomatopeia">ああ</span>
+	<br>盗賊 
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#129399;
+	<br>
+金を出せ
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#128130;
+いいえ、戦おう!
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p>
+&#129399; <span class="bg_col">-----</span>🧙‍♀️  <span class="bg_col">-----</span> &#129399; <br>   
+&#129399;<span class="bg_col">-------</span>&#128130;  <span class="bg_col">-------</span> &#129399;<br>
+  &#129399;<span class="bg_col">----------------------</span>&#129399;
+  <!--
+They are all around. I can't escape.-->
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p>
+&#9995;
+
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+
+&#129399;
+	<br>
+	待って！
+	<br>
+	私たちは6人で、
+<br>
+	あなたは2人 んだ 。
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128130;
+<br>
+そして？
+</p>
+</div>
+
+<div class='card big'>
+<p>
+
+&#129399;
+	<br>
+勝てない
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128533; &#129300;
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+	&#128130;
+<br>
+怖くない
+</p>
+</div>
+
+
+
+
+<div class='card big'>
+<p>
+&#9995;
+
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+
+&#129399;
+	<br>
+	待って！
+	<br>
+私たちは忍者。
+<br>
+金を渡して出て行け
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128533; &#129300;
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+	&#128130;
+<br>
+勝てると思う。
+<br>
+戦いを始めよう。
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#129399;&#127997;
+<br>
+ボスとても強そう。
+<br>
+ 私は戦いたくない
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#129399;&#127995;
+<br>
+俺もそうだ
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#129399;
+<br>
+みんな行くぞ
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p>
+ <span class="big_twittemoji">&#128726;</span>&#128037;
+<br>
+&#127939; &#127939; &#127939;  &#127939;&#127997; &#127939;&#127939;<span class="bg_col">----------------</span> 
+<br>
+ <span class="bg_col">---------------------------</span>🧙‍♀️ &#128130;
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128533; &#129300;
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+	🧙‍♀️
+	<br>
+この人たちは...
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128130;
+	<br>
+チョコボも
+<br>
+お宝も
+<br>
+忘れていた！
+<br>
+&#128176;&#128176;
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128130;
+	<br>今は食べて休もう。
+
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p>
+&#128164;
+<br>
+&#128726;
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p>
+&#9203;
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+		🧙‍♀️
+	<br>
+	地図を見てみよう。
+
+</p>
+</div>
+
+<div class='card map map_center'><p>
+	
+
+</p></div>
+
+
+<div class='card '><p>
+	
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+</p></div>
+
+<div class='card big'>
+<p>
+	🧙‍♀️
+	<br>
+	これが私たちのいる場所んだ。
+<br>
+
+	これは、私たちが行きたいところ。
+<br>
+ネロビはここだ。
+<!--This is the map. This is where we are. This is where we want to go. The capital is here.
+He can't read a map due to the use of the runes.
+
+The third funciton of the rune is map. Well obviously
+-->
+
+
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#128560;
+<br>
+ えっと 
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+<span class="bg_col">--</span>？
+<br>
+🧙‍♀️
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128560;
+<br>
+地図が読めない
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p>
+🧙‍♀️
+<br>
+心配ない。
+<br>	
+この道を行く。
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128130;
+<br>	
+いいね。
+<br>
+行こう。
+	<!--
+Fine. Let's go.-->
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+たたたた <br> <!-- (running at full speed onomatopeia)-->
+	<br>
+ <span class="blue_background blue">-- - - - </span>&#127960; &#8656; &#128036; &#8656; &#128726;<br>
+
+</p>
+</div>
+
+<div class='card big'>
+<p>
+ 💂 
+ <br>
+チョコボに乗っていると、
+<br>
+とても速く進む
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+🧙‍♀️
+<br>
+そして、本当に
+<br>
+チョコボ乗りが
+<br>
+上手だね。
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+💂 
+<br>
+兵士は多くの時間を
+<br>
+チョコボに乗って過ごす<br>
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+<span class="onomatopeia full_screen">チチ</span>
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128550;
+<br>
+何だったの？
+</p>
+</div>
+
+
+<div class='card big'>
+<p> <span class="big_twittemoji">&#128027;</span>	
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p> 
+💂 
+
+	<br>
+巨大なバグ。急げ
+<br>
+チョコちゃん速い！
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#128036;
+<br>
+クポ</p>
+</div>
+
+<div class='card big'>
+<p>&#128036; <span class="bg_col">---------- -----</span> <span class="big_twittemoji">&#128027;</span>	
+</p>
+</div>
+
+<div class='card big'>
+<p>&#128036; <span class="bg_col"> --------</span> <span class="big_twittemoji">&#128027;</span>	
+</p>
+</div>
+
+
+
+
+<div class='card big'>
+<p>&#128036; <span class="bg_col"> </span> <span class="big_twittemoji">&#128027;</span>	
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#128130;
+<br>
+ジュジュ、準備はいい？
+	<!--
+This bug is too fast. We won't make it. Are you ready Juju ?-->
+
+
+</p>
+</div>
+
+
+
+
+<div class='card big'>
+<p>🧙‍♀️
+	<br>
+そうだな、やろうぜ！
+
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#128130;	🧙‍♀️
+	<br>
+じゃあ戦おう
+</p>
+</div>
+
+
+<div class='card  big'>
+<p><span class="fight_score">65</span>
+<span class="fight">
+<ruby class="">&#128130;</ruby>
+<span class="fight_col">-</span>
+<ruby class="">&#10093;&#10093;&#10093;<rt></rt></ruby>
+<span class="fight_col spinned">--&#128481;&#65039;--</span>
+<ruby class="red">&#10093;&#10093;&#10093;<rt>30</rt></ruby>
+<span class="fight_col">-</span>
+<ruby class="">&#128027;<rt></rt></ruby></span></span>
+<span class="fight_score">70</span>
+</p>
+</div>
+
+
+<div class='card  big'>
+<p><span class="fight_score">65</span>
+<span class="fight">
+<ruby class="">🧙‍♀️</ruby>
+<span class="fight_col">-</span>
+<ruby class="">&#10093;&#10093;&#10093;<rt></rt></ruby>
+<span class="fight_col spinned">--&#128293;--</span>
+<ruby class="red">&#10093;&#10093;&#10093;<rt>30</rt></ruby>
+<span class="fight_col">-</span>
+<ruby class="">&#128027;<rt></rt></ruby></span></span>
+<span class="fight_score">40</span>
+</p>
+</div>
+
+
+<div class='card  big'>
+<p>
+<span class="fight_score">42</span>
+<span class="fight">
+<ruby class="ruby_under ">🧙‍♀️</ruby>
+<span class="fight_col">-</span>
+<ruby class="red">&#10092;&#10092;&#10092;<rt>23</rt></ruby> 
+<span class="fight_col">--&#128062;--</span>
+<ruby class="">&#10092;&#10092;&#10092;<rt></rt></ruby>
+<span class="fight_col">-</span>
+<ruby>&#128027;<rt></rt></ruby></span>
+<span class="fight_score">75</span>
+</p>
+</div>
+
+<div class='card  big'>
+<p><span class="fight_score">65</span>
+<span class="fight">
+<ruby class="">&#128130;🧙‍♀️</ruby>
+<span class="fight_col">-</span>
+<ruby class="">&#10093;&#10093;&#10093;<rt></rt></ruby>
+<span class="fight_col spinned">--&#128293;&#128481;&#65039;&#128293;--</span>
+<ruby class="red">&#10093;&#10093;&#10093;<rt>150</rt></ruby>
+<span class="fight_col">-</span>
+<ruby class="">&#128027;<rt></rt></ruby></span></span>
+<span class="fight_score">100</span>
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+<span class="big_twittemoji">&#128027;</span>
+<br>
+強すぎる！
+</p>
+</div>
+
+<div class='card big'>
+<p>
+***
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+<span class="onomatopeia">たたたた</span>  <br>
+<br>
+ <span class="blue_background blue">-- - - - </span>&#127960; &#8656; &#128036; &#8656; &#128726;<br>
+
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#128037;	&#128130; 🧙‍♀️ 
+<br>
+着いたぞ！
+		<br>
+<div class=" town">
+<p>	&#127968; <span class="town_bg"> ------</span> &#127979; <br>
+
+	&#127968; &#127968;  <span class="town_bg">------</span> &#127968; <br>
+&#127968; <span class="town_bg">----</span> &#127968; &#127968; 
+</div>
+<br>
+		<span class="blue_background blue ocean">-----&#9973;-----</span> 
+
+
+</p>
+
+</div>
+
+
+
+
+<div class="big last_div">
+<p>
+  <span class="ruby_under"><a href="../."><ruby>&#127968;<rt> ホーム </rt></ruby></a></span> *** <ruby>終<rt>お</rt></ruby>わり *** <a href="./twc_5_1_bye_juju.html"><ruby> &#10140;<rt><ruby>次<rt>つぎ</rt></ruby></rt></ruby></a></p>
+
+</div>
+
+    
+    <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+      twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
+    </script>
+</body>
