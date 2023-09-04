@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="./../stories/main.css">
+
+<style>
+
+
+
+a {
+	
+	color: black;
+	text-decoration: none;
+
+}
+
+
+
+.bg_col {
+
+	color: #33ff99;
+}
+
+.main_background {
+
+	background-color: white;
+
+}
+
+
+.main_colour {
+
+    color: black;
+
+}
+
+
+.long_text_div {
+
+	width: 450px;
+	font-size: 100%;
+	padding: 0px;
+	margin: auto;
+
+overflow-wrap: break-word; 
+
+}
+
+.keyboard_key {
+   
+   font-size: 100%;
+   border: solid black 2px;
+   border-radius: 7px;
+   background-color: white;
+   width: 34px;
+   height: 34px;
+   color: black;
+   margin: 1px;
+float: 	left;
+font-weight: bold;
+}
+
+
+.keyboard_key_double {
+   
+   font-size: 100%;
+   border: solid black 2px;
+   border-radius: 7px;
+   background-color: white;
+   width: 70px;
+   height: 34px;
+   color: black;
+   margin: 1px;
+float: 	left;
+font-weight: bold;
+}
+
+
+.keyboard {
+
+   border: solid black 2px;
+   border-radius: 10px;
+   height: 240px;
+   background-color: lightblue;
+   
+
+}
+</style>
+
+</head>
+
+
+<body  class="main_color main_background">
+
+<div class="long_text_div "> 
+Hi everyone. 
+<br>
+<p>I have been self studying Japanese for more than 2 years now. At the begining of my journey I have used several apps, mainly Duolingo, Lingodeer and Memrise. Everyone in this sub has a strong opinion about each one of them and I am not going to try to change it. I am not going to discuss learning methods either. I would like instead to highlight some flaws I noticed using them from a UX/Product perspective. I have enjoyed using these apps and would use them again if I were to start again.
+</p>
+<p>
+
+<h4>There are 3 points I'd like to discuss.<br>
+
+    1 being successful with these apps is 50% learning Japanese 50% learning 'the app'<br>
+
+    2 these Apps are very slow<br>
+
+    3 basing apps on translation exercises seriously limits their scope<br>
+</p>
+
+
+<h4>1 Being successful with these apps is 50% learning Japanese 50% learning 'the app'</h4>
+
+<p>
+I remember when I used Memrise that I was able to guess the right meaning/writing of a word by using a lot of information from the context in which it was displayed : which list it belongs to, its likelihood of appearance based on how long ago I last studied it, what potential answers are offered by the software, how the kanji compares with similar the kanji of other words in the same list, ... It turns out I was learning as much about the specifics of the word list / software as about the word themselves. This leads to the feeling that many have experienced : when you see the word outside of the app you do not recognize it !
+</p>
+
+
+<h4>2 These Apps are very slow
+
+<p>Memrise is slow. Duolingo is slow. Lingodeer is a bit better but it is slow as well (to be fair to Memrise and Duolingo I was using their web versions and the apps may be faster). I will take the example of Memrise which I remember best. From memory this is how it worked for me. The software displays 食べ物 and I need to find its writing in Hiragana. That means I need to tap my screens 4 times た-べ-も-の and another time to press OK and then wait for the server to validate the answer and wait for my device to load the next screen which was rather time consuming. I also assume a lot of analytics was sent to the server and tracking cookies are loaded with every page which adds some time to the process. Some of these could be improved but I believe there is a lower bound on the time it takes for such software to operate.<br>
+
+Duolingo has the same problem. 80% of the time you spend on Duolingo / Lingodeer is spent tapping on the screen. This time could be better spent reading or thinking about Japanese.
+</p>
+<h4>3 Basing apps on translation exercises seriously limits their scope<h4>
+
+<p>
+All of these tools are to some extent translation based. Translating has three scalability issues.<br>
+
+First, if you want to be inclusive and your product to be used by everyone you have to translate the whole product in a long list of languages. I imagine there is a ton of people who do not speak English and would love to learn Japanese !<br>
+
+I don't really know how to express the second limitation better than by saying 'translation is not additive' or it does not 'scale up'. What I mean by that is that if you translate at the word level (such as with Memrise), you learn words but somehow you do no learn the language (to be fair is the point of the app and that works fairly well). However a language expresses itself through sentences and translating a sentence is not the same as translating each one of its word. So you are sort of stuck at the word level and can't scale up to the sentence level by combining the low level components that words are.<br>
+
+Third, translating sentences does not scale well due to the complexity of natural languages. If like Duolingo you base your app on translating sentences you face all the poblem faced by Duolingo.<br>
+
+How do you translate 猿はバナナを食べる ? There are a lot of potential translations. Here are some I can think of right now :<br>
+
+The monkey eats the banana.<br>
+
+The monkeys eat the banana<br>
+
+The monkey will eat the bananas.<br>
+
+The monkeys are going to eat the bananas.<br>
+
+...<br>
+
+This is a lot of translation for a very basic sentence!<br>
+
+If somehow you manage to define 猿, バナナ and 食べる without making use of English you remove a ton of complexity.
+</p>
+
+<h4>Exploring alternatives : Graded readers</h4>
+
+<p>
+Like many Japanese learners, after some time I thought I knew enough Japanese to start reading Japanese children books. And like those of us who have tried know, if the stories are easy that is not necessarily the case of the words they use.<br>
+
+That is where graded readers come very handy. I am a big fan of graded readers. The only 'problem' with them (for lack of a better word) is that you need to know a big proportion of the word they use (say, 90%) to enjoy the stories. Some stories have illustrations that help. But as far as I know, the concept of progression is not explicitly embedded in the books. They also 'suffer' from the low granularity of the JLPT level. Only 5 levels are used to rank someone's level. What does being N4 mean ? Someone who just passed it and someone who has passed it a year ago and kept studying are both N4. There is not in between such as 50% between N4 and N3.<br>
+
+Based on all of the above observations I have tried to explore the space of learning materials that would avoid the flaws mentioned above.<br>
+
+My main attempt at creating a product that would satisfy speed, scalability and for which 'learning the game' is actually the same as learning the language can be found here : <br>https://necodesca.herokuapp.com/stories/intro.html<br>
+
+This is a set of what I call stories that start by defining simple words such as monkey and banana using emojis and then let the reader guesss the meaning of 猿はバナナを食べる The idea is that by giving the reader enough clues to help him understand the meaning of what he reads he can keep reading. Even if he understands a word only partially and does not have to stop to look up the word in a dictionary. I like to think of them as 'guided readers'<br>
+
+So far I have only heard of Lingua Latina per se Illustrata proposing the same type of approach. If you have any other reference please share!
+</p>
+Pros:<br>
+
+    it is fast to load<br>
+    almost no tap / click required from the user<br>
+    fun (depending of your definition of fun)<br>
+    uses clues from the context to understand the language (vs using the knowledge of how the app works to increase you score)<br>
+    creates a continuous scale to rank the progression of the user. If you give me a sentence, I can tell you exactly where in the path of stories the user must be to understand it.<br>
+
+<p>
+The second thing I came up with is an app that shows sentences to the user. The user then needs to tap True if the sentence is True and False otherwise. It is based on the stories mentioned above so the words and sentences should be familiar to the user. It does not show any furiganas so that the user is forced to remember both the meaning and the reading of the kanji used. It is supported by what I called a monolingual recursive dictionary (more on this later) that helps the user if he does not know the meaning or reading of a word.<br>
+
+You can find a demo here : https://necodesca.herokuapp.com/how_it_works.html
+</p>
+
+Pros:<br>
+
+    it exposes the user to a lot of sentences<br>
+    only one tap / click required from the user by sentence<br>
+    by not making any reference to English it can scale fairly well. All you need to do is add a sentence and a 1 if True or a 0 if False.<br>
+
+The last tool I have been working on is what I call 'A Monolingual Recursive dictionary'.<br>
+
+<p>
+The idea is to have a monolingual 'dictionary' usable from day 1. Here is how it works. Say you see the sentence ネズミはチーズを食べる and don't know what ネズミ is. Then if you click on it it shows you a picture/emoji of a mouse and you understand what ネズミ means. Same for チーズ. If you click on '食べる', you will see 猿はバナナを食べる. It is a very imperfect definition of 食べる but since the monkey is very often associated to 'eating bananas' you are supposed to make the connection. But what if in the definition of 食べる you do not understand 猿? Then all you need to do is click on it and you will see a picture/emoji of a monkey. Same if you do not understand バナナ.
+<br>
+You can find one basic example here : https://necodesca.herokuapp.com/emoquestions/2?score=0
+<br>
+So the novelty here is that whatever word you start with if you click on the words in the definition you are garantee to end with a very basic word / picture that you are expected to understand (it has a directed acyclic graph structure).
+<br>
+All the code is open source and can be found here https://github.com/DrDru/emoquizz
+<br>
+All of this is not to say that I have found the method that will make you fluent in N days but that we could improve on what is already existing.
+<br>
+All of the tools I propose are not meant to replace your favorite method / tool but potentially to supplement it.
+<br>
+Maybe one day we will learn Japanese like Trinity learns to fly a B-21-2 helicopter but this day is yet to come! https://www.youtube.com/watch?v=SoAk7zBTrvo
+<br>
+Thank you for reading this far !
+<Br>
+https://old.reddit.com/r/LearnJapanese/comments/fskf2z/some_limitations_of_japanese_learning_apps_from_a/
+</p>  
+
+
+<div class="mid_size last_div centered_bold">
+<p>
+  <span class="ruby_under"><a href="../index.html"><ruby>&#127968;<rt> ホーム </rt></ruby></a></span> </p>
+
+</div>
+</div>	
+
+
+
+
+
+
+ 
+<script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+  twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
+</script>
+
+</body>
