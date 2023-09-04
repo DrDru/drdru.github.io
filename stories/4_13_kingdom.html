@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8"/>
+<html lang="ja">
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="king_army.css">
+<style>
+
+
+
+a {
+	
+	color: black;
+	text-decoration: none;
+
+}
+
+
+
+.bg_col {
+
+	color: #58a05e;
+}
+
+.main_background {
+
+	background-color: #58a05e;
+
+}
+
+
+.main_colour {
+
+    color: black;
+
+}
+
+.river {
+
+   border-width: 10px 10px 20px 10px ;
+   border-style: solid;
+   border-color: blue;
+
+}
+
+
+.bridge_knigdom {
+  box-shadow: 60px 10px 0 0 rgba(0, 0, 0, 1), 70px 10px 0 0 rgba(0, 0, 0, 1), 80px 10px 0 0 rgba(0, 0, 0, 1), 90px 10px 0 0 rgba(0, 0, 0, 1), 100px 10px 0 0 rgba(0, 0, 0, 1), 110px 10px 0 0 rgba(0, 0, 0, 1), 120px 10px 0 0 rgba(0, 0, 0, 1), 130px 10px 0 0 rgba(0, 0, 0, 1), 40px 20px 0 0 rgba(0, 0, 0, 1), 50px 20px 0 0 rgba(0, 0, 0, 1), 60px 20px 0 0 rgba(0, 0, 0, 1), 70px 20px 0 0 rgba(255, 235, 59, 1), 80px 20px 0 0 rgba(255, 235, 59, 1), 90px 20px 0 0 rgba(255, 235, 59, 1), 100px 20px 0 0 rgba(255, 235, 59, 1), 110px 20px 0 0 rgba(255, 235, 59, 1), 120px 20px 0 0 rgba(255, 235, 59, 1), 130px 20px 0 0 rgba(0, 0, 0, 1), 140px 20px 0 0 rgba(0, 0, 0, 1), 150px 20px 0 0 rgba(0, 0, 0, 1), 20px 30px 0 0 rgba(0, 0, 0, 1), 30px 30px 0 0 rgba(0, 0, 0, 1), 40px 30px 0 0 rgba(0, 0, 0, 1), 50px 30px 0 0 rgba(255, 235, 59, 1), 60px 30px 0 0 rgba(255, 235, 59, 1), 70px 30px 0 0 rgba(121, 85, 72, 1), 80px 30px 0 0 rgba(121, 85, 72, 1), 90px 30px 0 0 rgba(121, 85, 72, 1), 100px 30px 0 0 rgba(121, 85, 72, 1), 110px 30px 0 0 rgba(121, 85, 72, 1), 120px 30px 0 0 rgba(121, 85, 72, 1), 130px 30px 0 0 rgba(255, 235, 59, 1), 140px 30px 0 0 rgba(255, 235, 59, 1), 150px 30px 0 0 rgba(0, 0, 0, 1), 160px 30px 0 0 rgba(0, 0, 0, 1), 170px 30px 0 0 rgba(0, 0, 0, 1), 20px 40px 0 0 rgba(0, 0, 0, 1), 30px 40px 0 0 rgba(255, 235, 59, 1), 40px 40px 0 0 rgba(255, 235, 59, 1), 50px 40px 0 0 rgba(121, 85, 72, 1), 60px 40px 0 0 rgba(121, 85, 72, 1), 70px 40px 0 0 rgba(255, 193, 7, 1), 80px 40px 0 0 rgba(255, 193, 7, 1), 90px 40px 0 0 rgba(255, 193, 7, 1), 100px 40px 0 0 rgba(255, 193, 7, 1), 110px 40px 0 0 rgba(255, 193, 7, 1), 120px 40px 0 0 rgba(255, 193, 7, 1), 130px 40px 0 0 rgba(121, 85, 72, 1), 140px 40px 0 0 rgba(121, 85, 72, 1), 150px 40px 0 0 rgba(255, 235, 59, 1), 160px 40px 0 0 rgba(255, 235, 59, 1), 170px 40px 0 0 rgba(0, 0, 0, 1), 20px 50px 0 0 rgba(0, 0, 0, 1), 30px 50px 0 0 rgba(121, 85, 72, 1), 40px 50px 0 0 rgba(121, 85, 72, 1), 50px 50px 0 0 rgba(255, 193, 7, 1), 60px 50px 0 0 rgba(255, 193, 7, 1), 70px 50px 0 0 rgba(0, 0, 0, 1), 80px 50px 0 0 rgba(0, 0, 0, 1), 90px 50px 0 0 rgba(0, 0, 0, 1), 100px 50px 0 0 rgba(0, 0, 0, 1), 110px 50px 0 0 rgba(0, 0, 0, 1), 120px 50px 0 0 rgba(0, 0, 0, 1), 130px 50px 0 0 rgba(255, 193, 7, 1), 140px 50px 0 0 rgba(255, 193, 7, 1), 150px 50px 0 0 rgba(121, 85, 72, 1), 160px 50px 0 0 rgba(121, 85, 72, 1), 170px 50px 0 0 rgba(0, 0, 0, 1), 20px 60px 0 0 rgba(0, 0, 0, 1), 30px 60px 0 0 rgba(255, 193, 7, 1), 40px 60px 0 0 rgba(255, 193, 7, 1), 50px 60px 0 0 rgba(0, 0, 0, 1), 60px 60px 0 0 rgba(0, 0, 0, 1), 70px 60px 0 0 rgba(255, 193, 7, 1), 80px 60px 0 0 rgba(255, 235, 59, 1), 90px 60px 0 0 rgba(255, 193, 7, 1), 100px 60px 0 0 rgba(255, 235, 59, 1), 110px 60px 0 0 rgba(255, 193, 7, 1), 120px 60px 0 0 rgba(255, 235, 59, 1), 130px 60px 0 0 rgba(0, 0, 0, 1), 140px 60px 0 0 rgba(0, 0, 0, 1), 150px 60px 0 0 rgba(255, 193, 7, 1), 160px 60px 0 0 rgba(255, 193, 7, 1), 170px 60px 0 0 rgba(0, 0, 0, 1), 10px 70px 0 0 rgba(0, 0, 0, 1), 20px 70px 0 0 rgba(0, 0, 0, 1), 30px 70px 0 0 rgba(0, 0, 0, 1), 40px 70px 0 0 rgba(0, 0, 0, 1), 50px 70px 0 0 rgba(255, 193, 7, 1), 60px 70px 0 0 rgba(255, 235, 59, 1), 70px 70px 0 0 rgba(255, 193, 7, 1), 80px 70px 0 0 rgba(255, 235, 59, 1), 90px 70px 0 0 rgba(255, 193, 7, 1), 100px 70px 0 0 rgba(255, 235, 59, 1), 110px 70px 0 0 rgba(255, 193, 7, 1), 120px 70px 0 0 rgba(255, 235, 59, 1), 130px 70px 0 0 rgba(255, 193, 7, 1), 140px 70px 0 0 rgba(255, 235, 59, 1), 150px 70px 0 0 rgba(0, 0, 0, 1), 160px 70px 0 0 rgba(0, 0, 0, 1), 170px 70px 0 0 rgba(0, 0, 0, 1), 180px 70px 0 0 rgba(0, 0, 0, 1), 10px 80px 0 0 rgba(0, 0, 0, 1), 20px 80px 0 0 rgba(255, 235, 59, 1), 30px 80px 0 0 rgba(255, 193, 7, 1), 40px 80px 0 0 rgba(255, 235, 59, 1), 50px 80px 0 0 rgba(255, 193, 7, 1), 60px 80px 0 0 rgba(255, 235, 59, 1), 70px 80px 0 0 rgba(255, 193, 7, 1), 80px 80px 0 0 rgba(255, 235, 59, 1), 90px 80px 0 0 rgba(255, 193, 7, 1), 100px 80px 0 0 rgba(255, 235, 59, 1), 110px 80px 0 0 rgba(255, 193, 7, 1), 120px 80px 0 0 rgba(255, 235, 59, 1), 130px 80px 0 0 rgba(255, 193, 7, 1), 140px 80px 0 0 rgba(255, 235, 59, 1), 150px 80px 0 0 rgba(255, 193, 7, 1), 160px 80px 0 0 rgba(255, 235, 59, 1), 170px 80px 0 0 rgba(255, 235, 59, 1), 180px 80px 0 0 rgba(0, 0, 0, 1), 10px 90px 0 0 rgba(0, 0, 0, 1), 20px 90px 0 0 rgba(255, 235, 59, 1), 30px 90px 0 0 rgba(255, 193, 7, 1), 40px 90px 0 0 rgba(255, 235, 59, 1), 50px 90px 0 0 rgba(255, 193, 7, 1), 60px 90px 0 0 rgba(255, 235, 59, 1), 70px 90px 0 0 rgba(255, 193, 7, 1), 80px 90px 0 0 rgba(255, 235, 59, 1), 90px 90px 0 0 rgba(255, 193, 7, 1), 100px 90px 0 0 rgba(255, 235, 59, 1), 110px 90px 0 0 rgba(255, 193, 7, 1), 120px 90px 0 0 rgba(255, 235, 59, 1), 130px 90px 0 0 rgba(255, 193, 7, 1), 140px 90px 0 0 rgba(255, 235, 59, 1), 150px 90px 0 0 rgba(255, 193, 7, 1), 160px 90px 0 0 rgba(255, 235, 59, 1), 170px 90px 0 0 rgba(255, 193, 7, 1), 180px 90px 0 0 rgba(0, 0, 0, 1), 10px 100px 0 0 rgba(0, 0, 0, 1), 20px 100px 0 0 rgba(255, 235, 59, 1), 30px 100px 0 0 rgba(255, 193, 7, 1), 40px 100px 0 0 rgba(255, 235, 59, 1), 50px 100px 0 0 rgba(255, 193, 7, 1), 60px 100px 0 0 rgba(255, 235, 59, 1), 70px 100px 0 0 rgba(0, 0, 0, 1), 80px 100px 0 0 rgba(0, 0, 0, 1), 90px 100px 0 0 rgba(0, 0, 0, 1), 100px 100px 0 0 rgba(0, 0, 0, 1), 110px 100px 0 0 rgba(0, 0, 0, 1), 120px 100px 0 0 rgba(0, 0, 0, 1), 130px 100px 0 0 rgba(255, 193, 7, 1), 140px 100px 0 0 rgba(255, 235, 59, 1), 150px 100px 0 0 rgba(255, 193, 7, 1), 160px 100px 0 0 rgba(255, 235, 59, 1), 170px 100px 0 0 rgba(255, 193, 7, 1), 180px 100px 0 0 rgba(0, 0, 0, 1), 10px 110px 0 0 rgba(0, 0, 0, 1), 20px 110px 0 0 rgba(255, 235, 59, 1), 30px 110px 0 0 rgba(255, 193, 7, 1), 40px 110px 0 0 rgba(255, 235, 59, 1), 50px 110px 0 0 rgba(0, 0, 0, 1), 60px 110px 0 0 rgba(0, 0, 0, 1), 70px 110px 0 0 rgba(255, 235, 59, 1), 80px 110px 0 0 rgba(255, 235, 59, 1), 90px 110px 0 0 rgba(255, 235, 59, 1), 100px 110px 0 0 rgba(255, 235, 59, 1), 110px 110px 0 0 rgba(255, 235, 59, 1), 120px 110px 0 0 rgba(255, 235, 59, 1), 130px 110px 0 0 rgba(0, 0, 0, 1), 140px 110px 0 0 rgba(0, 0, 0, 1), 150px 110px 0 0 rgba(255, 193, 7, 1), 160px 110px 0 0 rgba(255, 235, 59, 1), 170px 110px 0 0 rgba(255, 193, 7, 1), 180px 110px 0 0 rgba(0, 0, 0, 1), 10px 120px 0 0 rgba(0, 0, 0, 1), 20px 120px 0 0 rgba(0, 0, 0, 1), 30px 120px 0 0 rgba(0, 0, 0, 1), 40px 120px 0 0 rgba(0, 0, 0, 1), 50px 120px 0 0 rgba(255, 235, 59, 1), 60px 120px 0 0 rgba(255, 235, 59, 1), 70px 120px 0 0 rgba(121, 85, 72, 1), 80px 120px 0 0 rgba(121, 85, 72, 1), 90px 120px 0 0 rgba(121, 85, 72, 1), 100px 120px 0 0 rgba(121, 85, 72, 1), 110px 120px 0 0 rgba(121, 85, 72, 1), 120px 120px 0 0 rgba(121, 85, 72, 1), 130px 120px 0 0 rgba(255, 235, 59, 1), 140px 120px 0 0 rgba(255, 235, 59, 1), 150px 120px 0 0 rgba(0, 0, 0, 1), 160px 120px 0 0 rgba(0, 0, 0, 1), 170px 120px 0 0 rgba(0, 0, 0, 1), 180px 120px 0 0 rgba(0, 0, 0, 1), 20px 130px 0 0 rgba(0, 0, 0, 1), 30px 130px 0 0 rgba(255, 235, 59, 1), 40px 130px 0 0 rgba(255, 235, 59, 1), 50px 130px 0 0 rgba(121, 85, 72, 1), 60px 130px 0 0 rgba(121, 85, 72, 1), 70px 130px 0 0 rgba(255, 193, 7, 1), 80px 130px 0 0 rgba(255, 193, 7, 1), 90px 130px 0 0 rgba(255, 193, 7, 1), 100px 130px 0 0 rgba(255, 193, 7, 1), 110px 130px 0 0 rgba(255, 193, 7, 1), 120px 130px 0 0 rgba(255, 193, 7, 1), 130px 130px 0 0 rgba(121, 85, 72, 1), 140px 130px 0 0 rgba(121, 85, 72, 1), 150px 130px 0 0 rgba(255, 235, 59, 1), 160px 130px 0 0 rgba(255, 235, 59, 1), 170px 130px 0 0 rgba(0, 0, 0, 1), 20px 140px 0 0 rgba(0, 0, 0, 1), 30px 140px 0 0 rgba(121, 85, 72, 1), 40px 140px 0 0 rgba(121, 85, 72, 1), 50px 140px 0 0 rgba(255, 193, 7, 1), 60px 140px 0 0 rgba(255, 193, 7, 1), 70px 140px 0 0 rgba(0, 0, 0, 1), 80px 140px 0 0 rgba(0, 0, 0, 1), 90px 140px 0 0 rgba(0, 0, 0, 1), 100px 140px 0 0 rgba(0, 0, 0, 1), 110px 140px 0 0 rgba(0, 0, 0, 1), 120px 140px 0 0 rgba(0, 0, 0, 1), 130px 140px 0 0 rgba(255, 193, 7, 1), 140px 140px 0 0 rgba(255, 193, 7, 1), 150px 140px 0 0 rgba(121, 85, 72, 1), 160px 140px 0 0 rgba(121, 85, 72, 1), 170px 140px 0 0 rgba(0, 0, 0, 1), 20px 150px 0 0 rgba(0, 0, 0, 1), 30px 150px 0 0 rgba(255, 193, 7, 1), 40px 150px 0 0 rgba(255, 193, 7, 1), 50px 150px 0 0 rgba(0, 0, 0, 1), 60px 150px 0 0 rgba(0, 0, 0, 1), 70px 150px 0 0 rgba(0, 0, 0, 1), 80px 150px 0 0 rgba(33, 150, 243, 1), 90px 150px 0 0 rgba(33, 150, 243, 1), 100px 150px 0 0 rgba(33, 150, 243, 1), 110px 150px 0 0 rgba(33, 150, 243, 1), 120px 150px 0 0 rgba(0, 0, 0, 1), 130px 150px 0 0 rgba(0, 0, 0, 1), 140px 150px 0 0 rgba(0, 0, 0, 1), 150px 150px 0 0 rgba(255, 193, 7, 1), 160px 150px 0 0 rgba(255, 193, 7, 1), 170px 150px 0 0 rgba(0, 0, 0, 1), 20px 160px 0 0 rgba(0, 0, 0, 1), 30px 160px 0 0 rgba(0, 0, 0, 1), 40px 160px 0 0 rgba(0, 0, 0, 1), 50px 160px 0 0 rgba(0, 0, 0, 1), 60px 160px 0 0 rgba(33, 150, 243, 1), 70px 160px 0 0 rgba(33, 150, 243, 1), 80px 160px 0 0 rgba(33, 150, 243, 1), 90px 160px 0 0 rgba(33, 150, 243, 1), 100px 160px 0 0 rgba(33, 150, 243, 1), 110px 160px 0 0 rgba(33, 150, 243, 1), 120px 160px 0 0 rgba(33, 150, 243, 1), 130px 160px 0 0 rgba(33, 150, 243, 1), 140px 160px 0 0 rgba(0, 0, 0, 1), 150px 160px 0 0 rgba(0, 0, 0, 1), 160px 160px 0 0 rgba(0, 0, 0, 1), 170px 160px 0 0 rgba(0, 0, 0, 1), 60px 170px 0 0 rgba(33, 150, 243, 1), 70px 170px 0 0 rgba(33, 150, 243, 1), 80px 170px 0 0 rgba(33, 150, 243, 1), 90px 170px 0 0 rgba(33, 150, 243, 1), 100px 170px 0 0 rgba(33, 150, 243, 1), 110px 170px 0 0 rgba(33, 150, 243, 1), 120px 170px 0 0 rgba(33, 150, 243, 1), 130px 170px 0 0 rgba(33, 150, 243, 1), 60px 180px 0 0 rgba(33, 150, 243, 1), 70px 180px 0 0 rgba(33, 150, 243, 1), 80px 180px 0 0 rgba(33, 150, 243, 1), 90px 180px 0 0 rgba(33, 150, 243, 1), 100px 180px 0 0 rgba(33, 150, 243, 1), 110px 180px 0 0 rgba(33, 150, 243, 1), 120px 180px 0 0 rgba(33, 150, 243, 1), 130px 180px 0 0 rgba(33, 150, 243, 1), 60px 190px 0 0 rgba(33, 150, 243, 1), 70px 190px 0 0 rgba(33, 150, 243, 1), 80px 190px 0 0 rgba(33, 150, 243, 1), 90px 190px 0 0 rgba(33, 150, 243, 1), 100px 190px 0 0 rgba(33, 150, 243, 1), 110px 190px 0 0 rgba(33, 150, 243, 1), 120px 190px 0 0 rgba(33, 150, 243, 1), 130px 190px 0 0 rgba(33, 150, 243, 1), 60px 200px 0 0 rgba(33, 150, 243, 1), 70px 200px 0 0 rgba(33, 150, 243, 1), 80px 200px 0 0 rgba(33, 150, 243, 1), 90px 200px 0 0 rgba(33, 150, 243, 1), 100px 200px 0 0 rgba(33, 150, 243, 1), 110px 200px 0 0 rgba(33, 150, 243, 1), 120px 200px 0 0 rgba(33, 150, 243, 1), 130px 200px 0 0 rgba(33, 150, 243, 1);
+  height: 10px;
+  width: 10px;
+}
+
+.bridge_kingdom_centered {
+  
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 -100px;
+
+}
+
+
+</style>
+
+</head>
+
+
+<body  class="centered_bold main_color main_background">
+
+<div class="big card main_colour"> 
+<p>
+&#127984;
+<br>
+<ruby>城<rt>しろ</rt></ruby>
+</p>
+</div>
+
+
+<div class="big card main_colour"> 
+<p>
+&#128081;
+<br>
+<ruby>王<rt>おう</rt></ruby><ruby>冠<rt>かん</rt></ruby>
+</p>
+</div>
+
+
+<div class="big card main_colour"> 
+<p>
+&#129332;
+<br>
+<ruby>王<rt>おう</rt></ruby>
+</p>
+</div>
+
+
+<div class="big card main_colour"> 
+<p>
+
+<ruby>王<rt>おう</rt></ruby> ≈ <ruby>王様<rt>おうさま</rt></ruby>
+</p>
+</div>
+
+<div class="big card main_colour"> 
+<p>
+&#129409;
+<br>
+ライオンは
+<br>
+<ruby>動<rt>どう</rt></ruby><ruby>物<rt>ぶつ</rt></ruby>の<ruby>王<rt>おう</rt></ruby>です
+</p>
+</div>
+
+<!--
+<div class="big card main_colour"> 
+<p>
+&#128105; + &#129332;
+<br>	
+<ruby>女<rt>おんな</rt></ruby> + <ruby>王<rt>おう</rt></ruby>
+<br>
+=
+</p>
+</div>
+-->
+
+<div class="big card main_colour"> 
+<p>
+&#128120; 
+<br>
+<ruby>女<rt>じょ</rt></ruby><ruby>王<rt>おう</rt></ruby>
+</p>
+</div>
+
+
+<div class="big card main_colour"> 
+<p>
+<ruby>王<rt>おう</rt></ruby> + <ruby>国<rt>くに</rt></ruby>
+<br>
+=
+<br>
+<ruby>王<rt>おう</rt></ruby><ruby>国<rt>こく</rt></ruby>
+</p>
+</div>
+
+<div class="big card main_colour"> 
+<p>
+ 
+<br>
+&#127468;&#127463;  イギリスと
+<br>
+&#127463;&#127466; ベルギーは
+<br>
+<ruby>王<rt>おう</rt></ruby><ruby>国<rt>こく</rt></ruby>です
+</p>
+</div>
+
+
+
+<div class="big card main_colour" style="font-weight:  bold;"> 
+<p>
+***
+</p>
+</div>
+
+
+
+<div class="big card main_colour""> 
+<p>
+バールド<ruby>王<rt>おう</rt></ruby><ruby>国<rt>こく</rt></ruby>の
+<br>
+<span class=""><ruby>道<rt>みち</rt></ruby>で</span>
+</p>
+</div>
+
+<div class="big card main_colour"> 
+<p>
+	🌳 🌲 🌳
+<br>	
+🌳🌲🌳🌳🌳
+<bR>
+&#128694;
+<br>
+🌳🌳🌳🌳🌲🌲🌳
+</p>
+</div>
+
+
+<div class="big card main_colour"> 
+<p>
+<span class="ruby_under"><ruby>&#128517;<rt>チャック</rt></ruby></span>
+<br>
+<ruby>僕<rt>ぼく</rt></ruby>はどこにいるの？
+<!--<br>
+コンパスはどこにある？-->
+</p>
+</div>
+
+
+<div class="big card main_colour"> 
+<p>
+<span class="ruby_under"><ruby>&#129300;<rt>チャック</rt></ruby></span>
+<br>
+&#129517;
+<br>
+うーん
+</p>
+</div>
+
+
+
+<div class="big card main_colour"> 
+<p>
+<span class="ruby_under"><ruby>🤠<rt>チャック</rt></ruby></span>
+<br>
+<!--<ruby>北側<rt>きたがわ</rt></ruby>の<ruby>歩道<rt>ほどう</rt></ruby>を
+<br>
+<ruby>歩<rt>ある</rt></ruby>くと<ruby>道路<rt>	どうろ</rt></ruby>がある
+-->
+<ruby>北<rt>きた</rt></ruby>へ行こう
+<br>
+</p>
+</div>
+
+<!--
+
+<div class="big card main_colour"> 
+<p>
+<ruby>道路<rt>	 どうろ </rt></ruby> ≈ <ruby>道<rt>みち</rt></ruby>
+</p>
+</div>
+-->
+
+
+<div class="big card main_colour"> 
+<p>
+	🌳 <span class="bg_col	">--</span> 🌳
+<br>	
+🌳🌳🧍‍♂️🌳
+<br>
+<span class="brown_background brown">-----------------------</span>
+</p>
+</div>
+
+
+
+
+<div class="big card main_colour"> 
+<p>
+🤠
+<br>
+<ruby>道<rt>みち</rt></ruby>だ！
+
+</p>
+</div>
+
+
+<div class="big card main_colour"> 
+<p>
+
+<span class="brown_background brown">-------&#128694; -----</span>
+</p>
+</div>
+
+
+
+
+<div class="big card main_colour"> 
+<p>
+<span class="bg_col">----</span><span class="onomatopeia">たたたた</span>  <br>
+<span class="brown_background brown">---- &#128694; ---- -----</span>
+</p>
+</div>
+
+<div class="big card main_colour"> 
+<p>
+<span class="onomatopeia">たたたた</span>  <br>
+<span class="brown_background brown">------- &#128694; &#127943; &#127943; &#127943; &#128014; -----</span>
+</p>
+</div>
+
+
+
+<div class="big card "> 
+<p>
+ &#128052; &#128104; &#128052; 👩🏽 &#128052; &#128104;&#127999;
+<br>
+
+</p>
+</div> 
+
+<div class="big card main_colour"> 
+<p>
+&#128052; &#128104;
+<br>
+こんにちは
+<br>
+<ruby>一人<rt>ひとり</rt></ruby>ですか？
+<br>
+どこに<ruby>向<rt>む</rt></ruby>かっているのですか？
+</p>
+</div>
+
+
+<div class="big card main_colour"> 
+<p>
+🤠
+<br>
+<span class="bg_col">-----</span><ruby>一人<rt>ひとり</rt></ruby>です。
+<br>
+🤴 レマス<ruby>王<rt>おう</rt></ruby>の
+<br>
+🏰 お<ruby>城<rt>しろ</rt></ruby>に
+<br>
+<span class="bg_col">-----</span>行こうとしています。
+</p>
+</div>
+
+
+
+
+<div class="big card main_colour"> 
+<p>
+ &#128052; &#128104;
+<br>
+<ruby>道<rt>みち</rt></ruby>には
+<br>
+😡 <ruby>賊<rt>ぞく</rt></ruby>がいて
+<br>
+<ruby>危<rt>あぶ</rt></ruby>ないですよ。
+<br>
+<ruby>友達<rt>ともだち</rt></ruby>と一緒に<ruby>馬<rt>うま</rt></ruby>に
+<br>
+乗りませんか？
+</p>
+</div>
+
+
+<div class="big card main_colour"> 
+<p>
+🤠
+<br>
+いいですね
+</p>
+</div>
+
+
+<div class="big card main_colour"> 
+<p>
+&#128052; &#128104;
+<br>
+お名前は？
+</p>
+</div>
+
+
+
+<div class="big card main_colour"> 
+<p>
+🤠
+<br>
+チャックです。
+<br>
+👨‍🎨 <ruby>画家<rt>がか</rt></ruby>です。
+<br>
+よろしくお<ruby>願<rt>ねが</rt></ruby>いします。
+</p>
+</div>
+
+
+<div class="big card main_colour"> 
+<p>
+&#128104;
+<br>
+私はヘクトールです。
+<br>
+🤹 ジャグラーです。
+
+<br>
+よろしくお<ruby>願<rt>ねが</rt></ruby>いします。
+</p>
+</div>
+
+
+<div class="big card main_colour"> 
+<p>
+&#128105;&#127997;&#8205;
+<br>
+私はキムです。
+<br>
+💃🏽 ダンサーです。
+<br>
+よろしくお<ruby>願<rt>ねが</rt></ruby>いします。
+</p>
+</div>
+
+<div class="big card main_colour"> 
+<p>
+&#128104;&#127999;
+<br>
+<ruby>僕<rt>ぼく</rt></ruby>はメンゾーです。
+<br>
+&#127931; バイオリンを<ruby>弾<rt>ひ</rt></ruby>きます。
+<br>
+よろしくお<ruby>願<rt>ねが</rt></ruby>いします。
+</p>
+</div>
+
+<div class="big card main_colour"> 
+<p>
+&#128104;
+<br>
+行きましょう
+</p>
+</div>
+
+
+
+<div class="big card main_colour"> 
+<p>
+<span class="onomatopeia">たたたた</span>  <br>
+<span class="brown_background brown">------- &#127943; &#127943; &#127943; &#127943; -----</span>
+</p>
+</div>
+
+
+
+<div class="big card main_colour"> 
+<div style="height: 280px;"><div class="bridge_knigdom bridge_kingdom_centered"></div></div>
+
+<ruby>橋<rt>はし</rt></ruby>
+</p>
+</div>
+
+
+<div class="big card main_colour"> 
+<p>
+
+<span class="blue_background blue river">---🐟-</span>
+<br>
+<span class="blue_background blue river">-------</span>
+<br>
+<span class="brown_background brown ">-------</span><span class="grey_background ">&#127943; &#127943; &#127943; &#127943; </span><span class="brown_background brown">-----</span>
+<br>
+<span class="blue_background blue river">-------</span>
+<br>
+<br>
+<ruby>4人<rt>よにん</rt></ruby>が
+<br>
+<ruby>橋<rt>はし</rt></ruby>を<ruby>渡<rt>わた</rt>ります
+</p>
+</div>
+
+
+
+
+
+
+<div class="big last_div">
+<p>
+  <span class="ruby_under"><a href="../."><ruby>&#127968;<rt> ホーム </rt></ruby></a></span> *** <ruby>終<rt>お</rt></ruby>わり *** <a href="./4_14_campfire.html"><ruby> &#10140;<rt><ruby>次<rt>つぎ</rt></ruby></rt></ruby></a></p>
+
+</div>
+
+
+ 
+<script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+  twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
+</script>
+
+</body>

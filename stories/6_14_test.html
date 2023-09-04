@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="main.css">
+
+<style>
+
+
+
+a {
+	
+	color: black;
+	text-decoration: none;
+
+}
+
+
+
+.bg_col {
+
+	color: rgb(41, 55, 73);
+}
+
+.main_background {
+
+	background-color:white
+
+}
+
+
+.main_colour {
+
+    color: black;
+
+}
+
+.long_text_div {
+
+	width: 450px;
+	font-size: 120%;
+	padding: 0px;
+	margin: auto;
+
+overflow-wrap: break-word; 
+
+}
+
+
+.icon_twittemoji30 .emoji {
+    height: 20px;
+    width: 20px;
+}
+/*SFS light red = #c30b0a;
+SFS dark red = #9f2026; */
+
+
+</style>
+
+</head>
+
+
+<body  class=" main_color main_background">
+
+<!--https://codepen.io/harrysadlermusic/pen/qBdMvN-->
+<div class="long_text_div"> 
+<p>
+<div style="font-weight: bold; font-size: 200%; text-align: center;">日本語のテスト</div>
+<br>
+<br>
+<!--<div style="font-weight: bold; font-size: 100%; text-align: center;">10問のクイズ問題</div>-->
+
+
+
+<br>
+<h2>① <ruby>漢字<rt>かんじ</rt></ruby></h2>
+
+<!--
+<hr>
+<div class="	centered_bold	">正しいひらがなを選</div>
+<hr>
+<div>
+例え
+
+<p class="question">1. 例えば #1</p>
+
+<ul>
+<input class="answer" type="radio" name="q1" value="1">
+<label id="correctString1">For example</label>  <span class="	green">	正しい漢字 </span>
+<br>
+<input class="answer" type="radio" name="q1" value="0">  
+<label>Word</label> <span class="	red"> 正しい漢字 </span>
+<br>
+<input class="answer" type="radio" name="q1" value="0">  
+<label>Study</label> <span class="	red">	不正解 </span>
+<br>
+<input class="answer" type="radio" name="q1" value="0">  
+<label>Japanese</label>  <span class="	red">	不正解 </span>
+</ul>
+</div>
+<hr>
+-->
+	  	<div>
+<hr>
+<div class="	centered_bold	" style="font-weight: bold; font-size	: 120%	;"><ruby>正<rt>ただ</rt></ruby>しいひらがなを<ruby>選<rt>えら</rt></ruby>んでください</div>
+	  	<div>
+	
+	  		<br>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">魔法</p>
+
+	    	<ul>
+	     <span class="	icon_twittemoji30">	✅</span> まほう <span class="	green">	<ruby>正解<rt>せいかい</rt></ruby></span>
+ 	    	<br>
+	       
+	        <span class="	icon_twittemoji30">	❌</span> はなし
+	        <br>
+	        <span class="	icon_twittemoji30">	❌</span> べんきょう
+	        <br>
+	        <span class="	icon_twittemoji30">	❌</span> おおさか
+    		</ul>
+	  	</div>
+
+<hr>
+	  		<br>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">1. 車 </p>
+
+	    	<ul>
+	    	<input id ='1a' class="answer" type="radio" name="q1" value="1">
+	        <label id="correctString1" for="1a">くるま</label>
+	    	<br>
+	        <input id ='1b' class="answer" type="radio" name="q1" value="0">
+	        <label for="1b">はなし</label>
+	        <br>
+	        <input id ='1c' class="answer" type="radio" name="q1" value="0">
+	        <label for="1c">べんきょう</label>
+	        <br>
+	        <input id ='1d' class="answer" type="radio" name="q1" value="0">
+	        <label for="1d">おおさか</label>
+    		</ul>
+	  	</div>
+
+
+
+	  	<div>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">2. 勉強 </p>
+
+	    	<ul>
+	        <input id ='2a' class="answer" type="radio" name="q2" value="0">
+	        <label for="2a">にほんじん</label>
+	        <br>
+	        <input id ='2b' class="answer" type="radio" name="q2" value="1">
+	        <label id="correctString2" for="2b">べんきょう</label>
+	        <br>
+	        <input id ='2c' class="answer" type="radio" name="q2" value="0">
+	        <label for="2c">だいがく</label>
+	        <br>
+	        <input id ='2d' class="answer" type="radio" name="q2" value="0">
+	        <label for="2d">とうきょう</label>
+	    	</ul>
+	  	</div>
+
+
+
+	  	<div>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">3. 東京 </p>
+
+	    	<ul>
+	        <input id ='3a' class="answer" type="radio" name="q3" value="0">
+	        <label for="3a"> きょうと </label>
+	        <br>
+	        <input id ='3b' class="answer" type="radio" name="q3" value="1">
+	        <label id="correctString3" for="3b">とうきょう</label>
+	        <br>
+	        <input id ='3c' class="answer" type="radio" name="q3" value="0">
+	        <label for="3c">だいがく</label>
+	        <br>
+	        <input id ='3d' class="answer" type="radio" name="q3" value="0">
+	        <label for="3d">べんきょう</label>
+	    	</ul>
+		</div>
+
+
+			  	<div>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">3. 検索 </p>
+
+	    	<ul>
+	        <input id ='4a' class="answer" type="radio" name="q4" value="0">
+	        <label for="4a">へいし</label>
+	        <br>
+	        <input id ='4b' class="answer" type="radio" name="q4" value="0">
+	        <label for="4b">とうきょう</label>
+	        <br>
+	        <input id ='4c' class="answer" type="radio" name="q4" value="1">
+	        <label id="correctString4" for="4c">けんさく</label>
+	        <br>
+	        <input id ='4d' class="answer" type="radio" name="q4" value="0">
+	        <label for="4d">えらぶ</label>
+	    	</ul>
+		</div>
+
+
+<br>
+<br>
+<h2>② 単語</h2>
+
+<hr>
+<div class="	centered_bold	" style="font-weight: bold	;  font-size	: 120%	;"> <ruby>正<rt>ただ</rt></ruby>しい<ruby>意味<rt>いみ</rt></ruby>を<ruby>選<rt>えら</rt></ruby>んでください </div>
+	  	<div>
+	
+	  		<br>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;"><ruby>部屋<rt>へや</rt></ruby> </p>
+
+	    	<ul>
+	    	
+	         <span class="	icon_twittemoji30">	✅</span> Room  <span class="	green"><ruby>正解<rt>せいかい</rt></ruby></span>
+ 	    	<br>
+	       <span class="	icon_twittemoji30">	❌</span> Book
+	        <br>
+	       <span class="	icon_twittemoji30">	❌</span>  Car
+	        <br>
+	      <span class="	icon_twittemoji30">	❌</span>  Study
+    		</ul>
+	  	</div>
+
+<hr>
+
+<Br>
+
+
+			  		  	<div>
+
+
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">5. <ruby>辞書<rt>じしょ</rt></ruby> </p>
+
+	    	<ul>
+	        <input id ='5a' class="answer" type="radio" name="q5" value="0">
+	        <label for="5a" >Textbook</label>
+	        <br>
+	        <input id ='5b' class="answer" type="radio" name="q5" value="0">
+	        <label for="5b">Memorisation</label>
+	     
+	        <br>
+	        <input id ='5d' class="answer" type="radio" name="q5" value="0">
+	        <label for="5d" >Furigana</label>
+	           <br>
+	        <input id ='5c'  class="answer" type="radio" name="q5" value="1">
+	        <label for="5c" id="correctString5" >Dictionary</label>
+	    	</ul>
+	  	</div>
+
+
+
+	  	<div>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">6. <ruby>暗記<rt>あんき</rt></ruby></p>
+
+	    	<ul>
+	        <input id ='6a' class="answer" type="radio" name="q6" value="1">
+	        <label for="6a" id="correctString6" >Memorisation</label>
+	        <br>
+	        <input id ='6b' class="answer" type="radio" name="q6" value="0">
+	        <label for="6b">Textbook</label>
+	        <br>
+	        <input id ='6c' class="answer" type="radio" name="q6" value="0">
+	        <label for="6c" >Grammar</label>
+	        <br>
+	        <input id ='6d' class="answer" type="radio" name="q6" value="0">
+	        <label for="6d" >Adjective</label>
+	    	</ul>
+		</div>
+
+
+			  		  	<div>
+
+
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">7. <ruby>形容詞<rt>けいようし</rt></ruby></p>
+
+	    	<ul>
+	        <input id ='7a'  class="answer" type="radio" name="q7" value="0">
+	        <label for="7a" >Verb</label>
+	        <br>
+	        <input id ='7b' class="answer" type="radio" name="q7" value="0">
+	        <label  for="7b">Grammar</label>
+	       
+	        <br>
+	        <input id ='7d' class="answer" type="radio" name="q7" value="0">
+	        <label for="7d" >Particle</label>
+	         <br>
+	        <input id ='7c' class="answer" type="radio" name="q7" value="1">
+	        <label for="7c" id="correctString7" >Adjective</label>
+	    	</ul>
+	  	</div>
+
+
+
+	  	<div>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">8. <ruby>中国<rt>ちゅうごく</rt></ruby></p>
+
+	    	<ul>
+	        <input id ='8a' class="answer" type="radio" name="q8" value="0">
+	        <label for="8a" > Middle Earth </label>
+	        <br>
+	        <input id ='8b' class="answer" type="radio" name="q8" value="1">
+	        <label  for="8b" id="correctString8">China</label>
+	        <br>
+	        <input id ='8c' class="answer" type="radio" name="q8" value="0">
+	        <label for="8c" >Middle Ground</label>
+	        <br>
+	        <input id ='8d' class="answer" type="radio" name="q8" value="0">
+	        <label for="8d" >In the Country</label>
+	    	</ul>
+		</div>
+
+
+	  	<div>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">9. <ruby>正解<rt>せいかい</rt></ruby></span></p>
+
+	    	<ul>
+	        <input id ='9a' class="answer" type="radio" name="q9" value="0">
+	        <label for="9a" >Dictionary</label>
+	        <br>
+	        <input id ='9b' class="answer" type="radio" name="q9" value="0">
+	        <label  for="9b">Quizz</label>
+	        <br>
+	        <input id ='9c' class="answer" type="radio" name="q9" value="0">
+	        <label for="9c" >Answer</label>
+	        <br>
+	        <input id ='9d' class="answer" type="radio" name="q9" value="1">
+	        <label for="9d" id="correctString9" >Correct</label>
+	    	</ul>
+		</div>
+
+<br>
+<br>
+<h2>③ <ruby>文法<rt>ぶんぽう</rt></ruby></h2>
+
+<hr>
+<div class="	centered_bold	" style="font-weight: bold	;  font-size	: 120%	;"> <Ruby>正<rt>ただ</rt></Ruby>しい</span>単語の<ruby>種類<rt>しゅるい</rt></ruby>を<ruby>選<rt>えら</rt></ruby>んでください </div>
+	  	<div>
+	
+	  		<br>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;"><ruby>部屋<rt>へや</rt></ruby> </p>
+
+	    	<ul>
+	    	<span class="	icon_twittemoji30">	✅</span> 名詞 <span class="	green">	<Ruby>正<rt>ただ</rt></Ruby>しい</span></span>
+ 	    	<br>
+	       <span class="	icon_twittemoji30">	❌</span>  <ruby>動詞<rt>どうし</rt></ruby>
+	        <br>
+	      <span class="	icon_twittemoji30">	❌</span>   <ruby>助詞<rt>じょし</rt></ruby>
+	        <br>
+	      <span class="	icon_twittemoji30">	❌</span>   <ruby>形容詞<rt>けいようし</rt></ruby>
+	        <br>
+	     <span class="	icon_twittemoji30">	❌</span>    <ruby>助数詞<rt>じょすうし</rt></ruby></label> 
+    		</ul>
+	  	</div>
+
+<hr>
+
+
+
+<br>
+
+
+	  	<div>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">10. <Ruby>正<rt>ただ</rt></Ruby>しい</span></p>
+
+	    	<ul>
+	        <input id ='10a' class="answer" type="radio" name="q10" value="0">
+	        <label for="10a" ><ruby>名詞<rt>めいし</rt></ruby></label>  
+ 	    	<br>
+	        <input id ='10b' class="answer" type="radio" name="q10" value="0">
+	        <label for="10b" ><ruby>動詞<rt>どうし</rt></ruby></label>
+	        <br>
+	        <input id ='10c' class="answer" type="radio" name="q10" value="0">
+	        <label for="10c" ><ruby>助詞<rt>じょし</rt></ruby></label>
+	        <br>
+	        <input id ='10d' class="answer" type="radio" name="q10" value="1">
+	        <label for="10d"  id="correctString10" ><ruby>形容詞<rt>けいようし</rt></ruby></label> 
+	        <br>
+	        <input id ='10e'  class="answer" type="radio" name="q10" value="0">
+	        <label for="10e" ><ruby>助数詞<rt>じょすうし</rt></ruby></label> 
+    		</ul>
+	  	</div>
+
+
+	  		  	<div>
+
+
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">11. 単語 </p>
+
+	    	<ul>
+	        <input id ='11a' class="answer" type="radio" name="q11" value="1">
+	        <label  for="11a" id="correctString11"><ruby>名詞<rt>めいし</rt></ruby></label>  
+ 	    	<br>
+	        <input id ='11b' class="answer" type="radio" name="q11" value="0">
+	        <label for="11b" ><ruby>動詞<rt>どうし</rt></ruby></label>
+	        <br>
+	        <input id ='11c' class="answer" type="radio" name="q11" value="0">
+	        <label for="11c" ><ruby>助詞<rt>じょし</rt></ruby></label>
+	        <br>
+	        <input id ='11d' class="answer" type="radio" name="q11" value="0">
+	        <label for="11d" ><ruby>形容詞<rt>けいようし</rt></ruby></label> 
+	        <br>
+	        <input id ='11e' class="answer" type="radio" name="q11" value="0">
+	        <label for="11e" ><ruby>助数詞<rt>じょすうし</rt></ruby></label> 
+	    	</ul>
+	  	</div>
+
+
+
+	  	<div>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">12. の</p>
+
+	    	<ul>
+	        <input id ='12a' class="answer" type="radio" name="q12" value="0">
+	        <label  for="12a" ><ruby>名詞<rt>めいし</rt></ruby></label>  
+ 	    	<br>
+	        <input id ='12b'  class="answer" type="radio" name="q12" value="0">
+	        <label for="12b" ><ruby>動詞<rt>どうし</rt></ruby></label>
+	        <br>
+	        <input id ='12c' class="answer" type="radio" name="q12" value="1">
+	        <label for="12c" id="correctString12"><ruby>助詞<rt>じょし</rt></ruby></label>
+	        <br>
+	        <input id ='12d' class="answer" type="radio" name="q12" value="0">
+	        <label for="12d" ><ruby>形容詞<rt>けいようし</rt></ruby></label> 
+	        <br>
+	        <input id ='12e' class="answer" type="radio" name="q12" value="0">
+	        <label for="12e" ><ruby>助数詞<rt>じょすうし</rt></ruby></label> 
+	    	</ul>
+		</div>
+
+			  		  	<div>
+
+
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">13. <ruby>種類<rt>しゅるい</rt></ruby></p>
+
+	    	<ul>
+	        <input id ='13a' class="answer" type="radio" name="q13" value="0">
+	        <label  for="13a" ><ruby>名詞<rt>めいし</rt></ruby></label>  
+ 	    	<br>
+	        <input id ='13b' class="answer" type="radio" name="q13" value="0">
+	        <label for="13b" ><ruby>動詞<rt>どうし</rt></ruby></label>
+	        <br>
+	        <input id ='13c' class="answer" type="radio" name="q13" value="0">
+	        <label for="13c" ><ruby>助詞<rt>じょし</rt></ruby></label>
+	        <br>
+	        <input id ='13d' class="answer" type="radio" name="q13" value="0">
+	        <label for="13d" ><ruby>形容詞<rt>けいようし</rt></ruby></label> 
+	        <br>
+	        <input id ='13e' class="answer" type="radio" name="q13" value="1">
+	        <label for="13e" id="correctString13"><ruby>助数詞<rt>じょすうし</rt></ruby></label> 
+	    	</ul>
+	  	</div>
+
+
+
+	  	<div>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">14. <ruby>選<rt>えら</rt></ruby>ぶ</p>
+
+	    	<ul>
+	        <input id ='14a' class="answer" type="radio" name="q14" value="0">
+	        <label for="14a"  ><ruby>名詞<rt>めいし</rt></ruby></label>  
+ 	    	<br>
+	        <input id ='14b' class="answer" type="radio" name="q14" value="1">
+	        <label for="14b" id="correctString14"><ruby>動詞<rt>どうし</rt></ruby></label>
+	        <br>
+	        <input id ='14c' class="answer" type="radio" name="q14" value="0">
+	        <label for="14c" ><ruby>助詞<rt>じょし</rt></ruby></label>
+	        <br>
+	        <input id ='14d' class="answer" type="radio" name="q14" value="0">
+	        <label for="14d" ><ruby>形容詞<rt>けいようし</rt></ruby></label> 
+	        <br>
+	        <input id ='14e' class="answer" type="radio" name="q14" value="0">
+	        <label for="14e" ><ruby>助数詞<rt>じょすうし</rt></ruby></label> 
+	    	</ul>
+		</div>
+
+
+
+
+
+	  	  <div class="submitter">
+          <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+          type="submit" value="Submit" />
+    </div>
+<br><ruby>質問<rt> しつもん </rt></ruby>に<ruby>答<rt>こた</rt></ruby>え、Submitをクリックするとスコアが<ruby>表示<rt>ひょうじ</rt></ruby>されます。
+    <div>
+    	<h2 class="quizScore" id="userScore"></h2>
+    </div>
+    <Br>
+
+
+  
+<!--show only wrong answers on submit-->
+    <div class="quizAnswers" id="correctAnswer1"></div>
+	    <div class="quizAnswers" id="correctAnswer2"></div>
+    <div class="quizAnswers" id="correctAnswer3"></div>
+    <div class="quizAnswers" id="correctAnswer4"></div>
+    <div class="quizAnswers" id="correctAnswer5"></div>
+    <div class="quizAnswers" id="correctAnswer6"></div>
+    <div class="quizAnswers" id="correctAnswer7"></div>
+    <div class="quizAnswers" id="correctAnswer8"></div>
+    <div class="quizAnswers" id="correctAnswer9"></div>
+    <div class="quizAnswers" id="correctAnswer10"></div>
+    <div class="quizAnswers" id="correctAnswer11"></div>
+    <div class="quizAnswers" id="correctAnswer12"></div>
+    <div class="quizAnswers" id="correctAnswer13"></div>
+    <div class="quizAnswers" id="correctAnswer14"></div>
+
+
+
+
+<br>
+<br>
+
+</p>
+</div>
+
+
+
+
+<div class="mid_size last_div centered_bold">
+<p>
+  <span class="ruby_under"><a href="../index.html"><ruby>&#127968;<rt> ホーム </rt></ruby></a></span> *** <ruby>終<rt>お</rt></ruby>わり *** <a href="./6_15_results.html"><ruby> &#10140;<rt><ruby>次<rt>つぎ</rt></ruby></rt></ruby></a></p>
+
+</div>
+
+
+ 
+<script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+  twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
+</script>
+
+
+
+
+
+
+<script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+	
+// scripts here:
+
+	function submitQuiz() {
+		console.log('submitted');
+
+	// get each answer score
+		function answerScore (qName) {
+			var radiosNo = document.getElementsByName(qName);
+
+			for (var i = 0, length = radiosNo.length; i < length; i++) {
+   				if (radiosNo[i].checked) {
+			// do something with radiosNo
+					var answerValue = Number(radiosNo[i].value) ; 
+				}
+			}
+			// change NaNs to zero
+			if (isNaN(answerValue)) {
+				answerValue = 0;
+			}
+			return answerValue;
+		}
+
+	// calc score with answerScore function
+		var calcScore = (answerScore('q1') + answerScore('q2') + answerScore('q3') + answerScore('q4') + 
+			answerScore('q5') + answerScore('q6') + answerScore('q7') + answerScore('q8') + answerScore('q9')+ answerScore('q10') + answerScore('q11') + answerScore('q12') + answerScore('q13') + answerScore('q14') 
+			);
+		console.log("CalcScore: " + calcScore); // it works!
+
+	// function to return correct answer string
+		function correctAnswer (correctStringNo, qNumber, question) {
+			console.log("qNumber: " + qNumber);  // logs 1,2,3,4 after called below
+			return ("The correct answer for question #" + qNumber + question + ": <br>&nbsp;<strong>" +
+				(document.getElementById(correctStringNo).innerHTML) + "</strong>");
+			}
+
+	// print correct answers only if wrong (calls correctAnswer function)
+		if (answerScore('q1') === 0) {
+			document.getElementById('correctAnswer1').innerHTML = correctAnswer('correctString1', 1, '');
+		}
+		if (answerScore('q2') === 0) {
+			document.getElementById('correctAnswer2').innerHTML = correctAnswer('correctString2', 2, '');
+		}
+		if (answerScore('q3') === 0) {
+			document.getElementById('correctAnswer3').innerHTML = correctAnswer('correctString3', 3 , '');
+		}
+		if (answerScore('q4') === 0) {
+			document.getElementById('correctAnswer4').innerHTML = correctAnswer('correctString4', 4, '' );
+		}
+				if (answerScore('q5') === 0) {
+			document.getElementById('correctAnswer5').innerHTML = correctAnswer('correctString5', 5, '' );
+		}
+		if (answerScore('q6') === 0) {
+			document.getElementById('correctAnswer6').innerHTML = correctAnswer('correctString6', 6, '' );
+		}
+		if (answerScore('q7') === 0) {
+			document.getElementById('correctAnswer7').innerHTML = correctAnswer('correctString7', 7, '');
+		}
+		if (answerScore('q8') === 0) {
+			document.getElementById('correctAnswer8').innerHTML = correctAnswer('correctString8', 8, '');
+		}
+				if (answerScore('q9') === 0) {
+			document.getElementById('correctAnswer9').innerHTML = correctAnswer('correctString9', 9, '');
+		}
+		if (answerScore('q10') === 0) {
+			document.getElementById('correctAnswer10').innerHTML = correctAnswer('correctString10', 10, '');
+		}
+		if (answerScore('q11') === 0) {
+			document.getElementById('correctAnswer11').innerHTML = correctAnswer('correctString11', 11, '');
+		}
+		if (answerScore('q12') === 0) {
+			document.getElementById('correctAnswer12').innerHTML = correctAnswer('correctString12', 12, '');
+		}
+				if (answerScore('q13') === 0) {
+			document.getElementById('correctAnswer13').innerHTML = correctAnswer('correctString13', 13, '');
+		}
+		if (answerScore('q14') === 0) {
+			document.getElementById('correctAnswer14').innerHTML = correctAnswer('correctString14', 14, '');
+		}
+		
+
+	// calculate "possible score" integer
+		var questionCountArray = document.getElementsByClassName('question');
+
+		var questionCounter = 0;
+		for (var i = 0, length = questionCountArray.length; i < length; i++) {
+			questionCounter++;
+		}
+
+		questionCounter = questionCounter - 3;
+
+	// show score as "score/possible score"
+		var showScore = "Your Score: " + calcScore +"/" + questionCounter ;
+	// if 4/4, "perfect score!"
+		if (calcScore === questionCounter) {
+			showScore = showScore + "&nbsp; <strong>Perfect Score!</strong>"
+		};
+		document.getElementById('userScore').innerHTML = showScore;
+	}
+
+$(document).ready(function() {
+
+	$('#submitButton').click(function() {
+		$(this).addClass('hide');
+	});
+
+});
+
+
+</script>
+
+
+
+</body>

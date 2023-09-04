@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="main.css">
+
+<style>
+
+p {color: black;}
+
+a {
+	
+	color: black;
+	text-decoration: none;
+
+}
+
+
+
+.bg_col {
+
+	color: white;
+}
+
+.main_background {
+
+	background-color: white;
+
+}
+
+
+.main_colour {
+
+    color: black;
+
+}
+
+
+.main_hm_div {
+
+width: 430px;
+height: 800px ;
+background-color: white;
+  border-radius: 60px;
+    border: solid black  25px;
+    margin: auto;
+    
+ overflow-wrap: break-word; 
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (max-width: 800px) {
+
+    .main_hm_div {
+
+width: 90%;
+height: 750px ;
+
+  border-radius: 60px;
+    border: solid black  25px;
+    margin: auto;
+
+ overflow-wrap: break-word; 
+}
+
+
+ .viewport_div {
+height: 630px ;
+      overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
+
+ }
+
+/* Styles */
+}
+
+.url_bar {
+  overflow-wrap: break-word; 
+  overflow: hidden; 
+  font-size: 150%;
+    border-top: solid black  5px;  
+    border-bottom: solid black   5px;
+    padding: 10px;
+    height: 25px;
+}
+
+
+.search_bar {
+
+    
+  font-size: 150%;
+      
+    border: solid black  1px;
+    padding: 10px;
+}
+
+.size_bar {
+
+
+      padding: 5px;
+    border: solid grey   1px;
+    
+}
+
+
+.header_div {
+
+    
+  font-size: 100%;
+    
+    padding: 10px;
+}
+
+.div_with_padding { 
+
+
+    padding-left: 30px;
+ }
+
+.icon_twittemoji .emoji {
+    height: 20px;
+    width: 20px;
+}
+
+.icon_kk5_twittemoji .emoji {
+    height: 30px;
+    width: 30px;
+}
+
+.face_twittemoji .emoji {
+    height: 60px;
+    width: 60px;
+}
+
+.bigger_twittemoji .emoji {
+    height: 120px;
+    width: 120px;
+}
+
+.logo_size {
+
+font-size: 450%;
+
+}
+
+.main_size {
+
+font-size: 130%;
+
+}
+
+.grey_bottom_border {
+
+  border-bottom: solid grey  1px;;
+
+}
+
+.left_panel{
+
+    width: 60%;
+
+}
+
+.right_panel{
+
+    width: 39%;
+
+}
+
+
+.both_panel{
+
+    width: 50%;
+
+}
+
+
+
+
+.hm_container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+}
+
+
+.kamologo {
+
+   border: solid #6d82aa     8px;
+   width: 100px;
+   margin: auto;
+   border-radius: 200px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+
+}
+
+.kk5_color {
+
+ color: #6d82aa;
+
+}
+
+.kamologo_small {
+
+   border: solid #6d82aa     4px;
+   width: 40px;
+   margin: auto;
+   border-radius: 25px;
+   padding-top: 20px;
+   padding-bottom: 4px;
+   padding-left: 6px;
+   padding-right: 6px;
+
+}
+
+
+
+.kamo_text {
+
+ color: #515452;
+ font-size: 230%;
+
+}
+
+.top_padding {
+
+
+    padding-top: 10px;
+}
+
+.search_button_bg {
+
+
+     background-color:  #6d82aa;
+     color:  #6d82aa;
+     border-radius: 15px;
+     padding-top: 16px;
+     padding-bottom: 5px;
+}
+
+
+.search_button_text {
+
+
+    color: white;
+    font-size: 130%;
+    
+}
+
+.kk5_search_bar {
+
+
+    width: 100px;
+    
+}
+
+
+.search_query{
+
+   font-size: 130%;
+
+}
+
+.result_type_bar { border-bottom: solid black 1px;
+padding-bottom: 8px;
+padding-top: 5px;
+border-top: solid black 1px;
+}
+
+
+.padlock_border {
+
+ border-right: solid grey 2px;
+ padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+}
+
+
+.kk_search_result{
+   
+
+ 
+   
+
+
+}
+
+
+.kk_search_result_url {
+   
+
+   font-size: 90%;
+   padding-left: 20px;
+   color: #464747;
+
+
+}
+
+.kk_search_result_header {
+   
+
+   font-size: 120%;
+   padding-left: 20px;
+   color: blue;
+
+
+
+}
+
+
+.kk_search_result_text {
+   
+
+   font-size: 100%;
+   padding-left: 20px;
+
+
+}
+
+.advert {
+
+  border: solid blue     1px;
+  border-radius: 5px;
+  padding-left: 3px;
+  padding-right: 6px;
+
+}
+
+.long_text_div {
+
+    color: black;
+
+    width: 440px;
+    font-size: 150%;
+    padding: 0px;
+    margin: auto;
+
+overflow-wrap: break-word; 
+
+}
+
+
+.icon_twittemoji30 .emoji {
+    height: 30px;
+    width: 30px;
+}
+
+.icon_twittemoji40 .emoji {
+    height: 40px;
+    width: 40px;
+}
+
+.icon_twittemoji60 .emoji {
+    height: 65px;
+    width: 65px;
+}
+
+.icon_twittemoji_this_page .emoji {
+    height: 60px;
+    width: 60px;
+}
+</style>
+
+</head>
+
+
+<body  class=" main_color main_background">
+
+
+
+<div class="long_text_div "> 
+<p>
+<span class="icon_twittemoji_this_page">👧🏻</span>
+<br>
+おはよう、<ruby>紀子<rt>のりこ</rt></ruby>です。フ＆ムのホームページを見ましょう。
+<br>
+<br>
+</div>
+
+
+
+
+<div class="main_hm_div">
+    <br>
+<div    class="url_bar "><span class="icon_twittemoji">🔒</span> https://hu&mu.dr.dru/home</div>    
+<div class="viewport_div">
+<div    class="header_div icon_twittemoji">👤 ログイン   ❤️ お<ruby>気<rt> き </rt></ruby>に<ruby>入<rt>い</rt></ruby>り  🛍️ ショッピングバッグ</div>    
+
+
+<div class="  main_colour ">
+
+<div class="centered_bold "><span class=""><span class="logo_size red" style="font-weight: bold; font-style: italic;">フ</span><span class="red main_size" style="font-weight: bold; font-style: italic;">＆</span><span class="logo_size red" style="font-weight: bold; font-style: italic;">ム</span></span>  <span class="bg_col"></span>
+</div>  
+
+<div class="centered_bold main_size"><!--<ruby>人気<rt> にんき </rt></ruby>-->オススメのアイテム</div>
+<br>
+<div class="main_size centered_bold face_twittemoji">〈〈 <ruby class="ruby_under">👔<rt> ネクタイ </rt></ruby> <span class="bg_col"></span> |<span class="bg_col"></span><ruby class="ruby_under">👗<rt>ワンピース</rt></ruby><span class="bg_col"></span>|<span class="bg_col"></span> <ruby class="ruby_under">👖<rt>  ジーンズ  </rt></ruby> <span class="bg_col"></span>|<span class="bg_col">-</span><ruby class="ruby_under">👕<rt>  Ｔシャツ  </rt></ruby> <span class="bg_col"></span>〉〉 </div>
+<br>
+
+<div class="div_with_padding ">
+
+<span class="bg_col">-</span><span class="face_twittemoji main_size">👩</span>  レディース 
+<br>
+<span class="bg_col">-</span><span class="face_twittemoji main_size">👨</span>  メンズ
+<br>
+<span class="face_twittemojimain_size">🧒</span> キッズ 
+<br>
+<span class="bg_col">-</span><span class="face_twittemoji main_size">👶</span> ベビー
+<br>
+<br>
+</div>
+</div>
+
+<div class="centered_bold"><span    class="size_bar "><span class="icon_twittemoji">🔎</span><ruby>検索<rt> けんさく </rt></ruby>アイテム<span class="white">-----</span></span></div>
+<br>
+<br>
+</div>
+</div>
+
+
+
+<div class="long_text_div"> 
+<p><span class="bg_col">----</span><span class="icon_twittemoji60">👆</span>
+<br>
+これはフ＆ムのウェブサイトのホームページです。ファッションのオンラインショップです。
+<br>
+URLはhttps://hu&mu.dr.druです。 
+<br>
+<br>
+<span class=""><span class=" red" style="font-weight: bold; font-style: italic; font-size: 250%;">フ</span><span class="red main_size" style="font-weight: bold; font-style: italic;">＆</span><span class=" red" style="font-weight: bold; font-style: italic; font-size: 250%;">ム</span></span>  <span class="bg_col"></span>
+<br> 
+<span class="icon_twittemoji60">👆</span>
+<br>
+これはフ＆ムのファッションブランドのロゴです
+<br>
+<br>
+<div class="centered_bold" style="display: inline-block;   border: solid grey   1px; height: 60px">
+
+<span class="white">-</span>    <span class="icon_twittemoji">🔎</span> <ruby>検索<rt></rt></ruby>アイテム<span class="white">-----</span></div>
+<br>
+<span class="">ページの下に<ruby>検索<rt>けんさく</rt></ruby>バーがあります</span>
+<br>
+<br>
+<br>
+</p>
+</div>
+
+
+<div class="main_hm_div">
+    <br>
+<div    class="url_bar "><span class="icon_twittemoji">🔒</span> https://hu&mu.dr.dru/ladies/all</div>   
+<div class="viewport_div">
+<div    class="header_div icon_twittemoji">👤 ログイン   ❤️ お<ruby>気<rt> き </rt></ruby>に<ruby>入<rt>い</rt></ruby>り  🛍️ ショッピングバッグ</div>    
+<div class="  main_colour ">
+
+
+
+<div class="centered_bold "><span class=""><span class="mid_size red" style="font-weight: bold; font-style: italic;">フ</span><span class="red main_size" style="font-weight: bold; font-style: italic;">＆</span><span class="mid_size red" style="font-weight: bold; font-style: italic;">ム</span></span>    <span class="bg_col"></span>
+</div>  
+<div class="centered_bold  main_size">レディース<ruby>服<rt>ふく</rt></ruby></div>
+
+<br><div class="centered_bold ">
+<span class="size_bar">フィルター <span class="size_bar">  ˅ </span> </span> <span class="white">--</span><span class="size_bar">サイズ <span class="size_bar">  ˅ </span> </span> <span class="white">--</span><span class="size_bar">色 <span class="size_bar">  ˅ </span> </span>
+</div>
+
+<br>
+<div class="hm_container">
+    
+<!-- https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html-->
+<div class="both_panel"><span class="white">------</span>
+    <span class="bigger_twittemoji grey_bottom_border">👚</span>
+<br>
+ <span class="white">------------</span> シャツ <br>
+<span class="white">---------</span>♡ ¥2,739 
+</div>
+
+    <div class="both_panel"><span class="white"></span><span class="white">---</span><span class="bigger_twittemoji grey_bottom_border">👕</span>
+<br>
+<span class="white">-------</span> T シャツ <br>
+<span class="white">-------</span>♡ ¥3,999 
+    </div>
+</div>
+
+<br>
+
+
+<div class="hm_container">
+<div class="both_panel">
+    <span class="white">------</span><span class="bigger_twittemoji grey_bottom_border">👗</span>
+<br>
+ <span class="white">----------</span> ワンピース <br>
+<span class="white">-------</span>♡ ¥18,499
+</div>
+<div class="both_panel"><span class="white"></span><span class="white">------</span><span class="bigger_twittemoji grey_bottom_border">👖</span>
+<br>
+ <span class="white">----------</span> ジーンズ <br>
+<span class="white">----------</span>♡ ¥4,629
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="long_text_div">
+<p>
+<span class="icon_twittemoji40">👚</span> シャツや 
+<br> 
+<span class="icon_twittemoji40">👕</span> T シャツや  
+<br>
+<span class="icon_twittemoji40">👗</span> ワンピースや 
+<br>
+<span class="icon_twittemoji40">👖</span> ジーンズは
+<br>  
+<span class="bg_col">---</span> <ruby>服<rt>ふく</rt></ruby>です
+<br>
+<Br>
+<br>
+<span class="size_bar">サイズ <span class="size_bar">  ˅ </span> </span><span class="bg_col">--</span>(S、M、L)
+<Br>
+<span class="icon_twittemoji60">👆</span>
+<br>
+これはサイズボタンです。
+<br>
+<ruby>服<rt>ふく</rt></ruby>のサイズを<ruby>選<rt>えら</rt></ruby>ぶには、
+<br>
+サイズボタンを<ruby>押<rt>お</rt></ruby>して、
+<br>
+S、M、Lからセレクトします。 
+<br>
+<br>
+<ruby>選<rt>えら</rt></ruby>ぶ  ≈  セレクトする
+<br>
+<br>
+<span class="size_bar"><ruby>色<rt>いろ</rt></ruby> <span class="size_bar">  ˅ </span> </span> <span class="bg_col">-</span> <span class="icon_twittemoji">(🔴 🔵  ⬤ 🟢)</span>
+<Br>
+<span class="icon_twittemoji60">👆</span>
+<br>
+<ruby>色<rt>いろ</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶには、
+<br>
+<ruby>色<rt>いろ</rt></ruby>ボタンをクリックして、
+<br>
+<ruby class="red">赤<rt>あか</rt></ruby>、<ruby class="blue">青<rt>あお</rt></ruby>、<ruby>黒<rt>くろ</rt></ruby>、<ruby class="green">緑<rt>みどり</rt></ruby>からセレクトします  
+<!--お会計は <-- total to pay for mc do-->
+       <br>
+    <br>
+</p>
+</div>
+
+
+<div class="main_hm_div">
+    <br>
+    <br>
+<div    class="url_bar "><span class="icon_twittemoji">🔒</span> https://hu&mu.dr.dru/tops/256</div> 
+<div class="viewport_div">
+<div    class="header_div icon_twittemoji">👤 ログイン   ❤️ お<ruby>気<rt> き </rt></ruby>に<ruby>入<rt>い</rt></ruby>り  🛍️ ショッピングバッグ</div>    
+<div class="  main_colour ">
+
+
+
+<div class="centered_bold "><span class=""><span class="mid_size red" style="font-weight: bold; font-style: italic;">フ</span><span class="red main_size" style="font-weight: bold; font-style: italic;">＆</span><span class="mid_size red" style="font-weight: bold; font-style: italic;">ム</span></span>    <span class="white"></span>
+</div>  
+<br><div class="centered_bold  main_size">トレンドトップス ♡</div>
+
+<br>
+
+<div class="hm_container">
+    
+<!-- https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html-->
+<div class="left_panel"><span class="white">-------</span><span class="bigger_twittemoji grey_bottom_border">👚</span> </div>
+
+
+<div class="right_panel">
+
+ <span class="icon_twittemoji ">🟣</span>  <span class="grey_bottom_border">パープル</span> 
+<br>  <span class="icon_twittemoji">🟡</span>   イエロー 
+<br>  <span class="icon_twittemoji">🟢</span>   グリーン 
+<br>
+<br>  サイズ <span class="white">--</span> <span  class="size_bar "><span class="icon_twittemoji"></span> M | ˅</span>
+
+</div>
+</div>
+
+
+<div class="hm_container">
+<div class="left_panel"><span class="white">----</span><span class="face_twittemoji">🧍‍♀️</span>
+<span class="face_twittemoji grey_bottom_border">👚</span>
+</div>
+
+<div class="right_panel">
+<span class="white">---</span><span class="main_size" style="font-size:90%;">¥2,739</span>
+<br>
+<span class="white">---</span><span class="white black_background main_size icon_twittemoji" style="padding    : 7px; padding-top: 15px; border-radius: 3px;">🛍️ <!-- バッグに入れる--><ruby>追加<rt>ついか</rt></ruby></span>
+</div>
+<br>
+<br>
+
+<br>
+
+
+</div>
+
+<div class=" ">
+<br>  <span class="white">----</span>ボディにフィット
+<br>  <span class="white">----</span><ruby>原材料<rt> げんざいりょう </rt></ruby> :  コットン 70%, ポリエステル 30%
+</div>
+<br><div class="centered_bold main_size ">オススメのスタイル</div>
+<div class="centered_bold ">👖<span class="white">----</span> 🥿 </div>
+
+
+<!--
+<div class="centered_bold"><span    class="size_bar "><span class="icon_twittemoji">🔎</span><span class="bg_col">-</span><ruby>検索<rt> けんさく </rt></ruby>アイテム<span class="bg_col">-----</span></span></div>-->
+</div>
+</div>
+</div>
+
+
+
+<div class="long_text_div"> 
+<p>
+<br>
+👚
+<br>
+<span class="bg_col">-</span><span class="icon_twittemoji60">👆</span>
+<br>
+このレディースのトップスは<ruby>2,739<rt>にせんななひゃくさんじゅうきゅう</rt></ruby><ruby>円<rt>えん</rt></ruby>です。
+<br>
+<span class="icon_twittemoji30">♥️</span> お気に入りに
+<br>
+<span class="icon_twittemoji30">➕</span> <ruby>追加<rt>ついか</rt></ruby>するには
+<br>
+<span class="icon_twittemoji30"> ♡</span> ハートを、
+<br>
+<span class="bg_col">-</span> クリックします。
+<br>
+<br>
+<br>
+<span class="icon_twittemoji30">🛍️</span> ショッピングバッグに
+<br>
+<span class="icon_twittemoji30">➕</span> <ruby>追加<rt>ついか</rt></ruby>するには
+<br>
+
+<ruby>追加<rt>ついか</rt></ruby>ボタンを<ruby>押<rt>お</rt></ruby>します。
+<br>
+<div style="padding-left: 105px;">
+    
+<span class="white black_background main_size icon_twittemoji" style="padding-right: 7px;padding-left: 7px; padding-bottom    : 1px; padding-top: 2px; border-radius: 7px;">🛍️ 追加</span>
+
+</div>
+<br>
+<br>
+
+<div class="">👚</div>
+<bR>
+このパープルのシャツを<ruby>買<rt>か</rt></ruby>うにはフ＆ムのホームページに行って、お気に入りのシャツ<!--の<ruby>画像<rt>がぞう</rt></ruby>-->をクリックして、パープル<ruby>色<rt>いろ</rt></ruby>を<ruby>選<rt>えら</rt></ruby>んで、ショッピングバッグに<ruby>追加<rt>ついか</rt></ruby>します。
+
+</p>
+</div>    
+
+
+
+</div>
+<div class="mid_size last_div centered_bold">
+<p>
+  <span class="ruby_under"><a href="../index.html"><ruby>&#127968;<rt> ホーム </rt></ruby></a></span> *** <ruby>終<rt>お</rt></ruby>わり *** <a href="./5_06_lets_create_an_account.html"><ruby> &#10140;<rt><ruby>次<rt>つぎ</rt></ruby></rt></ruby></a></p>
+
+</div>
+
+
+ 
+<script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+  twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
+</script>
+
+</body>

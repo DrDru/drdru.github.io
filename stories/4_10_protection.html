@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+<head>
+	<html lang="ja">
+<meta charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="4_10_protection.css">
+<style>
+
+
+
+a {
+	
+	color: #efe251;
+	text-decoration: none;
+
+}
+
+
+
+.bg_col {
+
+	color: #723f18;
+}
+
+.main_background {
+
+	background-color: #723f18;
+
+}
+
+
+.main_colour {
+
+    color: #efe251;
+
+}
+
+.pan {
+
+	border-radius: 0px 0px 50px 50px;
+
+}
+
+.center_div {
+
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 -50px;
+
+}
+
+
+.center_div3 {
+
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 -230px;
+
+}
+
+p {
+color: #efe251;
+
+}
+
+
+.fight {
+  padding: 3% 3% 1% 3%;
+	border: 5px solid black;
+  color: black;
+  background-color: #eab469;
+  border-radius: 30px;
+  font-weight: bold;
+
+}
+
+.fight_score {
+
+	font-size: 50%;
+	border-radius: 60px;
+  padding: 1% 1% 1% 1%;
+	border: 5px solid black;
+  color: black;
+  background-color: #eab469;
+  font-weight: bold;
+  
+}
+
+.fight_col {
+
+  color: #eab469;
+
+}
+</style>
+
+</head>
+
+
+<body  class="centered_bold main_colour main_background">
+
+<!-- 
+RPG items https://ironchestgames.itch.io/rpg-items-for-pico-8 -->
+<div class="big card main_colour"> 
+<p>
+	&#129498;&#8205;&#9792;&#65039;
+<br>
+私はレナです。
+<br>
+<ruby>宝箱<rt>たからばこ</rt></ruby>の中には
+<br>
+<ruby>5<rt>ご</rt></ruby><ruby>個<rt>こ</rt></ruby>の<ruby>物<rt>もの</rt></ruby>が
+<br>
+あります。
+</p>
+</div>
+
+
+
+
+<div class='card big'>
+<p>
+<div class="gloves center_div"></div>
+<br>
+<br>	
+<ruby>手袋<rt>てぶくろ</rt></ruby>
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p>
+&#9995;
+<br>	
+<ruby>手<rt>て</rt></ruby>
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#129498;&#8205;&#9792;&#65039;
+<br>	
+
+<ruby>鉄<rt>てつ</rt></ruby>の<ruby>手袋<rt>てぶくろ</rt></ruby>は
+<br>
+&#9995; <ruby>手<rt>て</rt></ruby>を<ruby>守<rt>まも</rt></ruby>ります
+<div class="gloves center_div"></div>  
+<br>	
+<br>
+</p>
+</div>
+
+<div class='card big'>
+<p>
+<div class="boots center_div"></div>
+<br>
+<br>	
+ブーツ
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+🦶
+<br>	
+<ruby>足<rt>あし</rt></ruby>
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#129498;&#8205;&#9792;&#65039;
+<br>	
+<ruby>海賊<rt>かいぞく</rt></ruby>のブーツは
+<br>
+🦶 <ruby>足<rt>あし</rt></ruby>を<ruby>守<rt>まも</rt></ruby>ります
+<br>
+<div class="boots center_div"></div>  
+<br>
+<br>
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+<div class="helmet center_div"></div>
+<br>
+<br>	
+ヘルメット
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#128104;&#8205;&#129458;
+<br>	
+<ruby>頭<rt>あたま</rt></ruby> 
+
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#129498;&#8205;&#9792;&#65039;
+<br>	
+ドワーフの
+<br>
+ヘルメットは
+<br>
+&#128104;&#8205;&#129458; <ruby>頭<rt>あたま</rt></ruby>を<ruby>守<rt>まも</rt></ruby>ります
+<br>
+<div class="helmet center_div"></div>  
+<br>
+<br>
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p>
+<div class="potion center_div"></div>
+<br>
+<br>	
+<ruby>魔法薬<rt>まほうやく</rt></ruby>
+
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#129498;&#8205;&#9792;&#65039;
+<br>
+<ruby>南<rt>みなみ</rt></ruby>の<ruby>山<rt>やま</rt></ruby>の
+<br>
+<ruby>魔法薬<rt>まほうやく</rt></ruby>を飲むと
+<br>
+<ruby>氷<rt>こおり</rt></ruby>の<ruby>魔法<rt>まほう</rt></ruby>に強くなります
+<br>
+<br>
+<span class="fight">
+<ruby class="ruby_under ">&#127788;</ruby>
+<span class="fight_col">-</span>
+<ruby class="">&#10093;&#10093;&#10093;<rt></rt></ruby>
+<span class="fight_col">--&#129482;--</span>
+<ruby class="blue">&#10093;&#10093;&#10093;<rt>0</rt></ruby> 
+<span class="fight_col">-</span>
+<ruby>&#128165; &#129492;&#127997; <rt></rt></ruby></span>
+<br><br>
+<ruby>敵<rt>てき</rt></ruby>は<ruby>氷<rt>こおり</rt></ruby>で<ruby>攻撃<rt>こうげき</rt></ruby>しても
+<br>
+ダメージが<ruby>0<rt>ゼロ</rt></ruby>になります
+</p>
+</div>
+
+<div class='card big'>
+<p>
+<div class="ring center_div"></div>
+<br>
+
+<ruby>指輪<rt>ゆびわ</rt></ruby>
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#129498;&#8205;&#9792;&#65039;
+<br>
+ドラゴンの<ruby>指輪<rt>ゆびわ</rt></ruby>は
+<br>
+<ruby>炎<rt>ほのお</rt></ruby>に強いです
+<br>
+<br>	
+<br>
+<span class="fight">
+<ruby class="ruby_under spinned">&#128050;</ruby>
+<span class="fight_col">-</span>
+<ruby class="">&#10093;&#10093;&#10093;<rt></rt></ruby>
+<span class="fight_col">--&#128293;--</span>
+<ruby class="blue">&#10093;&#10093;&#10093;<rt>0</rt></ruby> 
+<span class="fight_col">-</span>
+<ruby>&#128141; &#129492;&#127997; <rt></rt></ruby></span>
+<br><br>
+<ruby>敵<rt>てき</rt></ruby>は<ruby>炎<rt>ほのお</rt></ruby>で<ruby>攻撃<rt>こうげき</rt></ruby>しても
+<br>
+ダメージが<ruby>0<rt>ゼロ</rt></ruby>になります
+</p>
+</div>
+
+<div class="big card main_colour"> 
+<p>
+	&#129498;&#8205;&#9792;&#65039;
+<br>
+ジュジュ、イドリス、
+<br>
+どの<ruby>物<rt>もの</rt></ruby>が
+<br>
+<ruby>欲<rt>ほ</rt></ruby>しいですか？
+</p>
+</div>
+
+
+<div class="big card main_colour"> 
+<p>
+🧔🏽 
+<br>
+<div class="gloves center_div3"></div> <span class="bg_col">-----</span><ruby>鉄<rt>てつ</rt></ruby>の<ruby>手袋<rt>てぶくろ</rt></ruby>、
+<br>
+
+<div class="boots center_div3"></div> <span class="bg_col">---------</span> <ruby>海賊<rt>かいぞく</rt></ruby>のブーツ、
+<br>
+<div class="helmet center_div3"></div> <span class="bg_col">-----------------</span> ドワーフのヘルメット
+<br>
+<span class="bg_col">---------</span>が<ruby>欲<rt>ほ</rt></ruby>しいです
+</p>
+</div>
+
+<div class="big card main_colour"> 
+<p>
+🧙‍♀️ 
+<br>
+<div class="ring center_div3"></div> <span class="bg_col">---------</span> ドラゴンの<ruby>指輪<rt>ゆびわ</rt></ruby>、
+<br>
+<div class="potion center_div3"></div> <span class="bg_col">---------</span> <ruby>南<rt>みなみ</rt></ruby>の山の
+<ruby>魔法薬<rt>まほうやく</rt></ruby>
+<br>
+<span class="bg_col">-------</span>が欲しいです
+</p>
+</div>
+
+<div class="big last_div">
+<p>
+  <span class="ruby_under"><a href="../."><ruby>&#127968;<rt> ホーム </rt></ruby></a></span> *** <ruby>終<rt>お</rt></ruby>わり *** <a href="./4_11_army.html"><ruby> &#10140;<rt><ruby>次<rt>つぎ</rt></ruby></rt></ruby></a></p>
+
+</div>
+
+
+ 
+<script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+  twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
+</script>
+
+</body>

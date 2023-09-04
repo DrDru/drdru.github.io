@@ -1,0 +1,920 @@
+.picture_div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgba(19, 9, 1, 0.959);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  
+  left: 50%;
+  margin: 0 0 0 -0px;
+}
+
+.fireplace_centered {
+  
+  left: 50%;
+  margin: 0 0 0 -120px;
+}
+
+.bed_centered {
+  
+  left: 50%;
+  margin: 0 0 0 -110px;
+}
+
+.rug_centered {
+  
+  left: 50%;
+  margin: 0 0 0 -180px;
+}
+
+
+.desk_centered {
+  
+  left: 50%;
+  margin: 0 0 0 -110px;
+}
+
+.picture_div2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: absolute;
+  
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    position: absolute;
+  
+  left: 50%;
+  margin: 0 0 0 -130px;
+}
+
+
+.picture_div3 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: absolute;
+  
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    position: absolute;
+  
+  left: 50%;
+  margin: 0 0 0 -450px;
+}
+
+
+.picture_div4 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: absolute;
+ 
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    position: absolute;
+  
+  left: 50%;
+  margin: 0 0 0 -800px;
+}
+
+/*.cabin-inside-area {
+position: absolute;
+pointer-events: none;        
+}*/
+.cabin-inside {
+  position: absolute;
+  width: 898px;
+  height: 600px;
+  border: 5px solid rgb(141, 114, 79);
+  border-radius: 3px;
+  background-size: 36px;
+  background-image: linear-gradient(
+    to right,
+    rgb(71, 61, 34) 34px,
+    transparent 5px
+  );
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /*transform: perspective(500.4px) rotateX(4deg);*/
+  box-shadow: 0 10px 80px 0px rgba(0, 0, 0, 0.342);
+  z-index: 10;
+}
+.cabin-inside-back-wall {
+  position: absolute;
+  content: "";
+  height: 230px;
+  width: 898px;
+  background-size: 60px 60px;
+  background-image: linear-gradient(to bottom, #221b0b 2px, #352c15 1px);
+  z-index: -100;
+}
+/* Bed CSS */
+
+.bed_top {
+
+
+  top: 120px;
+left: 20px;
+}
+
+
+.bed {
+  position: absolute;
+  
+  
+  height: 120px;
+  width: 220px;
+  background: rgb(97, 42, 20);
+  border-radius: 50% 50% 10% 10% / 20% 20% 0% 0%;
+  box-shadow: 0 -5px 0 0 rgb(131, 58, 30);
+}
+.bed::before {
+  position: absolute;
+  content: "";
+  top: 40px;
+  left: 10px;
+  width: 200px;
+  height: 250px;
+  background: linear-gradient(
+    to right,
+    rgb(231, 223, 210),
+    rgb(231, 223, 210) 88%,
+    rgb(139, 132, 120) 100%
+  );
+  border-radius: 20px;
+}
+.bed::after {
+  position: absolute;
+  content: "";
+  top: 250px;
+  height: 120px;
+  width: 220px;
+  background: rgb(97, 42, 20);
+  border-radius: 5% 5% 10% 10% / 10% 10% 0% 0%;
+  box-shadow: 0 -5px 0 0 rgb(131, 58, 30);
+}
+.pillow {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  height: 80px;
+  width: 120px;
+  background: #e7dfd2;
+  border-radius: 48% 48% 30% 30% / 11% 11% 8% 8%;
+  border-bottom: 2px solid rgb(167, 167, 167);
+  border-left: 1px solid rgb(199, 199, 199);
+  border-right: 1px solid rgb(199, 199, 199);
+  transform: rotate(-2deg);
+}
+/* End Bed CSS */
+
+/* Fireplace CSS */
+
+.fireplace_top {
+
+  top: 80px;
+  left: 630px;
+}
+
+.fireplace {
+  position: absolute;
+  
+  
+  width: 235px;
+  height: 180px;
+  background-color: rgb(156, 116, 116);
+  background-image: linear-gradient(
+    335deg,
+    #7a2e2e 23px,
+    transparent 23px
+  ),
+    linear-gradient(155deg, #7a2e2e 23px, transparent 23px),
+    linear-gradient(335deg, #7a2e2e 23px, transparent 23px),
+    linear-gradient(155deg, #7a2e2e 23px, transparent 23px);
+  background-size: 58px 58px;
+  background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+}
+.fireplace::before {
+  position: absolute;
+  content: "";
+  top: 63px;
+  left: 62px;
+  width: 113px;
+  height: 117px;
+  border-radius: 50% 50% 0% 0% / 50% 50% 0% 0%;
+  background: linear-gradient(to bottom, rgb(20, 5, 0) 60%, #3d1313 100%);
+}
+.fireplace::after {
+  position: absolute;
+  content: "";
+  top: -40px;
+  left: -18px;
+  height: 100px;
+  width: 270px;
+  height: 56px;
+  background: #8f3838;
+  border-radius: 50% 50% 16% 16% / 0% 0% 14% 14%;
+  box-shadow: 0 10px 0 0 #ad4949;
+}
+
+/* Rug */
+
+
+.rug_top {
+
+  top: 300px;
+left: 260px;
+}
+
+.rug {
+  position: absolute;
+  width: 351px;
+  height: 300px;
+  
+  
+  border-radius: 2% 29% 0% 30% / 39% 2% 11% 0%;
+  background-color: #6d695c;
+  background-image: repeating-linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.1) 1px,
+    transparent 1px,
+    transparent 60px
+  ),
+    repeating-linear-gradient(
+      60deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px,
+      transparent 60px
+    ),
+    linear-gradient(
+      60deg,
+      rgba(0, 0, 0, 0.1) 25%,
+      transparent 25%,
+      transparent 75%,
+      rgba(0, 0, 0, 0.1) 75%,
+      rgba(0, 0, 0, 0.1)
+    ),
+    linear-gradient(
+      120deg,
+      rgba(0, 0, 0, 0.1) 25%,
+      transparent 25%,
+      transparent 75%,
+      rgba(0, 0, 0, 0.1) 75%,
+      rgba(0, 0, 0, 0.1)
+    );
+  background-size: 70px 120px;
+}
+
+/* Desk */
+
+.desk_top{
+
+  top: 280px;
+
+}
+
+
+.desk_position {
+
+  left: 690px;
+}
+
+.desk {
+  position: absolute;
+  
+  
+  width: 200px;
+  height: 230px;
+  border-radius: 3px;
+  background: #9b8c6a;
+  box-shadow: 0 6px 0 0 #a89c7e;
+}
+.desk::before {
+  position: absolute;
+  content: "";
+  top: 236px;
+  left: 10px;
+  width: 20px;
+  height: 64px;
+  background: #918466;
+  border-radius: 0% 0% 5% 5% / 0% 0% 3% 3%;
+}
+.desk::after {
+  position: absolute;
+  content: "";
+  top: 236px;
+  left: 170px;
+  width: 20px;
+  height: 64px;
+  background: #918466;
+  border-radius: 0% 0% 5% 5% / 0% 0% 3% 3%;
+}
+
+/* Book */
+
+.book2 {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  width: 60px;
+  height: 70px;
+  background: rgb(19, 41, 70);
+  border-radius: 20% 0% 0% 20% / 10% 0% 0% 10%;
+  transform: rotate(2deg);
+  cursor: pointer;
+  /*z-index: 300;*/
+  transition: 0.4s ease;
+}
+.book2:hover {
+  transform: scale(1.5);
+  box-shadow: 0 5px 20px 5px rgba(0, 255, 255, 0.7500);
+}
+
+.book2::before {
+  position: absolute;
+  top: 20px;
+  left: 9px;
+  content: ". 魔法.";
+  color: white;
+  font-family: serif;
+  font-size: 16px;
+  font-weight: 100;
+  cursor: pointer;
+}
+.book2::after {
+  position: absolute;
+  content: "";
+  background: white;
+  top: 58px;
+  left: 4px;
+  width: 56px;
+  height: 10px;
+  border-radius: 15% 0% 0% 15% / 50% 0% 0% 50%;
+}
+
+/* Stool */
+.stool-top {
+  position: absolute;
+  top: -40px;
+  left: -10px;
+  width: 75px;
+  height: 50px;
+  border-radius: 50%;
+  background: #91815e;
+  box-shadow: 0 4px 0 0 #a89c7e;
+  z-index: 5;
+}
+.stool {
+  position: absolute;
+  content: "";
+  top: 450px;
+  left: 628px;
+  width: 10px;
+  height: 54px;
+  background: #918466;
+  border-radius: 0% 0% 7% 7% / 0% 0% 5% 5%;
+  transform: skewX(-8deg) rotate(4deg);
+}
+.stool::before {
+  position: absolute;
+  content: "";
+  top: -2px;
+  left: 60px;
+  width: 10px;
+  height: 54px;
+  background: #918466;
+  border-radius: 0% 0% 7% 7% / 0% 0% 5% 5%;
+  transform: skewX(12deg) rotate(-8deg);
+}
+.stool::after {
+  position: absolute;
+  content: "";
+  top: -28px;
+  left: 32px;
+  width: 10px;
+  height: 54px;
+  background: #918466;
+  border-radius: 0% 0% 7% 7% / 0% 0% 5% 5%;
+  transform: skewX(9deg) rotate(-8deg);
+}
+
+/* Door */
+.door {
+  position: absolute;
+  top: 460px;
+  left: 350px;
+  height: 140px;
+  width: 200px;
+  border-radius: 10% 10% 0% 0% / 5% 5% 0% 0%;
+  background: rgba(255, 255, 255, 0.116);
+  box-shadow: 0 -20px 20px 10px rgba(255, 255, 255, 0.116);
+  filter: blur(2px);
+}
+
+/* Camera */
+
+.camera-area {
+  position: absolute;
+  width: 45px;
+  height: 50px;
+  top: 120px;
+  left: 140px;
+  transform: rotate3d(1, -2, 1, 20deg);
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.camera-area:hover {
+  transform: scale(1.5);
+  background: rgba(0, 255, 255, 0.500);
+  border-radius: 50%;
+  box-shadow: 0 5px 20px 5px rgba(0, 255, 255, 0.7500);
+}
+.camera-top {
+  position: absolute;
+  width: 30px;
+  height: 16px;
+  background: rgb(54, 54, 54);
+  left: 8px;
+}
+.camera-top::before {
+  position: absolute;
+  content: "";
+  height: 5px;
+  border-top: 7px solid transparent;
+  border-right: 8px solid rgb(54, 54, 54);
+  border-bottom: 8px solid transparent;
+  left: -8px;
+}
+.camera-top::after {
+  position: absolute;
+  content: "";
+  height: 5px;
+  border-top: 7px solid transparent;
+  border-left: 8px solid rgb(54, 54, 54);
+  border-bottom: 8px solid transparent;
+  left: 30px;
+}
+.camera-front {
+  position: absolute;
+  width: 30px;
+  height: 15px;
+  background: rgb(170, 170, 170);
+  top: 15px;
+  left: 8px;
+}
+.camera-front::before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 8px;
+  transform: skewY(45deg);
+  background: silver;
+  left: -8px;
+  top: -4px;
+}
+.camera-front::after {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 8px;
+  transform: skewY(-45deg);
+  background: silver;
+  left: 30px;
+  top: -4px;
+}
+.lens-back {
+  position: absolute;
+  border-radius: 50% 50% 10% 10% / 50% 50% 0% 0%;
+  width: 15px;
+  height: 15px;
+  background: rgb(39, 39, 39);
+  top: 17px;
+  left: 15.5px;
+}
+.lens-middle {
+  position: absolute;
+  border-radius: 50% 50% 10% 10% / 50% 50% 0% 0%;
+  width: 20px;
+  height: 20px;
+  background: rgb(31, 31, 31);
+  top: 20px;
+  left: 13px;
+}
+.lens-middle::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 15px;
+  border-radius: 50%;
+  background: rgb(44, 44, 44);
+  top: 13px;
+  left: 0px;
+}
+.lens-front {
+  position: absolute;
+  width: 17px;
+  height: 15px;
+  border-radius: 50% 50% 50% 50% / 40% 40% 40% 40%;
+  background: rgb(31, 31, 31);
+  top: 35px;
+  left: 14.5px;
+}
+.lens-front::before {
+  position: absolute;
+  content: "";
+  width: 17px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgb(49, 49, 49);
+  top: 3px;
+}
+.lens-front::after {
+  position: absolute;
+  content: "";
+  width: 13px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgb(71, 71, 71);
+  top: 5px;
+  left: 2px;
+  border-bottom: 2px solid rgb(27, 27, 27);
+}
+.shutter-release {
+  position: absolute;
+  width: 6px;
+  height: 5px;
+  background: rgb(143, 143, 143);
+  top: 4px;
+  left: 4px;
+  border-radius: 50% 50% 50% 50% / 40% 40% 40% 40%;
+}
+.shutter-release::before {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 4px;
+  background: silver;
+  top: 0px;
+  border-radius: 50%;
+}
+.flash-shoe {
+  position: absolute;
+  width: 5px;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid rgb(77, 77, 77);
+  top: 3px;
+  left: 17px;
+}
+.flash-shoe::before {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 5px;
+  background: rgb(65, 65, 65);
+  left: -3px;
+  top: -2px;
+  transform: skewY(-60deg);
+}
+.flash-shoe::after {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 5px;
+  background: rgb(65, 65, 65);
+  left: 5px;
+  top: -2px;
+  transform: skewY(60deg);
+}
+.flash-shoe-top {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: -2px;
+  left: 20px;
+  background: rgb(54, 54, 54);
+}
+.flash-shoe-top::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 4px;
+  top: -1px;
+  left: 0.5px;
+  background: rgb(190, 190, 190);
+  border-bottom: 1px solid rgb(158, 158, 158);
+}
+.flash-shoe-top::after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 4px;
+  top: -1px;
+  left: 3.5px;
+  background: rgb(190, 190, 190);
+  border-bottom: 1px solid rgb(158, 158, 158);
+}
+
+/* Lamp */
+.lamp-area {
+  position: absolute;
+  width: 60px;
+  height: 90px;
+  top: -40px;
+  left: 132px;        
+}
+.lamp-shade {
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-bottom: 42px solid rgb(212, 208, 192);
+  border-right: 15px solid transparent;
+  width: 30px;
+}
+.lamp-shade::before {
+  position: absolute;
+  content: "";
+  background: rgb(212, 208, 192);
+  width: 60px;
+  height: 15px;
+  border-radius: 0% 0% 50% 50% / 0% 0% 100% 100%;
+  left: -15px;
+  top: 42px;
+}
+.lamp-top {
+  position: absolute;
+  width: 30px;
+  height: 15px;
+  background: rgb(179, 175, 162);
+  border-radius: 50%;
+  top: -7px;
+  left: 15px;
+}
+.lamp-top::before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 2px;
+  border-radius: 50%;
+  background: rgb(34, 34, 34);
+  top: 5px;
+  left: 12px;
+  box-shadow: 0 0.5px 0 0 rgb(65, 65, 65);
+}
+.lamp-stand {
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  border-radius: 0% 0% 20% 20% / 0% 0% 50% 50%;
+  background: rgb(85, 184, 171);
+  top: 46px;
+  left: 20px;
+}
+.lamp-stand::before {
+  position: absolute;
+  content: "";
+  background: rgb(85, 184, 171);
+  width: 14px;
+  height: 4px;
+  border-radius: 50%;
+  top: 27px;
+  left: 3px;
+}
+.lamp-base {
+  position: absolute;
+  width: 24px;
+  height: 18px;
+  top: 62px;
+  left: 18px;
+  background: rgb(125, 207, 196);
+  border-radius: 3px;
+  box-shadow: 0 4px 0 0 rgb(85, 184, 171);
+}
+
+/* Batman Poster */
+.poster {
+  position: absolute;
+  top: 20px;
+  left: 190px;
+  height: 154px;
+  width: 108px;
+  background: #121218;
+  border-radius: 10% 3% 30% 31% / 0% 37% 3% 6%;
+  transform: rotate(-0.8deg);
+}
+:root {
+  --bat-symbol-width: 80px;
+  --bat-symbol-height: calc(var(--bat-symbol-width) * 0.6);
+}
+.bat-symbol {
+  position: absolute;
+  top: 30px;
+  left: 15px;
+}
+.outer-oval {
+  width: var(--bat-symbol-width);
+  height: var(--bat-symbol-height);
+  background: rgb(237, 200, 73);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(237, 200, 73) 12%,
+    rgba(255, 123, 13, 1) 64%
+  );
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-oval {
+  position: absolute;
+  width: calc(var(--bat-symbol-width) * 0.94);
+  height: calc(var(--bat-symbol-height) * 0.88);
+  background: transparent;
+  border-radius: 50%;
+  border-top: calc(var(--bat-symbol-width) * 0.022) solid black;
+  border-bottom: calc(var(--bat-symbol-width) * 0.02) solid black;
+  border-left: calc(var(--bat-symbol-width) * 0.01) solid black;
+  border-right: calc(var(--bat-symbol-width) * 0.01) solid black;
+}
+.left-wing {
+  position: absolute;
+  width: calc(var(--bat-symbol-width) * 0.08);
+  height: calc(var(--bat-symbol-height) * 0.68);
+  border-left: calc(var(--bat-symbol-width) * 0.18) solid black;
+  border-radius: 100% 0% 0% 100% / 50% 0% 0% 50%;
+  transform: skew(-10deg, -2deg) rotate(11deg);
+  top: calc(var(--bat-symbol-width) * 0.03);
+  left: calc(var(--bat-symbol-width) * 0.03);
+}
+.left-wing-2 {
+  position: absolute;
+  width: calc(var(--bat-symbol-width) * 0.15);
+  height: calc(var(--bat-symbol-width) * 0.09);
+  border-radius: 0% 0% 50% 50% / 0% 0% 100% 100%;
+  border-bottom: calc(var(--bat-symbol-width) * 0.1) solid black;
+  border-left: calc(var(--bat-symbol-width) * 0) solid black;
+  border-right: calc(var(--bat-symbol-width) * 0) solid black;
+  top: calc(var(--bat-symbol-width) * 0.13);
+  left: calc(var(--bat-symbol-width) * 0.196);
+  transform: skew(-10deg, -2deg) rotate(30deg);
+}
+.left-wing-3 {
+  position: absolute;
+  width: calc(var(--bat-symbol-width) * 0.15);
+  height: calc(var(--bat-symbol-width) * 0.09);
+  border-radius: 0% 0% 50% 50% / 0% 0% 100% 100%;
+  border-bottom: calc(var(--bat-symbol-width) * 0.1) solid black;
+  border-left: calc(var(--bat-symbol-width) * 0) solid black;
+  border-right: calc(var(--bat-symbol-width) * 0) solid black;
+  top: calc(var(--bat-symbol-width) * 0.23);
+  left: calc(var(--bat-symbol-width) * 0.16);
+  transform: skew(-10deg, -2deg) rotate(160deg);
+}
+.left-wing-4 {
+  position: absolute;
+  width: calc(var(--bat-symbol-width) * 0.14);
+  height: calc(var(--bat-symbol-width) * 0.09);
+  border-radius: 0% 0% 50% 50% / 0% 0% 100% 100%;
+  border-bottom: calc(var(--bat-symbol-width) * 0.1) solid black;
+  border-left: calc(var(--bat-symbol-width) * 0) solid black;
+  border-right: calc(var(--bat-symbol-width) * 0) solid black;
+  top: calc(var(--bat-symbol-width) * 0.22);
+  left: calc(var(--bat-symbol-width) * 0.325);
+  transform: skew(18deg, 2deg) rotate(196deg);
+}
+.right-wing-4 {
+  position: absolute;
+  width: calc(var(--bat-symbol-width) * 0.14);
+  height: calc(var(--bat-symbol-width) * 0.09);
+  border-radius: 0% 0% 50% 50% / 0% 0% 100% 100%;
+  border-bottom: calc(var(--bat-symbol-width) * 0.1) solid black;
+  border-left: calc(var(--bat-symbol-width) * 0) solid black;
+  border-right: calc(var(--bat-symbol-width) * 0) solid black;
+  top: calc(var(--bat-symbol-width) * 0.22);
+  left: calc(var(--bat-symbol-width) * 0.482);
+  transform: skew(-18deg, 2deg) rotate(164deg);
+}
+.right-wing-3 {
+  position: absolute;
+  width: calc(var(--bat-symbol-width) * 0.15);
+  height: calc(var(--bat-symbol-width) * 0.09);
+  border-radius: 0% 0% 50% 50% / 0% 0% 100% 100%;
+  border-bottom: calc(var(--bat-symbol-width) * 0.1) solid black;
+  border-left: calc(var(--bat-symbol-width) * 0) solid black;
+  border-right: calc(var(--bat-symbol-width) * 0) solid black;
+  top: calc(var(--bat-symbol-width) * 0.23);
+  left: calc(var(--bat-symbol-width) * 0.635);
+  transform: skew(10deg, 2deg) rotate(200deg);
+}
+.right-wing {
+  position: absolute;
+  width: calc(var(--bat-symbol-width) * 0.08);
+  height: calc(var(--bat-symbol-height) * 0.68);
+  border-right: calc(var(--bat-symbol-width) * 0.18) solid black;
+  border-radius: 0% 100% 100% 0% / 0% 50% 50% 0%;
+  transform: skew(10deg, 2deg) rotate(-11deg);
+  top: calc(var(--bat-symbol-width) * 0.03);
+  left: calc(var(--bat-symbol-width) * 0.66);
+}
+.right-wing-2 {
+  position: absolute;
+  width: calc(var(--bat-symbol-width) * 0.155);
+  height: calc(var(--bat-symbol-width) * 0.09);
+  border-radius: 0% 0% 50% 50% / 0% 0% 100% 100%;
+  border-bottom: calc(var(--bat-symbol-width) * 0.1) solid black;
+  border-left: calc(var(--bat-symbol-width) * 0) solid black;
+  border-right: calc(var(--bat-symbol-width) * 0) solid black;
+  top: calc(var(--bat-symbol-width) * 0.13);
+  left: calc(var(--bat-symbol-width) * 0.6);
+  transform: skew(10deg, 2deg) rotate(-30deg);
+}
+.bat-body {
+  position: absolute;
+  width: calc(var(--bat-symbol-width) * 0.15);
+  height: calc(var(--bat-symbol-width) * 0.18);
+  background: black;
+  top: calc(var(--bat-symbol-width) * 0.13);
+  left: calc(var(--bat-symbol-width) * 0.4);
+}
+.bat-body::before {
+  position: absolute;
+  content: "";
+  border-left: calc(var(--bat-symbol-width) * 0.03) solid black;
+  border-top: calc(var(--bat-symbol-width) * 0.05) solid transparent;
+  top: calc(var(--bat-symbol-width) * -0.05);
+}
+.bat-body::after {
+  position: absolute;
+  content: "";
+  border-right: calc(var(--bat-symbol-width) * 0.03) solid black;
+  border-top: calc(var(--bat-symbol-width) * 0.05) solid transparent;
+  top: calc(var(--bat-symbol-width) * -0.05);
+  left: calc(var(--bat-symbol-width) * 0.12);
+}
+.bat-middle {
+  position: absolute;
+  border-left: calc(var(--bat-symbol-width) * 0.03) solid transparent;
+  border-right: calc(var(--bat-symbol-width) * 0.03) solid transparent;
+  border-top: calc(var(--bat-symbol-width) * 0.14) solid black;
+  top: calc(var(--bat-symbol-width) * 0.29);
+  left: calc(var(--bat-symbol-width) * 0.444);
+}
+.bat-middle::before {
+  position: absolute;
+  content: "";
+  border-left: calc(var(--bat-symbol-width) * 0.03) solid transparent;
+  border-right: calc(var(--bat-symbol-width) * 0.03) solid transparent;
+  border-top: calc(var(--bat-symbol-width) * 0.14) solid black;
+  top: calc(-1 * (var(--bat-symbol-width) * 0.19));
+  left: calc(-1 * (var(--bat-symbol-width) * 0.178));
+}
+.bat-middle::after {
+  position: absolute;
+  content: "";
+  border-left: calc(var(--bat-symbol-width) * 0.03) solid transparent;
+  border-right: calc(var(--bat-symbol-width) * 0.03) solid transparent;
+  border-top: calc(var(--bat-symbol-width) * 0.14) solid black;
+  top: calc(-1 * (var(--bat-symbol-width) * 0.19));
+  left: calc(var(--bat-symbol-width) * 0.122);
+}
+.left-wing-middle {
+  position: absolute;
+  width: calc(var(--bat-symbol-width) * 0.07);
+  height: calc(var(--bat-symbol-width) * 0.18);
+  border-right: calc(var(--bat-symbol-width) * 0.074) solid black;
+  border-bottom: calc(var(--bat-symbol-width) * 0.03) solid transparent;
+  top: calc(var(--bat-symbol-width) * 0.13);
+  left: calc(var(--bat-symbol-width) * 0.268);
+  transform: rotate(45deg);
+}
+.right-wing-middle {
+  position: absolute;
+  width: calc(var(--bat-symbol-width) * 0.07);
+  height: calc(var(--bat-symbol-width) * 0.18);
+  border-right: calc(var(--bat-symbol-width) * 0.074) solid black;
+  border-top: calc(var(--bat-symbol-width) * 0.03) solid transparent;
+  top: calc(var(--bat-symbol-width) * 0.13);
+  left: calc(var(--bat-symbol-width) * 0.535);
+  transform: rotate(135deg);
+}
+.bat-middle-2 {
+  position: absolute;
+  width: calc(var(--bat-symbol-width) * 0.5);
+  height: calc(var(--bat-symbol-width) * 0.07);
+  background: black;
+  top: calc(var(--bat-symbol-width) * 0.23);
+  left: calc(var(--bat-symbol-width) * 0.22);
+}
+/* End Batman Poster*/

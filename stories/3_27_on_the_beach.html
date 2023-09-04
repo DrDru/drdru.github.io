@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<html lang="ja">
+<style>
+a {
+  
+  color: black;
+  text-decoration: none;
+
+}
+
+.name {
+
+    ruby-position:under;
+
+} 
+
+.next{
+
+  text-align: right;
+  margin-right : 10%;
+  font-size: 130%;
+  
+}
+
+.centered_bold {
+
+  text-align: center;
+  
+
+}
+
+.left_align {
+
+  text-align : left;
+
+}
+
+.right_align {
+
+  text-align : right;
+
+}
+
+#left {
+
+  text-align : left;
+  margin-left : 10%;
+}
+
+#right {
+
+  text-align : right;
+  margin-right : 10%;
+}
+
+.particle {
+
+  font-weight: normal;
+
+}
+
+.full_screen {
+
+   font-size: 260%;
+
+}
+
+.onomatopea {
+
+    font-weight: normal;
+  font-style: italic;
+  
+}
+
+.big {
+
+   font-size: 350%;
+
+}
+
+.lefter {
+
+font-size: 75%;
+
+}
+
+.big_card {
+
+  font-size: 400%;  
+}
+
+.card {
+
+   margin-bottom: 170px;
+ 
+ }
+ 
+td, th {
+  
+  text-align: center;
+  
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+} 
+
+
+.main_colour {
+
+  color: #e6e6e6;
+  
+}
+
+.blue {
+    
+  color: blue;
+
+}
+
+.red{
+    
+  color: #54E33D;
+
+}
+
+.white {
+    
+  color: white;
+
+}
+
+.green_bg {
+    
+  background-color:green;
+
+}
+
+.brown_bg {
+    
+  background-color:brown;
+
+}
+
+
+.main_bg {
+    
+  color: #e0d864;
+
+}
+
+.main_background {
+
+
+  background-color: #e0d864; /* 05b560*/
+
+}
+
+.lightblue {
+    
+  color: lightblue;
+
+}
+
+.brown_bg {
+    
+  background-color: #824e05;
+
+}
+
+.blue_bg {
+    
+  background-color: blue;
+
+}
+
+.brown {
+    
+  color: #824e05;
+
+}
+
+
+.yellow_bg {
+    
+  background-color: yellow;
+
+}
+
+p {
+  color: black;
+  
+}
+
+
+.ruby_under {
+
+  ruby-position: under;
+
+}
+
+.chess_board { line-height: 44px; }
+
+
+ 
+td, th {
+  
+  text-align: center;
+  
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid white;
+  table-layout: fixed ;
+  width: 600px ;
+  margin-left:auto;
+  margin-right:auto;
+}
+td {
+  width: 3% ;
+} 
+
+.spinned .emoji {
+
+  transform: rotateY(180deg);
+
+}
+
+
+
+.big_twittemoji .emoji {
+    height: 160px;
+    width: 160px;
+
+}
+.chest {
+  --gold: #feb21f;
+  --beige: #f4e2c8;
+  --black: #101010;
+  --blackLight: #707696;
+  --blackAlpha: rgba(0, 0, 0, 0.2);
+
+  position: relative;
+  width: 14rem;
+  height: 10rem;
+  border: solid var(--gold);
+  border-width: 0 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    var(--blackLight) 0%,
+    var(--blackLight) 30%,
+    var(--gold) 30%,
+    var(--gold) 40%,
+    var(--blackLight) 40%,
+    var(--blackLight) 100%
+  );
+  box-shadow: 0.25rem 0.25rem var(--blackAlpha);
+}
+/*shadow*/
+.chest::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -1rem;
+  bottom: 0;
+  left: 50%;
+  border-radius: 0 0.25rem 0.25rem 0;
+  background-color: var(--blackAlpha);
+}
+.chest_keyholeBG {
+  position: absolute;
+  top: 40%;
+  width: 4rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--gold);
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
+.chest_keyhole {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chest_keyhole::before {
+  content: "";
+  display: block;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background-color: var(--black);
+}
+.chest_keyhole::after {
+  content: "";
+  display: block;
+  width: 0.25rem;
+  height: 0.75rem;
+  margin-top: -0.25rem;
+  background-color: var(--black);
+}
+
+.test {   
+
+      display: flex;
+        width: 100%;
+        justify-content: center;
+ }
+</style>
+</head>
+
+<body class="centered_bold main_background">
+<!-- #EFF70A-->
+
+
+<table class="chess_board" cellpadding="0" cellspacing="0">
+
+<tr>
+  <td class="blue_bg black"> </td>
+    <td class="blue_bg black"></td>
+    <td class="blue_bg black"></td>
+    <td class="blue_bg black"></td>
+    <td class="blue_bg black"> &#129416;</td>
+    <td class="blue_bg black"></td>
+    <td class="blue_bg black"></td>
+    <td class="blue_bg black"></td>
+    <td class="blue_bg black"></td>
+    <td class="blue_bg black"></td>
+    <td class="blue_bg black"></td>
+    <td class="blue_bg black"> </td>
+</tr>
+<tr>
+  <td class="blue_bg black"> </td>
+    <td class="blue_bg black"></td>
+    <td class="blue_bg black">&#128025;</td>
+    <td class="blue_bg black"> </td>
+    <td class="yellow_bg black"> &#127796;</td>
+    <td class="yellow_bg black"> &#127796;</td>
+    <td class="yellow_bg black"> &#127796;</td>
+    <td class="yellow_bg black"> &#127796;</td>
+    <td class="yellow_bg black"> &#127796;</td>
+    <td class="yellow_bg black"> &#127796;</td>
+    <td class="blue_bg black"> </td>
+    <td class="blue_bg black"> </td>
+</tr>
+
+<tr>
+    <td class="blue_bg black"> </td>
+   <td class="blue_bg black"> </td>
+    <td class="yellow_bg black"> </td>
+    <td class="yellow_bg black">&#127796;</td>
+    <td class="yellow_bg black">&#127796;</td>
+    <td class="yellow_bg black">&#127796;</td>
+    <td class="yellow_bg black">&#10060;</td>
+    <td class="yellow_bg black">&#129492;</td>
+    <td class="blue_bg black"> </td>
+   <td class="blue_bg black"> </td>
+   <td class="blue_bg black"></td>
+   <td class="blue_bg black"> </td>
+</tr>
+<tr>
+  <td class="blue_bg black"> </td>
+    <td class="blue_bg black"></td>
+    <td class="blue_bg black"> </td>
+    <td class="yellow_bg black"> </td>
+    <td class="yellow_bg black">&#9968;&#65039;</td>
+    <td class="yellow_bg black">&#9968;&#65039;</td>
+    <td class="yellow_bg black">&#127796;</td>
+    <td class="yellow_bg black">&#127796;</td>
+    <td class="blue_bg black"> </td>
+    <td class="yellow_bg black">&#128010;</td>
+    <td class="blue_bg black"> </td>
+    <td class="blue_bg black"> </td>
+</tr>
+<tr>
+    <td class="blue_bg blue">-</td>
+   <td class="blue_bg black"> </td>
+    <td class="blue_bg black"> </td>
+    <td class="blue_bg black"> </td>
+    <td class="blue_bg black"></td>
+    <td class="blue_bg black"></td>
+    <td class="brown_bg black"> </td>
+    <td class="blue_bg black"> </td>
+    <td class="blue_bg black"> </td>
+   <td class="yellow_bg black"> </td>
+   <td class="blue_bg black"> </td>
+   <td class="blue_bg black"> </td>
+</tr>
+<tr>
+  <td class="blue_bg black"> </td>
+    <td class="blue_bg black"> </td>
+    <td class="yellow_bg black">&#9968;&#65039;</td>
+    <td class="yellow_bg black">&#9968;&#65039;</td>
+    <td class="yellow_bg black"> &#128018;</td>
+    <td class="yellow_bg black"> &#129492;&#127999; </td>
+    <td class="yellow_bg black"> &#127796;</td>
+    <td class="yellow_bg black"> &#127796;</td>
+    <td class="blue_bg black"> </td>
+    <td class="blue_bg black"> </td>
+    <td class="blue_bg black"> </td>
+    <td class="blue_bg black"> </td>
+</tr>
+<tr>
+  <td class="blue_bg black"> </td>
+    <td class="blue_bg black"></td>
+    <td class="yellow_bg black">&#127796;</td>
+    <td class="yellow_bg black">&#127796;</td>
+    <td class="yellow_bg black">&#127796;</td>
+    <td class="yellow_bg black">&#127796;</td>
+    <td class="yellow_bg black">&#127796;</td>
+    <td class="yellow_bg black">&#127796;</td>
+    <td class="yellow_bg black"> </td>
+  <td class="yellow_bg black"> </td>
+  <td class="blue_bg black"> </td>
+  <td class="blue_bg black"> </td>
+</tr>
+<tr>
+  <td class="blue_bg black"> </td>
+    <td class="blue_bg blue">-</td>
+    <td class="blue_bg black"> </td>
+    <td class="yellow_bg black"> </td>
+    <td class="yellow_bg black"></td>
+    <td class="yellow_bg black"> </td>
+    <td class="yellow_bg black"> &#11093;</td>
+    <td class="yellow_bg black"> </td>
+    <td class="yellow_bg black"> </td>
+    <td class="yellow_bg black"> </td>
+    <td class="blue_bg black"> </td>
+    <td class="blue_bg black"> </td>
+</tr>
+<tr>
+  <td class="blue_bg black"> &#129517;</td>
+<td class="blue_bg blue"></td>
+<td class="blue_bg black"> </td>
+<td class="blue_bg black"> </td>
+<td class="blue_bg black"> </td>
+<td class="blue_bg black"> </td>
+<td class="blue_bg black"> </td>
+<td class="blue_bg black"> </td>
+<td class="blue_bg black"> </td>
+<td class="blue_bg black"> </td>
+<td class="blue_bg black"> </td>
+<td class="blue_bg black"> </td>
+</tr>
+</table>
+</div>
+</div>
+
+
+
+<div class='card big'>
+<p>
+18<ruby>時<rt>じ</rt></ruby>
+<br>
+<br>
+
+&#127796;&#127796;&#127796;&#127796;
+<br>
+<span class="">&#129436; &#129492;&#127995; &#129492;</span>
+<br>
+<br>
+<span class="big_twittemoji">&#10060;</span>
+<br>
+&#127796;&#127796;&#127796;&#127796;
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#129492; <br>
+<ruby>2本<rt>にほん</rt></ruby>のピックアックスを
+<br>
+&#9935;&#65039; &#9935;&#65039;
+<br>
+持っている
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p>
+&#129492;&#127995;
+<br>
+始めよう 
+</p>
+</div>
+
+<div class='card '>
+<p>
+<span class="onomatopea full_screen">ジリ<span class="main_bg">----</span>ジリ  </span>
+<br>
+<span class="big">&#129492; <span class="spinned">&#9935;&#65039;</span> &#9935;&#65039; &#129492;&#127995;</span>
+
+<br>
+<span class="">&#10060;</span>
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#9203;
+</p>
+</div>
+
+<div class='card big'>
+<p>
+<span class="onomatopea">ドン</span>
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128562;
+<br>
+何？
+<br>
+<ruby>宝箱<rt>たからばこ</rt></ruby>？
+</p>
+</div>
+
+
+
+
+<div class="card">
+</div>
+
+<div class="test big_card">
+
+  <!-- found here https://codepen.io/simon-jaeger/pen/RmPPxZ Thank you !-->
+  
+<div class="chest">
+  <div class="chest_keyholeBG">
+    <div class="chest_keyhole"></div>
+  </div>
+</div>
+</div>
+
+
+<div class='card big'>
+<p>
+&#129321; &#129321;
+<br>
+<span class="onomatopea"> イエイ </span>
+</p>
+</div>
+
+<div class='card big'>
+<p>
+  &#128299;&#128117;   &#128299;&#128117;&#127995;   &#128299;&#128117;&#127998;
+
+</p>
+</div>
+
+<div class='card big'>
+<p>
+  &#128299;&#128117;  
+<br>
+
+<ruby>宝箱<rt>たからばこ</rt></ruby>は
+</p>
+</div>
+
+<div class='card big'>
+<p>
+   &#128299;&#128117;&#127995;  
+<br>
+私たちの
+</p>
+</div>
+
+<div class='card big'>
+<p>
+ &#128299;&#128117;&#127998;
+<br>
+
+ものだ
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128544; &#128544;
+</p>
+</div>
+
+
+
+<div class='card'>
+<p>
+&#128117;
+<br>
+
+<span class="onomatopea full_screen">ガハハハ</span>
+</p>
+</div>
+
+<div class='card '>
+<p>
+&#128117;&#127995;
+<br>
+
+<span class="onomatopea big">ガハハハ</span>
+</p>
+</div>
+
+
+<div class='card '>
+<p>
+&#128117;&#127998;
+<br>
+<span class="spinned2">&#9986;</span>
+<br>
+<span class="onomatopea big">ガハハハ</span>
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p>
+&#9203;
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+
+  &#127796;&#127796;&#127796;&#127796;
+  <br>
+  &#128299;&#128117;   &#128299;&#128117;&#127995;   &#128299;&#128117;&#127998;
+<br>  
+<br>  
+&#128564; &#128564;
+</p>
+</div>
+
+<div class='card big'>
+<p>
+  &#127796;&#127796;&#127796;&#127796;
+  <br>
+<span class="main_bg">---</span>  &#129381; <span class="main_bg">---</span> &#129381; <span class="main_bg">---</span> &#129381;
+  <br>
+&#128299;&#128565;&#8205;&#128171; &#128299;&#128565;&#8205;&#128171; &#128299;&#128565;&#8205;&#128171;
+<br>  
+<br> 
+😯 😯
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+  &#127796;&#127796;&#127796;&#127796;
+  <br>
+<span class="main_bg">---</span>  &#128053; <span class="main_bg">---</span> &#128053; <span class="main_bg">---</span> &#128053;
+  <br>
+&#128299;&#128565;&#8205;&#128171; &#128299;&#128565;&#8205;&#128171; &#128299;&#128565;&#8205;&#128171;
+<br>  
+<br> 
+😯 😯
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+  &#127796;&#127796;&#127796;&#127796;
+  <br>
+
+&#128512; 
+<br>
+<span class="onomatopea">ジャーン</span>
+<br>
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128104; &#128104;&#127995;
+<br>
+トー ！
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#129492;&#127999; 
+ <br> 
+私の<ruby>友<rt>とも</rt></ruby>よ！
+</p>
+</div>
+
+
+
+
+
+<div class='card big'>
+<p>
+&#127916;
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p>
+&#129492;&#127999;   &#128104; &#128104;&#127995;
+<br>  
+&#128117;   &#128117;&#127995;   &#128117;&#127998;
+<br>
+&#128053; &#128047; &#128114;
+<br>
+&#129436;
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p>
+&#128079; &#128079;&#127995;  &#128079;&#127996;  👏🏽 &#128079;&#127998; &#128079;&#127999;
+</p>
+</div>
+
+
+
+
+<div class="big last_div">
+<p>
+  <span class="ruby_under"><a href="../."><ruby>&#127968;<rt> ホーム </rt></ruby></a></span> *** <ruby>終<rt>お</rt></ruby>わり *** <a href="./4_01_water.html"><ruby> &#10140;<rt><ruby>次<rt>つぎ</rt></ruby></rt></ruby></a></p>
+
+</div>
+
+
+
+<script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+  twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
+</script>
+
+</body>

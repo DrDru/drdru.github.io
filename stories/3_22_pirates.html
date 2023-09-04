@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<html lang="ja">
+<style>
+a {
+	
+	color: #f0f46e;
+	text-decoration: none;
+
+}
+
+.name {
+
+    ruby-position:under;
+
+} 
+
+.next{
+
+	text-align: right;
+	margin-right : 10%;
+	font-size: 130%;
+	
+}
+
+.centered_bold {
+
+	text-align: center;
+	font-weight: bold;
+
+}
+
+.left_align {
+
+	text-align : left;
+
+}
+
+.right_align {
+
+	text-align : right;
+
+}
+
+#left {
+
+	text-align : left;
+	margin-left : 10%;
+}
+
+#right {
+
+	text-align : right;
+	margin-right : 10%;
+}
+
+.particle {
+
+	font-weight: normal;
+
+}
+
+.full_screen {
+
+   font-size: 260%;
+
+}
+
+.onomatopea {
+
+    font-weight: normal;
+	font-style: italic;
+	
+}
+
+.big {
+
+   font-size: 350%;
+
+}
+
+.lefter {
+
+font-size: 75%;
+
+}
+
+.big_card {
+
+	font-size: 400%;	
+}
+
+.card {
+
+   margin-bottom: 170px;
+ 
+ }
+ 
+td, th {
+  
+  text-align: center;
+  
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+} 
+
+
+.main_colour {
+
+	color: #e6e6e6;
+	
+}
+
+.blue {
+    
+	color: blue;
+
+}
+
+.red{
+    
+	color: #54E33D;
+
+}
+
+.white {
+    
+	color: white;
+
+}
+
+.green_bg {
+    
+	background-color:green;
+
+}
+
+.brown_bg {
+    
+	background-color:brown;
+
+}
+
+
+.main_bg {
+    
+	color: #aeeaae;
+
+}
+
+.lightblue {
+    
+	color: lightblue;
+
+}
+
+.brown_bg {
+    
+	background-color: #824e05;
+
+}
+
+.brown {
+    
+	color: #824e05;
+
+}
+
+
+.bit_bigger {
+    
+	font-size: 150%;
+
+}
+
+p {
+	color: #f0f46e;
+	
+}
+
+
+.ruby_under {
+
+	ruby-position: under;
+
+}
+
+.chest {
+  --gold: #feb21f;
+  --beige: #f4e2c8;
+  --black: #101010;
+  --blackLight: #707696;
+  --blackAlpha: rgba(0, 0, 0, 0.2);
+
+  position: relative;
+  width: 14rem;
+  height: 10rem;
+  border: solid var(--gold);
+  border-width: 0 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    var(--blackLight) 0%,
+    var(--blackLight) 30%,
+    var(--gold) 30%,
+    var(--gold) 40%,
+    var(--blackLight) 40%,
+    var(--blackLight) 100%
+  );
+  box-shadow: 0.25rem 0.25rem var(--blackAlpha);
+}
+/*shadow*/
+.chest::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -1rem;
+  bottom: 0;
+  left: 50%;
+  border-radius: 0 0.25rem 0.25rem 0;
+  background-color: var(--blackAlpha);
+}
+.chest_keyholeBG {
+  position: absolute;
+  top: 40%;
+  width: 4rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--gold);
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
+.chest_keyhole {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chest_keyhole::before {
+  content: "";
+  display: block;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background-color: var(--black);
+}
+.chest_keyhole::after {
+  content: "";
+  display: block;
+  width: 0.25rem;
+  height: 0.75rem;
+  margin-top: -0.25rem;
+  background-color: var(--black);
+}
+
+.test {   
+
+      display: flex;
+        width: 100%;
+        justify-content: center;
+ }
+
+
+.light_blue_background {
+
+  background-color:lightblue;
+  color: lightblue;
+  padding: 8px; 
+}
+
+.main_bg {
+
+  color: #cc0000;
+}
+</style>
+</head>
+
+<body bgcolor="#cc0000" class="centered_bold">
+<!-- #EFF70A-->
+
+
+<div class="card">
+</div>
+
+<div class="test big_card">
+
+	<!-- found here https://codepen.io/simon-jaeger/pen/RmPPxZ Thank you !-->
+	
+<div class="chest">
+  <div class="chest_keyholeBG">
+    <div class="chest_keyhole"></div>
+  </div>
+</div>
+</div>
+
+
+<div class="card test big_card">
+<p><ruby>箱<rt>はこ</rt></ruby>
+</p>
+</div>
+
+
+
+<div class="big_card card">
+<p>
+ &#128081; &#129689; &#129689; &#129689; &#129689; &#128142; &#128141;
+<br>
+&#128141;  &#129689;  &#128142; &#129689; &#129689; &#129689; &#128081;
+
+<br>
+<ruby>宝<rt>たから</rt></ruby>
+</p>
+</div>
+
+
+
+<div class="big_card card">
+<p>
+&#129689; &#129689; &#129689; &#129689; &#128142; &#128141; &#128081;
+<br>
+&#10507;
+</p>
+
+
+<div class="test">
+
+  <!-- found here https://codepen.io/simon-jaeger/pen/RmPPxZ Thank you !-->
+<div class="chest">
+  <div class="chest_keyholeBG">
+    <div class="chest_keyhole"></div>
+  </div>
+</div>
+
+</div>
+<p><ruby>宝<rt>たから</rt></ruby><ruby>箱<rt>ばこ</rt></ruby></p>
+</div>
+
+
+
+<div class="big_card card">
+<p>
+&#127965;&#65039;
+<br>
+<ruby>島<rt>しま</rt></ruby>
+</p>
+</div>
+
+
+<div class="big_card card">
+<p>
+&#127471;&#127477; 日本、
+<br>
+&#127475;&#127487; ニュージーランド、
+<br>
+
+&#127470;&#127466; アイルランド<br>
+&#127468;&#127463; イギリスは
+<br>
+<ruby>島<rt>しま</rt></ruby>です
+</p>
+</div>
+
+
+
+<div class="big_card card">
+<p>
+ &#128081; &#129689; &#129689; &#129689; &#129689; &#128142; &#128141;
+<br>
+&#128141;  &#129689;  &#128142; &#129689; &#129689; &#129689; &#128081;
+<br>
++
+<br>
+&#127965;&#65039;
+<br>
+=
+<br>
+<ruby>宝<rt>たから</rt></ruby><ruby>島<rt>じま</rt></ruby>
+</p>
+</div>
+
+
+
+
+
+<div class="big_card card">
+<p>
+ &#128081; &#129689; &#129689; &#129689; &#129689; &#128142; &#128141;
+<br>
+&#128141;  &#129689;  &#128142; &#129689; &#129689; &#129689; &#128081;
+<br>
++
+<br>
+&#128506;
+<br>
+=
+<br>
+<ruby>宝<rt>たから</rt></ruby>の<ruby>地<rt>ち</rt></ruby><ruby>図<rt>ず</rt></ruby>
+</p>
+</div>
+
+
+
+<div class="big_card card">
+<p>
+&#128103;
+<br>
+&#8968;<ruby>宝<rt>たから</rt></ruby><ruby>島<rt>じま</rt></ruby>」という
+<br>
+<ruby>本<rt>ほん</rt></ruby>があります。
+<br>
+<ruby>作者<rt>さくしゃ</rt></ruby>は
+<br>
+ロバート・ルイス・
+<br>
+スティーブンソン。
+</p>
+</div>
+
+<div class="big_card card">
+	<p>
+&#9760;&#65039; + &#127988;
+<br>
+=
+<br>
+&#127988;&#8205;&#9760;&#65039;
+<br>
+<ruby>海<rt>かい</rt></ruby><ruby>賊<rt>ぞく</rt></ruby><ruby>旗<rt>き</rt></ruby>
+</p>
+</div>
+
+<div class="big_card card">
+<p>
+&#8968;<ruby>海<rt>かい</rt></ruby><ruby>賊<rt>ぞく</rt></ruby><ruby>旗<rt>き</rt></ruby>」の
+<br>
+<ruby>一番目<rt>いちばんめ</rt></ruby>の
+<br>
+<ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby> は
+<br>
+&#8968;<ruby>海<rt></rt></ruby>」
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+<ruby>海<rt>うみ</rt></ruby>
+<br>
+<div class="light_blue_background first_image">
+____________&#9973;
+<br>
+&#127754; &#127754; &#127754;&#127940; &#127754;
+<br>
+</div>
+
+</p>
+
+</div>
+
+
+<div class="card big"> 
+<p>
+<ruby>二番目<rt>にばんめ</rt></ruby>の
+<br>
+<ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby> は
+<br>
+&#8968;<ruby>賊<rt></rt></ruby>」
+</p>
+</div>
+
+
+
+
+
+
+<div class="card big"> 
+<p>
+<ruby>&#128552;<rt>&#9995; &#9995;</rt></ruby>  &#128176; &#128299; &#128545;
+<br>
+<br>
+&#128545; <ruby>私<rt>わたし</rt></ruby><span class="">は</span><ruby>賊<rt>ぞく</rt></ruby><span class="">だ</span> 
+</p>
+</div>
+
+
+<div class="card big"> 
+<p>
+<ruby>三番目<rt>さんばんめ</rt></ruby>の
+<br>
+<ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby> は
+<br>
+&#8968;<ruby>旗<rt></rt></ruby>」
+</p>
+</div>
+
+<div class="card big"> 
+<p>
+🏴🏳️🏁
+<br>
+<ruby>旗<rt>はた</rt></ruby>
+</p>
+</div>
+
+<div class="big_card card">
+  <p>
+&#127988;&#8205;&#9760;&#65039;
+<br>
+<ruby>海<rt>かい</rt></ruby><ruby>賊<rt>ぞく</rt></ruby><ruby>旗<rt>き</rt></ruby>
+</p>
+</div>
+
+
+
+<div class="card big"> 
+<p>
+
+<ruby>海<rt>かい</rt></ruby> + <ruby>賊<rt>ぞく</rt></ruby>
+<br>
+=
+
+<br>
+<br>
+
+&#127988;&#8205;&#9760;&#65039;
+<br>
+ 
+🍺  &#129492;&#127995;  🦜 
+<br> 
+<br> 
+<ruby>海<rt>かい</rt></ruby><ruby>賊<rt>ぞく</rt></ruby>
+</p>
+</div>
+
+<div class="big_card card">
+<p>
+ジョン・シルバー、
+<br>
+&#129693; フック、
+<br>
+モンキー・D・ルフィ、
+<br>
+&#129492;&#127995; <ruby>黒<rt>くろ</rt></ruby>い<ruby>髭<rt>ひげ</rt></ruby>は
+<br>
+<ruby>海<rt>かい</rt></ruby><ruby>賊<rt>ぞく</rt></ruby>です
+</p>
+</div>
+
+<div class="card big"> 
+<p>
+<span class="main_bg">---</span> &#129492;&#127995; &#8592;
+<br>
+<ruby>黒<rt>くろ</rt></ruby>い<ruby>髭<rt>ひげ</rt></ruby>が
+<br>
+あります 
+</p>
+</div>
+
+<div class="card big"> 
+<p>
+<span class="main_bg">---</span> &#127877; &#8592;
+<br>
+<ruby>白<rt>しろ</rt></ruby>い<ruby>髭<rt>ひげ</rt></ruby>が
+<br>
+あります
+</p>
+</div>
+
+<div class="card big"> 
+<p>
+<span class="main_bg">---</span> &#128102;  &#8592;
+<br>
+<ruby>髭<rt>ひげ</rt></ruby>が
+<br>
+ありません 
+</p>
+</div>
+
+
+
+
+
+
+
+
+<div class="big card"> 
+<p>
+<ruby class="ruby_under">&#128102;<rt>田中</rt></ruby>
+<br>
+<ruby>田中<rt>たなか</rt></ruby>です。
+<br>
+<ruby>漫画<rt>まんが</rt></ruby>「ワンピース」が好きです。
+<br>
+<ruby>作者<rt>さくしゃ</rt></ruby>は<ruby>尾田<rt>おだ</rt></ruby><ruby>栄一郎<rt>えいいちろう</rt></ruby>です。
+<br>
+ワンピースの漫画を<ruby>50<rt>ごじゅう</rt></ruby><ruby>冊<rt>さつ</rt></ruby><ruby>持<rt>も</rt></ruby>っています。
+<br>
+ワンピースには、ルフィという<ruby>海<rt>かい</rt></ruby><ruby>賊<rt>ぞく</rt></ruby>がいます。
+<br>
+<!--<ruby>危<rt>あぶ</rt></ruby>なくない、<ruby>強<rt>つよ</rt></ruby>い海賊です。
+<br>
+ロジャーの<ruby>宝<rt>たから</rt></ruby>が<ruby>欲<rt>ほ</rt></ruby>しいです。
+<br>-->
+<ruby>友達<rt>ともだち</rt></ruby>と<ruby>島<rt>しま</rt></ruby>から<ruby>島<rt>しま</rt></ruby>へ<ruby>船<rt>ふね</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ります。
+<br>
+<ruby>友達<rt>ともだち</rt></ruby>はゾロ、ウッソプ、ナミです。
+<br> 
+
+<ruby>敵<rt>てき</rt></ruby>は<ruby>黒<rt>くろ</rt></ruby>い<ruby>髭<rt>ひげ</rt></ruby>、ビッグ・ママ、カイドウです。
+<br>
+<br>
+<ruby class="ruby_under">&#128102;<rt>田中</rt></ruby>
+<br>
+<br>
+ルフィの友達の中で、
+<br>
+<ruby>誰<rt>だれ</rt></ruby>が好きですか？
+</p>
+</div>
+
+
+
+
+
+
+<div class="big last_div">
+<p>
+  <span class="ruby_under"><a href="../index.html"><ruby>&#127968;<rt> ホーム </rt></ruby></a></span> *** <ruby>終<rt>お</rt></ruby>わり *** <a href="./3_23_princess_cupcake.html"><ruby> &#10140;<rt><ruby>次<rt>つぎ</rt></ruby></rt></ruby></a></p>
+
+</div>
+
+
+
+<script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+  twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
+</script>
+
+</body>

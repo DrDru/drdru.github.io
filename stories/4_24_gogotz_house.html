@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8"/>
+<html lang="ja">
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="4_24_gogotz_house.css">
+<style>
+
+
+
+a {
+	
+	color: white;
+	text-decoration: none;
+
+}
+
+
+
+.bg_col {
+
+	color: #33ff99;
+}
+
+.main_background {
+
+	background-color: black;
+
+}
+
+
+.main_colour {
+
+    color: white;
+
+}
+
+.pan {
+
+	border-radius: 0px 0px 50px 50px;
+
+}
+
+.fireplace_centered {
+
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 -30px;
+
+}
+
+
+.rug_centered {
+
+
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 -230px;
+
+}
+
+
+.bookshelf_centered {
+
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 200px;
+
+}
+
+.shelf_centered {
+
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 80px;
+
+}
+
+.box_centered {
+
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 -70px;
+
+}
+
+
+
+.box_centered2 {
+
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 -200px;
+
+}
+
+
+.book_twittemoji .emoji {
+    height: 60px;
+    width: 60px;
+}
+
+
+.rotated {
+transform: rotateY(180deg);
+      }
+
+
+
+.adjust-line-height {
+  line-height: 0em;
+}
+
+
+.chest {
+  --gold: brown;
+  --beige: #f4e2c8;
+  --black: #101010;
+  --blackLight: #707696;
+  --blackAlpha: rgba(0, 0, 0, 0.2);
+
+  position: relative;
+  width: 14rem;
+  height: 10rem;
+  border: solid var(--gold);
+  border-width: 0 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    var(--blackLight) 0%,
+    var(--blackLight) 30%,
+    var(--gold) 30%,
+    var(--gold) 40%,
+    var(--blackLight) 40%,
+    var(--blackLight) 100%
+  );
+  box-shadow: 0.25rem 0.25rem var(--blackAlpha);
+}
+/*shadow*/
+.chest::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -1rem;
+  bottom: 0;
+  left: 50%;
+  border-radius: 0 0.25rem 0.25rem 0;
+  background-color: var(--blackAlpha);
+}
+.chest_keyholeBG {
+  position: absolute;
+  top: 40%;
+  width: 4rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--gold);
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
+
+
+.chest_keyhole {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chest_keyhole::before {
+  content: "";
+  display: block;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background-color: var(--black);
+}
+.chest_keyhole::after {
+  content: "";
+  display: block;
+  width: 0.25rem;
+  height: 0.75rem;
+  margin-top: -0.25rem;
+  background-color: var(--black);
+}
+
+.test {   
+
+      display: flex;
+        width: 100%;
+        justify-content: center;
+ }
+
+
+
+.fight {
+  padding: 3% 3% 1% 3%;
+	border: 5px solid white;
+  color: black;
+  background-color: #748f91;
+  border-radius: 30px;
+  font-weight: bold;
+
+}
+
+.fight_score {
+
+	font-size: 50%;
+	border-radius: 60px;
+  padding: 1% 1% 1% 1%;
+	border: 5px solid white;
+  color: black;
+  background-color: #748f91;
+  font-weight: bold;
+  
+}
+
+.fight_score_red {
+
+	font-size: 50%;
+	border-radius: 60px;
+  padding: 1% 1% 1% 1%;
+	border: 5px solid red;
+  color: red;
+  background-color: #4e6b66;
+  font-weight: bold;
+  
+}
+
+.fight_col {
+
+  color: #748f91;
+
+}
+
+
+
+.center_div {
+
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 -50px;
+
+}
+
+
+.ring {
+  box-shadow: 30px 10px 0 0 rgba(255, 255, 255, 1), 40px 10px 0 0 rgba(158, 158, 158, 1), 20px 20px 0 0 rgba(255, 193, 7, 1), 30px 20px 0 0 rgba(158, 158, 158, 1), 40px 20px 0 0 rgba(96, 125, 139, 1), 50px 20px 0 0 rgba(255, 152, 0, 1), 10px 30px 0 0 rgba(255, 193, 7, 1), 60px 30px 0 0 rgba(255, 152, 0, 1), 10px 40px 0 0 rgba(255, 193, 7, 1), 60px 40px 0 0 rgba(255, 152, 0, 1), 20px 50px 0 0 rgba(255, 152, 0, 1), 30px 50px 0 0 rgba(255, 152, 0, 1), 40px 50px 0 0 rgba(255, 152, 0, 1), 50px 50px 0 0 rgba(255, 152, 0, 1);
+  height: 10px;
+  width: 10px;
+}
+
+
+.button {
+
+	font-size: 100%;
+	text-align: center;
+  
+	border:5px; 
+	border-style:solid; 
+	padding: 10px;
+	border-radius: 25px;
+	
+}
+
+.internal_link {
+	
+	color: white;
+	text-decoration: underline;
+
+}
+
+
+.white_border {
+
+  border: 8px solid red;
+  background-color: black;
+
+}
+
+.center_eye{
+
+	    position: absolute;
+  left: 50%;
+  margin: 0 0 0 -20px;
+}
+</style>
+
+</head>
+
+
+<body  class="centered_bold main_colour main_background">
+
+<div class="big card main_colour"> 
+<p>
+📜
+<br>
+⌈ゴゴツの<ruby>家<rt>いえ</rt></ruby>の中には
+<br>
+<ruby>宝箱<rt>たからばこ</rt></ruby>があります。
+<br>
+<!--<ruby>宝箱<rt>たからばこ</rt></ruby>の中には
+<br>-->
+『ホラの<ruby>骨<rt>ほね</rt></ruby>』が
+<br>
+<ruby>入<rt>はい</rt></ruby>っています。⌋
+<!--In the house there are N rooms-->
+
+</p>
+
+
+</div>
+
+
+<div class="big card main_colour"> 
+<p>
+***
+</p>
+</div>
+
+<div class="big card main_colour"> 
+<p>
+🌘
+<br>	
+<br>	
+<span class="big_twittemoji">🏚️</span> <span class="black">--</span>
+<br>
+ゴゴツの家です
+</p>
+</div>
+
+
+<div class="big card main_colour"> 
+<p>
+🌘
+<br>	
+<br>	
+<span class="big_twittemoji">🏚️</span> 🧙‍♀️
+<br>
+
+</p>
+</div>
+
+
+<div class="big card main_colour"> 
+<p>
+🧙‍♀️
+<br>
+<ruby>魔法使<rt>まほうつか</rt></ruby>いのジュジュです
+</p>
+</div>
+
+<div class="big card main_colour"> 
+<p>
+<ruby>行<rt>いく</rt></ruby> +   <ruby>中<rt>なか</rt></ruby>
+<br>
+=
+<br>
+<ruby>入<rt>はい</rt></ruby>る
+</p>
+</div>
+
+
+<div class="card main_colour" id="hall"> 
+<p>
+
+<br>
+⚱️⚱️<span class="big_twittemoji">🚪</span>⚱️⚱️
+<br>	
+🧙‍♀️
+<br>
+
+<div class="big" > 
+ ジュジュが家に
+<br>
+<ruby>入<rt>はい</rt></ruby>ります。
+<br>
+<ruby>3<rt>みっ</rt></ruby>つのドアと
+<br>
+<ruby>廊下<rt>ろうか</rt></ruby>が見えます。
+<br>
+① <span class="internal_link"><a href="./4_24_gogotz_house.html#bedroom"><ruby>西<rt>にし</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ります</a></span><span class="black">--</span>
+<br>
+② <span class="internal_link"><a href="./4_24_gogotz_house.html#kitchen"><ruby>南<rt>みなみ</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ります</a></span><span class="black">--</span>
+<br>
+③ <span class="internal_link"><a href="./4_24_gogotz_house.html#book_room"><ruby>北<rt>きた</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ります</a></span><span class="black">--</span>
+<br>
+<span class="small_twittemoji">↪</span> <span class="internal_link"><a href="./4_24_gogotz_house.html#corridor"><ruby>次<rt>つぎ</rt></ruby></rt></ruby> - <ruby>廊下<rt>ろうか</rt></ruby>に行きます</a></span><span class="black">--</span>
+</div>	
+</p>
+</div>
+
+
+
+<div class="big card main_colour" id="book_room"> 
+<p>
+	<br>
+
+<div class="bookshelf bookshelf_centered black">-</div>   <span class="big_twittemoji">🪞 </span> 
+
+<br>📗 📗📚📚 📚
+<br>📕 <span class="black">-----------</span>🧙‍♀️ 
+<br><span class="black">--</span>📕<span class="black">--------</span> <span class="brown_background brown " style="border-bottom: solid brown 10px;">-📚📚📚- </span>  
+<br><br>
+<ruby>西<rt>にし</rt></ruby>のドアを<ruby>開<rt>あ</rt></ruby>けます。
+<br>
+<ruby>部屋<rt>へや</rt></ruby>の中には
+<br>
+<ruby>本<rt>ほん</rt></ruby>と<ruby>本棚<rt>ほんだな</rt></ruby>があります。
+<br>
+<ruby>宝箱<rt>たからばこ</rt></ruby>がありません。 
+<br>
+<br>
+<span class="small_twittemoji">↪</span> <span class="internal_link"><a href="./4_24_gogotz_house.html#hall" style="color:"><ruby>広間<rt>ひろま</rt></ruby>に行きます</a></span>
+</p>
+</div>
+
+
+
+<div class=" card main_colour" id="kitchen"> 
+<p>
+	<br>
+
+<span class="brown_background brown small_twittemoji" style="border-bottom: solid brown 10px;">-🧰  🔮 🌿 🍄-</span> 
+
+<span class="black">----------</span>
+<span class="brown_background brown small_twittemoji" style="border-bottom: solid brown 10px;">-🧰  🔮 📚 -</span>
+<br>
+🧙‍♀️
+<br>
+<span class="brown_background brown mid_size" style="border-bottom: solid brown 10px;">- -  <span class="">🧄</span>   🌿 🍄 🍶 - -  </span> 
+<br>
+<br>
+<div class="big">
+キッチンです。
+<br>
+テーブルの<ruby>上<rt>うえ</rt></ruby>にあった
+<br>
+🌿 <ruby>草<rt>くさ</rt></ruby>と
+<br>
+🍄 キノコと <span class="black">-</span>
+<br>
+🧄 ニンニクと<span class="black">-</span>
+<br>
+🍶 <ruby>水<rt>みず</rt></ruby>の<ruby>瓶<rt>びん</rt></ruby>を
+<br>
+👜  バッグに <span class="black">--</span>
+<br>
+<span class="black">---</span><ruby>入<rt>い</rt></ruby>れます。
+</div>
+	<br>
+	<br>
+<span class="brown_background brown small_twittemoji" style="border-bottom: solid brown 10px;">-🧰  🔮 🌿 🍄-</span> 
+
+<span class="black">----------</span>
+<span class="brown_background brown small_twittemoji" style="border-bottom: solid brown 10px;">-🧰  🔮 📚 -</span>
+<br>
+🧙‍♀️
+<br>
+<span class="brown_background brown mid_sizes big" style="border-bottom: solid brown 10px;">- -  <span class="">--</span>   -- -- -- - -  </span> 
+<br>
+<br>
+
+<span class="small_twittemoji">↪</span> <span class="internal_link big"><a href="./4_24_gogotz_house.html#hall" style="color:"><ruby>広間<rt>ひろま</rt></ruby>に行きます</a></span>
+
+</p>
+</div>
+
+
+
+<div class="big card main_colour" id="bedroom"> 
+<p>
+	<br>
+
+🧿
+<br>
+🛏 <span class="black">----------</span> 🚪
+<br>
+<span class="black">----------</span> 🧙‍♀️ 
+<br>
+<br>
+ゴゴツの<ruby>寝室<rt>しんしつ</rt></ruby>です
+<br>
+🧿 <ruby>青<rt>あお</rt></ruby>と<ruby>白<rt>しろ</rt></ruby>の<ruby>丸<rt>まる</rt></ruby>が<span class="black">--</span>
+<br>
+見えます。
+<br>
+何でしょうか？ 
+<!--<ruby>棚<rt>たな</rt></ruby>もラグもテーブルも
+<br>
+ありません。
+<br>
+ベッドの<ruby>上<rt>うえ</rt></ruby>に
+<br>
+<span class="small_twittemoji">🧿</span> <ruby>青<rt>あお</rt></ruby>と<ruby>白<rt>しろ</rt></ruby><ruby>丸<rt>まる</rt></ruby>が
+<br>
+<span class="black">--</span>見えます。-->
+<br>
+<br>
+<span class="small_twittemoji">↪</span> <span class="internal_link"><a href="./4_24_gogotz_house.html#hall" style="color:"><ruby>広間<rt>ひろま</rt></ruby>に行きます</a></span>
+
+</p>
+</div>
+
+<div class="big card main_colour" id="corridor"> 
+<p>
+🚶‍♀️
+<br>
+<ruby>居間<rt>いま</rt></ruby>へ
+<br>
+<ruby>廊下<rt>ろうか</rt></ruby>を<ruby>歩<rt>ある</rt></ruby>きます
+
+</p>
+</div>
+
+
+
+<div class=" card main_colour "> 
+<div>🧿<div style="display: inline-block; width:150px; margin-bottom: 80px;"></div> <span class=" fireplace_centered black fireplace big black"> - </span></div>
+
+<div style="margin-bottom: 150px;"><span class="chair big black">-</span><div style="display: inline-block; width:80px;"></div><span class="table big black">- </span>
+
+<div style="display: inline-block; width:280px;"></div>
+</div>
+
+<br>
+<div class="red_background red	rug_centered" style="width: 400px;height: 	100px;border: solid brown 5px;">	🧙‍♀️--</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="big">
+<ruby>居間<rt>いま</rt></ruby>には
+<br>
+<span class="white_border">🔥</span> <ruby>暖炉<rt>だんろ</rt></ruby>、 <span class="black">--</span>
+<br>
+テーブル、
+<br>
+<span class="spinned">🪑</span> <ruby>椅子<rt>いす</rt></ruby>、 <span class="black">-</span>
+<br>
+<ruby>赤<rt>あか</rt></ruby>いラグが
+<br>
+あります。
+
+<!--左に
+<br>
+🧿 青と白の丸が<span class="black">--</span>
+<br>
+見えます。
+<br>
+何ですか？
+<br>
+目ですか？-->
+
+<br>
+<br>
+<br>
+</p>
+</div>
+
+
+<div class="big card main_colour"> 
+🧿 
+<br>
+<ruby>青<rt>あお</rt></ruby>と<ruby>白<rt>しろ</rt></ruby>の<ruby>丸<rt>まる</rt></ruby>も
+<br>
+あります。
+
+<br>
+何でしょうか？
+
+</div>
+
+<!--
+で
+<br>
+テーブル、
+<br>
+<span class="spinned">🪑</span> <ruby>椅子<rt>いす</rt></ruby>、 <span class="black">-</span>
+<br>
+赤いラグが
+<br>
+見えます。
+-->
+<div class=" card main_colour"> 
+
+
+
+<div><span class="black">---</span><div style="display: inline-block; width:150px; margin-bottom: 80px;"></div> <span class=" fireplace_centered black fireplace big black"> - </span></div>
+
+<div style="margin-bottom: 150px;"><span class="chair big black">-</span><div style="display: inline-block; width:80px;"></div><span class="table big black">- </span>
+
+<div style="display: inline-block; width:280px;"></div>
+</div>
+
+<br>
+<div class="red_background red  rug_centered" style="width: 400px;height:   100px;border: solid brown 5px;">🧿  🧙‍♀️----</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<span class="big " style="font-style:italic;">ん？</span>
+</div>
+<div class=" card main_colour"> 
+<div class="big">
+<!--🧿 青と白の丸は
+<br>-->
+<ruby>炎<rt>ほのお</rt></ruby>を<ruby>出<rt>だ</rt></ruby>してジュジュを<ruby>攻撃<rt>こうげき</rt></ruby>します！ 
+<p>
+
+<span class="fight_score">250</span>
+<span class="fight">
+<ruby class="">🧿</ruby>
+<span class="fight_col">-</span>
+<ruby class="">&#10093;&#10093;&#10093;<rt></rt></ruby> 
+<span class="fight_col">--<span class="spinned">🔥</span>--</span>
+<ruby class="blue">&#10093;&#10093;&#10093;<rt>0</rt></ruby>
+<span class="fight_col">-</span>
+<ruby>🧙‍♀️<rt></rt></ruby></span>
+<span class="fight_score"><span class=" ">80</span></span>
+
+<br><br><div class="ring center_div"></div>
+<br>
+🧙‍♀️
+<br>
+レナのドラゴンの<ruby>指輪<rt>ゆびわ</rt></ruby>は
+<br>
+<ruby>炎<rt>ほのお</rt></ruby>に<ruby>強<rt>つよ</rt></ruby>いです。
+<br>
+ジュジュを<ruby>守<rt>まも</rt></ruby>ります。
+
+</p>
+</div>
+</div>	
+
+
+
+<div class='card big'>
+<p>
+ジュジュは<ruby>矢<rt>や</rt></ruby>を<ruby>放<rt>はな</rt></ruby>ちます
+<br>
+<br>	
+<span class="fight_score">250</span>
+<span class="fight">
+<ruby class="">🧿</ruby>
+<span class="fight_col">-</span>
+<ruby class="red">&#10092;&#10092;&#10092;<rt></rt></ruby> 
+<span class="fight_col">--</span><span class="">←</span><span class="fight_col">--</span>
+<ruby class=" ">&#10092;&#10092;&#10092;<rt> </rt></ruby>
+<span class="fight_col">-</span>
+<ruby>🧙‍♀️<rt></rt></ruby></span>
+<span class="fight_score"><span class=" ">80</span></span>
+<br>
+<br>
+<br><!--	
+<span class="fight_score">250</span>
+<span class="fight">
+<ruby class="">🎯</ruby>
+<span class="fight_col">-</span>
+<ruby class="red">&#10092;&#10092;&#10092;<rt></rt></ruby> 
+<span class="fight_col">--</span><span class="fight_col">--</span><span class="fight_col">--</span>
+<ruby class=" ">&#10092;&#10092;&#10092;<rt> </rt></ruby>
+<span class="fight_col">-</span>
+<ruby>🧙‍♀️<rt></rt></ruby></span>
+<span class="fight_score"><span class=" ">80</span></span>
+<br>
+<br>-->
+<div class="center_eye"><div class="shrieking_eye center_div black">.</div></div>
+<br>
+<br>
+<span class="onomatopeia big">キャー</span>	
+</p>
+</div>	
+
+
+
+
+
+<!--
+
+<div class=" card main_colour"> 
+<span class="black">---- </span><span class=" fireplace_centered black fireplace big"> - </span>
+<br>
+
+
+<br>
+<br>
+<span class="black"><span class="chair big">-</span> ------------<span class="table big"> </span>--------------------- </span> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<div class="red_background red	rug_centered" style="width: 400px;height: 	100px;border: solid brown 5px;"><span class=""><span class="">💣</span></span> --------------------	🧙‍♀️--</div>
+</div>	
+
+<br>
+<br>Throw an arrow 
+<br>
+<br>Because a bomb
+becomes red
+<br>
+<br>
+-->
+
+<div class='card big'>
+<p>
+<span class="big_twittemoji">💥</span>
+</p>
+</div>	
+
+
+
+<div class=" card main_colour"> 
+
+
+<div><span class="black">---</span><div style="display: inline-block; width:150px; margin-bottom: 80px;"></div> <span class=" fireplace_centered black fireplace big black"> - </span></div>
+
+<div style="margin-bottom: 150px;"><span class="chair big black">-</span><div style="display: inline-block; width:80px;"></div><span class="table big black">- </span>
+
+<div style="display: inline-block; width:280px;"></div>
+</div>
+
+<br>
+<div class="black" ><span class="big_twittemoji">🕳️</span>------ </div>
+<span class="black">🧙‍♀️-- ----</span>
+<br> <span class=" onomatopeia white"><span class="big">ああ</span></span><span class="black">-- ----</span>
+<br>
+
+<br>
+
+	 
+<span class="small_twittemoji">↪</span>  <span class="internal_link big"><a href="./4_24_gogotz_house.html#aaa" style="color:"><ruby>地下室<rt>ちかしつ</rt></ruby>に行きます</a></span>
+
+
+</div>	
+
+
+ 
+<br>
+<br>
+<br>
+
+<div class=" card main_colour  " id="aaa"> 
+<p>
+<div class="big">
+🪜 
+<br>
+<ruby>梯子<rt>はしご</rt></ruby>を
+<br>
+<ruby>降<rt>お</rt></ruby>ります
+</div>  
+<br>
+<br>
+<br>
+<span class="black">--------</span>  <span class="black">-----</span> 🪜  <span class="black">-----</span>🕸️
+<br>
+<span class="black">---------</span>🕷 <span class="black">--</span> 🪜  <span class="black">--</span>  🕸️🕸️
+<br>
+🧙‍♀️
+<br>
+🗿  🗿  🗿  🪜  🗿  🗿  🗿
+
+</p>
+</div>
+
+
+<div class="big card">
+  <p>
+🧙‍♀️
+<br>
+<ruby>廊下<rt>ろうか</rt></ruby>にいます。
+
+<br>
+<ruby>左側<rt>ひだりがわ</rt></ruby>に<ruby>1<rt>ひと</rt></ruby>つ、
+<br>
+<ruby>右側<rt>みぎがわ</rt></ruby>に<ruby>1<rt>ひと</rt></ruby>つのドアが
+<br>
+見えます。	
+
+</p>
+</div>
+
+
+<div class=" card main_colour  big"> 
+<p>
+🚪 
+<br>	
+<ruby>左側<rt>ひだりがわ</rt></ruby>のドアを
+<br>
+<ruby>開<rt>あ</rt></ruby>けます
+
+
+</p>
+</div>
+
+
+<div class=" card main_colour "> 
+<p>
+<div class="shelf shelf_centered black">-</div>
+<br>🪝 <div style="display: inline-block; width:50px; margin-bottom: 50px;"></div> 🪝 <div style="display: inline-block; width:130px; margin-bottom: 80px;"></div> 
+<br>
+<div style="display:inline-block;">🧙‍♀️</div> 
+
+<div style="display: inline-block; width:450px; margin-bottom: 50px;"></div>
+<div class="box box_centered2 black" style="display:inline-block;">-</div><div style="display:inline-block;" class="box box_centered black">-</div> ⚱️
+<br>
+<div style="display: inline-block; width:450px; margin-bottom: 50px;"></div><div style="display: inline-block; margin-bottom: 50px;">⚱️</div>
+		<br>
+<div class="card black"><span class="spinned">🐀</span><span class="black">----</span> 🦂  </div>
+</p>
+</div>
+
+
+
+<div class=" card main_colour  big"> 
+<p>
+🐀 ネズミと
+<br>
+🦂 サソリが
+<br>
+<ruby>話<rt>はな</rt></ruby>しています。
+<br>
+ジュジュは
+<br>
+聞いています。
+<br>
+👂
+<br>
+<br>
+🦂
+<br>
+<!--ヴァレンティノの
+<br>
+ホラ<ruby>骨<rt>ほね</rt></ruby>が欲しい！
+<br>-->
+
+どこに
+<br>
+🧄 ニンニクが
+<br>
+あるんだ？
+<br>
+<br>
+🐀
+<br>
+ニンニク？
+<br><br>
+🦂
+<br>
+🧄 ニンニクと<ruby>水<rt>みず</rt></ruby>を
+<br>
+<ruby>投<rt>な</rt></ruby>げつけると、
+<br>
+ヴァレンティノは
+<br>
+🧊 <ruby>氷<rt>こおり</rt></ruby>になるんだ
+<br>
+
+</p>
+</div>
+
+<div class=" card main_colour  big"> 
+<p>
+🧙‍♀️
+<br>
+<span style="font-style: italic;">へー</span>
+</p>
+</div>
+
+
+
+
+<div class=" card main_colour  big"> 
+<p>
+<span class="spinned">🚶‍♀️</span>
+</p>
+</div>
+
+
+
+<div class=" card main_colour  big"> 
+<p>
+🚪
+<br>	
+<ruby>右側<rt>みぎがわ</rt></ruby>のドアを
+<ruby>開<rt>あ</rt></ruby>けます
+</p>
+</div>
+
+
+
+<div class=" card main_colour  big"> 
+<p>
+
+<div class="adjust-line-height" style="border-top: solid grey 20px; padding-top:  20px; width: 620px; border-bottom: solid grey 20px; padding-bottom:  20px;  margin: auto; margin-bottom: 10px;">
+🦇 <span class="black">⛓️</span> 🦇 <span class="black">⛓️</span> 🦇 <span class="black">⛓️</span> 🦇
+ 
+<br>
+<span class="black">--</span> <span class="black">⛓</span> <span class="black">---</span> <span class="black">⛓️</span> <span class="black">---</span> <span class="black">⛓️</span> <span class="black">--</span> 
+</div>	
+
+<span class="black">--🧙‍♀️--------------</span><span class="big_twittemoji">⚰️</span> 
+</p>
+</div>
+
+<div class=" card main_colour  big"> 
+<p>
+🧙‍♀️	
+<br>
+ヴァレンティノ 
+</p>
+</div>
+
+<div class=" card main_colour  big"> 
+<p>
+
+<div class="adjust-line-height" style="border-top: solid grey 20px; padding-top:  20px; width: 620px; border-bottom: solid grey 20px; padding-bottom:  20px;  margin: auto; margin-bottom: 10px;">
+🦇 <span class="black">⛓️</span> 🦇 <span class="black">⛓️</span> 🦇 <span class="black">⛓️</span> 🦇
+ 
+<br>
+<span class="black">--</span> <span class="black">⛓</span> <span class="black">---</span> <span class="black">⛓️</span> <span class="black">---</span> <span class="black">⛓️</span> <span class="black">--</span> 
+</div>	
+
+<span class="black">--🧙‍♀️------<span class="big_twittemoji">🧛🏻‍♂️</span>----</span><span class="big_twittemoji">⚰️</span> 
+</p>
+</div>
+
+
+<div class=" card main_colour  big"> 
+<p>
+<span class="big_twittemoji">🧛🏻‍♂️</span>	
+<br>
+<ruby>魔女<rt>まじょ</rt></ruby>？
+</p>
+</div>
+
+<div class=" card main_colour  big"> 
+<p>
+🧙‍♀️	
+<br>
+<!--<ruby>骨<rt>ほね</rt></ruby>はどこにある？
+<Br>-->
+<ruby>骨<rt>ほね</rt></ruby>は
+<br>
+<ruby>魔女<rt>まじょ</rt></ruby>のものだわ
+</p>
+</div>
+
+
+
+<div class=" card main_colour  big"> 
+<p>
+<span class="big_twittemoji">🧛🏻‍♂️</span>	
+<br>
+<ruby>骨<rt>ほね</rt></ruby>を<ruby>持<rt>も</rt></ruby>っていない
+</p>
+</div>
+
+<div class=" card main_colour  big"> 
+<p>
+🧙‍♀️	
+<br>
+そんなはずはない
+<!--<br>
+<ruby>骨<rt>ほね</rt></ruby>を持っています
+-->
+</p>
+</div>
+
+
+<div class=" card main_colour  big"> 
+<p>
+<span class="big_twittemoji">🧛🏻‍♂️</span>	
+<br>
+<span style="font-style: italic ;">ガハハ</span>
+<br>
+<ruby>骨<rt>ほね</rt></ruby>が<ruby>欲<rt>ほ</rt></ruby>しいのか？
+<br>
+<ruby>僕<rt>ぼく</rt></ruby>と<ruby>戦<rt>たたか</rt></ruby>おう！
+</p>
+</div>
+
+<div class='card big'>
+<p>
+<span class="fight_score">330</span>
+<span class="fight">
+<ruby class="">🧛🏻‍♂️</ruby>
+<span class="fight_col">-</span>
+<ruby class="green">&#10092;&#10092;&#10092;<rt>+30</rt></ruby> 
+<span class="fight_col">-<span class="spinned">🩸</span>-</span>
+<ruby class="red">&#10092;&#10092;&#10092;<rt>-30</rt></ruby>
+<span class="fight_col">-</span>
+<ruby>🧙‍♀️<rt></rt></ruby></span>
+<span class="fight_score">050</span>
+<br>
+<br>
+
+<!--ヴァレンティノに水をかける
+<br>
+<br>-->	
+<span class="fight_score">330</span>
+<span class="fight">
+<ruby class="">🧛🏻‍♂️</ruby>
+<span class="fight_col">-</span>
+<ruby class="blue">&#10092;&#10092;&#10092;<rt>0</rt></ruby> 
+<span class="fight_col">-<span class="spinned">💦</span>-</span>
+<ruby class=" ">&#10092;&#10092;&#10092;<rt> </rt></ruby>
+<span class="fight_col">-</span>
+<ruby>🧙‍♀️<rt></rt></ruby></span>
+<span class="fight_score">050</span>
+<br>
+<br>
+？
+<br>
+🧛🏻‍♂️
+<br>
+<span class="black">--</span><ruby>水<rt>みず</rt></ruby>？
+</p>
+</div>	
+
+
+
+
+<div class='card big'>
+<p>
+🧙‍♀️ 🧄
+<br>	
+ジュジュはバッグから
+<br>
+ニンニクを<ruby>投<rt>な</rt></ruby>げます
+<br>	
+<br>
+<span class="fight_score">250</span>
+<span class="fight">
+<ruby class="">🧛🏻‍♂️</ruby>
+<span class="fight_col">-</span>
+<ruby class="blue">&#10092;&#10092;&#10092;<rt>0</rt></ruby> 
+<span class="fight_col">-<span class="spinned">🧄<ruby><rt><span class="small_twittemoji">  </span></rt></ruby></span>-</span>
+<ruby class=" ">&#10092;&#10092;&#10092;<rt> </rt></ruby>
+<span class="fight_col">-</span>
+<ruby class="spinned">🌬️<rt> </rt></ruby></span>
+<span class="fight_score">080</span>
+<br>
+<br>
+<span class="fight_score">250</span>
+<span class="fight">
+<ruby class="">🥶</ruby>
+<span class="fight_col">-</span>
+<ruby class="blue">&#10092;&#10092;&#10092;<rt>0</rt></ruby> 
+<span class="fight_col">-<span class="spinned">🧄<ruby><rt><span class="small_twittemoji">  </span></rt></ruby></span>-</span>
+<ruby class=" ">&#10092;&#10092;&#10092;<rt> </rt></ruby>
+<span class="fight_col">-</span>
+<ruby class="spinned">🧙‍♀️<rt> </rt></ruby></span>
+<span class="fight_score">080</span>
+<br>
+<br>
+🧙‍♀️
+<br>
+<ruby>勝<rt>か</rt></ruby>った
+</p>
+</div>	
+
+
+<div class='card big'>
+<p>
+<div class="card main_colour">
+	<span class="big_twittemoji">🧙‍♀️</span>
+<div class="test ">
+
+<div class="chest">
+  <div class="chest_keyholeBG">
+    <div class=""></div>
+  </div>
+</div>
+
+</div>
+</div>
+</p>
+</div>	
+
+
+<div class=" card main_colour  big"> 
+<p>
+🧙‍♀️
+<br>
+🦴🦴
+<br>
+
+<ruby>二<rt>ふた</rt></ruby>つのホラの<ruby>骨<rt>ほね</rt></ruby>。
+<br>
+やったわ。
+</p>
+</div>
+
+
+
+<!--
+<div class='card big'>
+<p>
+
+何が聞こえる？
+
+	ヴァレンティノは、緑と赤のどちらを欲しがっているのでしょうか？
+
+
+	赤いやつ! 緑を飲むと死ぬんだ
+
+彼は私の宝箱の鍵を持っています。ミナスの骨が欲しい！
+
+
+
+赤い薬を飲むと死ぬ。
+
+She changes the clour of the potion.
+
+
+
+魔法をかけると、緑の薬が赤になる。
+
+ヴァレンティノって誰？
+
+緑の薬を手に持っています
+
+
+コウモリのいる部屋に行くのです。	
+
+
+ヴァレンティノ様 あなたのポーションです。
+
+死ね 
+
+S il boit il devient chauve souris
+
+
+ヴァンパイアは死んだ 
+私は死んでいる
+La souris est minas et le scorpion Gogtz
+
+
+Inspect the bottles. You put some garlic and some 南の山の 魔法薬 
+
+
+ナイフは怖くない
+
+You throw the potion at the vampire. but it does nothing.
+
+Ahahah I am strong against the potion.
+
+🌬️ 🧄
+
+🥶
+
+
+🗝️
+
+
+🦴
+
+</div>
+
+
+<div class="bookshelf bookshelf_centered">-</div>
+
+
+<div class="big card main_colour"> 
+<p>
+北東の部屋へ行く。
+こちらはラウンジです。黄色いテーブルと椅子、煙突、赤いラグがあります。
+青い丸？
+青い丸と話をしたいですか？
+こんにちは、ジュジュです。
+
+死ね！
+
+
+🔥
+
+竜の指輪はジュジュを火から守る。
+
+
+Throw a magic star ⭐
+at it
+💥
+😵‍💫
+
+
+穴！？
+
+
+ハシゴを降りよう
+死んでいる
+</p>
+</div>
+
+
+<div class="big card main_colour"> 
+<p>
+
+
+🕷️ 🕸️
+
+⚰️
+
+🧛🏻‍♂️
+🦇
+
+💍 🧪
+
+dragno mmilk 🦴
+
+🧪  ⚗️  🌡️ 🔪 ⌛ 🕯️ ⚖️ 🪟 window  🪞 mirror 🪑
+</p>
+</div>
+-->
+
+<div class="big last_div">
+<p>
+  <span class="ruby_under"><a href="../index.html"><ruby>&#127968;<rt> ホーム </rt></ruby></a></span> *** <ruby>終<rt>お</rt></ruby>わり *** <a href="./5_01_desktop.html"><ruby> &#10140;<rt><ruby>次<rt>つぎ</rt></ruby></rt></ruby></a></p>
+
+</div>
+
+
+ 
+<script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+  twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
+</script>
+
+</body>

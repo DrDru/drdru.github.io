@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8"/>
+<html lang="ja">
+<link rel="stylesheet" type="text/css" href="4_05_pixel_art.css">
+<link rel="stylesheet" type="text/css" href="main.css">
+<style>
+
+
+
+a {
+	
+	color: black;
+	text-decoration: none;
+
+}
+
+
+.main_background {
+
+	background-color: #f8fc64;
+
+}
+
+.bg_color {
+
+	color: #f8fc64;
+
+}
+
+.main_color {
+
+	color: black;
+	
+
+}
+.pan {
+
+	border-radius: 0px 0px 50px 50px;
+
+}
+
+.pan2 {
+
+
+    border: 7px solid black;
+	border-radius: 50px 50px 0px 0px;
+
+}
+
+.center_div {
+
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 -50px;
+
+}
+
+div.square {
+  
+  width: 80px;
+  height: 80px;
+  background-color:grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px 50px 50px 50px;
+}
+
+
+</style>
+
+</head>
+
+
+<body  class="centered_bold main_color main_background">
+
+<div class="top_div ">	<span class="bg_color">-</span>
+
+</div>
+
+<!-- https://ironchestgames.itch.io/rpg-items-for-pico-8-->
+<div class='card big'>
+<p>
+&#128103;&#127998;
+<br>
+名前はアーイシャです。
+<br>
+イギリス<ruby>人<rt>じん</rt></ruby>です。
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#127472;&#127479;
+<br>
+<ruby>韓国<rt>かんこく</rt></ruby>に
+<br>
+<ruby>住<rt>す</rt></ruby>んでいます
+</p>
+</div>	
+
+<div class='card big'>
+<p>
+&#128103;&#127998;
+<br>
+&#127912; &#128396;
+<br>
+<ruby>画家<rt>がか</rt></ruby>です。
+<br>
+<ruby>漫画<rt>まんが</rt></ruby>のキャラクターを
+<br>
+<ruby>描<rt>か</rt></ruby>いています。
+<br>
+ゲームデザイナーに
+<br>
+なりたいです。
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#127988;&#8205;&#9760;&#65039;
+<br>
+<ruby>漫画<rt>まんが</rt></ruby>の中では、
+<br>
+ワンピースが
+<br>
+<ruby>一番<rt>いちばん</rt></ruby>好きです
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#129492;&#127995;
+<br>
+ワンピースの<ruby>海賊<rt>かいぞく</rt></ruby>の
+<br>
+<ruby>白<rt>しろ</rt></ruby>ひげを<ruby>描<rt>か</rt></ruby>きます
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128105;&#8205;&#129456;
+<br>
+ワンピースのナミを<ruby>描<rt>か</rt></ruby>きます
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#128103;&#127998;
+<br>
+<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>絵<rt>え</rt></ruby>を
+<br>
+<ruby>描<rt>か</rt></ruby>きましょう
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p>
+<div class='grid center_div'></div>
+<br>
+<br>
+8x8のグリッドを作ります
+</p>
+</div>
+
+<div class='card big'>
+<p>
+<div class='grid_2 center_div'></div>
+<br>
+<br>
+<ruby>左<rt>ひだり</rt></ruby><ruby>上<rt>うえ</rt></ruby>のセルは<ruby>赤<rt>あか</rt></ruby>です
+<br>
+<ruby>右<rt>みぎ</rt></ruby><ruby>上<rt>うえ</rt></ruby>のセルはグレーです
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+<div class='square'></div>
+グレー
+</p>
+</div>
+<!--https://ironchestgames.itch.io/rpg-items-for-pico-8-->
+
+
+<div class='card big'>
+<p>	
+<ruby>混<rt>ま</rt></ruby>ぜる
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#9898; + &#9899; 
+<br>	
+<ruby>白<rt>しろ</rt></ruby>と<ruby>黒<rt>くろ</rt></ruby>を<ruby>混<rt>ま</rt></ruby>ぜると
+<br>
+<div class='square'></div>
+グレーになります
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128993; 
+<br>	
+<ruby>黄色<rt>きいろ</rt></ruby>
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128992;
+<br>	
+オレンジ 
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128308; + &#128993; 
+<br>
+<ruby>赤<rt>あか</rt></ruby>と<ruby>黄色<rt>きいろ</rt></ruby>を<ruby>混<rt>ま</rt></ruby>ぜると
+<br>
+&#128992;  オレンジになります
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p>
+<div class="sword center_div"></div>
+<br>
+<br>
+<ruby>剣<rt>けん</rt></ruby>
+</p>
+</div>
+
+<div class='card big'>
+<p>
+グレー、
+<br>
+<ruby>赤<rt>あか</rt></ruby>、
+<br>
+オレンジで
+<br>
+&#9876;&#65039; <ruby>剣<rt>けん</rt></ruby>を<ruby>描<rt>か</rt></ruby>きます
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+<div class="shield center_div"></div>
+<br>
+<br>	
+<ruby>盾<rt>たて</rt></ruby>
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+👩🏾‍🎨
+<br>
+&#128992; オレンジ、
+<br>
+&#9899;  <ruby>黒<rt>くろ</rt></ruby>、
+<br>
+グレーで
+<br>
+&#128737;&#65039; <ruby>盾<rt>たて</rt></ruby>を<ruby>描<rt>か</rt></ruby>きます
+</p>
+</div>
+
+
+
+
+<div class='card big'>
+<p>
+<div class="key center_div"></div>
+<br>
+<br>
+<ruby>鍵<rt>かぎ</rt></ruby>
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128993; <ruby>黄色<rt>きいろ</rt></ruby>と
+<br>
+&#128992; オレンジで
+<br>
+&#128273; <ruby>鍵<rt>かぎ</rt></ruby>を<ruby>描<rt>か</rt></ruby>きます
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+👩🏾‍🎨
+<br>
+私の<ruby>絵<rt>え</rt></ruby>を<ruby>買<rt>か</rt></ruby>いたいですか？
+</p>
+</div>
+
+
+<div class="big last_div">
+<p>
+  <span class="ruby_under"><a href="../."><ruby>&#127968;<rt> ホーム </rt></ruby></a></span> *** <ruby>終<rt>お</rt></ruby>わり *** <a href="./4_06_magic.html"><ruby> &#10140;<rt><ruby>次<rt>つぎ</rt></ruby></rt></ruby></a></p>
+
+</div>
+
+
+ 
+<script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+  twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
+</script>
+
+</body>

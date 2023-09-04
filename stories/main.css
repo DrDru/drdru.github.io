@@ -1,0 +1,170 @@
+.ruby_under {
+
+  ruby-position: under;
+
+}
+
+.ruby_over {
+
+  ruby-position: over;
+
+}
+
+
+.centered_bold {
+
+	text-align: center;
+
+
+}
+
+.onomatopeia {
+
+    font-weight: normal;
+	font-style: italic;
+	
+}
+
+.big {
+
+   font-size: 350%;
+
+}
+
+.card{
+
+   margin-bottom: 170px;
+ 
+ }
+
+.black {
+
+	color: black;
+	
+}
+
+.yellow{
+
+	color: yellow;
+	
+}
+
+.green {
+
+	color: green;
+	
+}
+
+
+.white {
+
+	color: white;
+	
+}
+
+.red {
+
+	color: red;
+	
+}
+
+.blue {
+
+	color: blue;
+	
+}
+
+
+.white_background {
+
+	background-color: white;
+
+}
+
+.red_background {
+
+	background-color: red;
+
+}
+
+.grey_background {
+
+	background-color: grey;
+
+}
+
+
+.grey {
+
+	color:grey;
+
+}
+
+
+.blue_background {
+
+
+	background-color:blue;
+
+}
+
+.brown_background {
+
+
+	background-color: #843827;
+
+}
+
+.brown {
+
+
+	color: #843827;
+
+}
+
+.black_background {
+
+
+	background-color: black;
+
+}
+
+.big_twittemoji .emoji {
+    height: 160px;
+    width: 160px;
+
+}
+
+
+.small_twittemoji .emoji {
+    height: 40px;
+    width: 40px;
+}
+
+
+.onomatopeia {
+
+
+    font-size: 70%;
+    font-weight: normal;
+	font-style: italic;
+	
+}
+
+.mid_size {
+
+   font-size: 260%;
+
+}
+
+.spinned .emoji {
+
+	transform: rotateY(180deg);
+
+}
+
+.narrator {
+
+	font-weight: bold;
+
+}

@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8"/>
+<html lang="ja">
+<link rel="stylesheet" type="text/css" href="main.css">
+
+<style>
+
+
+
+a {
+	
+	color: black;
+	text-decoration: none;
+
+}
+
+
+
+.bg_col {
+
+	color: white;
+}
+
+.main_background {
+
+	background-color: #33ff99;
+
+}
+
+
+.main_colour {
+
+    color: black;
+
+}
+
+
+.long_text_div {
+
+	  width: 480px;
+	font-size: 170%;
+	padding: 0px;
+	margin: auto;
+text-align: justify;
+overflow-wrap: break-word; 
+
+}
+
+.icon_twittemoji60 .emoji {
+    height: 60px;
+    width: 60px;
+}
+
+.icon_twittemoji40 .emoji {
+    height: 40px;
+    width: 40px;
+}
+
+.icon_twittemoji .emoji {
+    height: 20px;
+    width: 20px;
+}
+
+.url_bar {
+  overflow-wrap: break-word; 
+  overflow: hidden;	
+  font-size: 110%;
+	border-top: solid black	 1px;  
+	border-bottom: solid black	 1px;
+	padding-bottom: 10px;
+	height: 17px;
+	width:  540px;
+}
+
+.search_bar {
+  overflow-wrap: break-word; 
+  overflow: hidden;	
+  font-size: 110%;
+	border-left: solid grey	 1px;
+	border-right: solid grey	 1px;
+	border-bottom: solid black	 1px;
+	padding-bottom: 10px;
+	height: 17px;
+	width:  123px;
+	float: 	left;
+}
+
+
+
+.search_bar2 {
+   height:inherit;
+   font-size: 80%;
+   height: 25px;
+   width: 	350px;
+   background-color: white;
+   border: solid	1px	#b1b3bf;
+   float: 	left;
+   padding-right: 	10px;
+   padding-left: 	5px;
+}
+
+.size_bar {
+
+
+	  padding: 5px;
+	border: solid grey	 1px;
+	
+}
+
+.some_left_padding {
+ 
+  margin: 10px;
+  padding-left: 7px;
+  border-left: solid #adabb5 4px;
+}
+
+.a_frame {
+
+padding-left	: 10px;
+  border: solid black 2px;
+
+}
+
+
+.computer_screen {
+
+	width: 540px;
+	background-color: #dce8ef;
+  
+margin: auto;
+   height: 335px;
+   border: solid black 20px;
+   border-radius: 10px;
+
+}
+
+
+.taskbar {
+
+
+ background-color: #8294a5;
+ height: 20px;
+ padding-bottom: 3px;
+ padding-right: 5px;
+}
+
+.desktop {
+	padding-top: 10px;
+padding-left:  20px;
+padding-right: 20px;
+height: 302px;
+
+}
+
+
+.desktop2 {
+	
+
+height: 257px;
+background-color: white;
+
+}
+
+.icon_twittemoji15 .emoji {
+    height: 16px;
+    width: 16px;
+}
+
+
+.desktop_col {
+
+	color: #dce8ef;
+}
+
+
+.taskbar_col {
+
+	color: #8294a5;
+}
+
+
+.window_bar {
+padding-right: 10px;
+ padding-left: 10px;
+ background-color: #a6c3dd;
+ height: 27px;
+
+}
+
+.url_bar2 {
+   height:inherit;
+   font-size: 80%;
+   height: 25px;
+   width: 	322px;
+   background-color: white;
+   border: solid	1px	#b1b3bf;
+   float: 	left;
+   padding-right: 	10px;
+   padding-left: 	5px;
+}
+
+
+.url_bar1 {
+
+	float: 	left;
+	padding-right: 	10px;
+}
+
+.url_bar3 {
+
+	float: 	left;
+	padding-left: 	10px;
+}
+
+.right_align{
+
+  float: right;
+
+}
+
+.tmp{
+	float: 	left;
+}
+
+
+.left_panel {
+
+   border-right: solid grey 2px;
+   width : 60px;
+   height: 257px;
+   padding-left:  7px;
+   float: left;
+
+
+}
+
+.main_folder {
+   padding-left:  10px;
+   padding-top:  15px;
+   float: left;
+
+}
+
+.editor {
+
+ background-color: white; 
+ border-radius:  10px; 
+ border: solid grey 2px; 
+ padding: 10px; 
+ margin-bottom:    15px;
+
+}
+
+
+
+.tatami {
+  box-shadow: 10px 10px 0 0 rgba(121, 85, 72, 1), 20px 10px 0 0 rgba(121, 85, 72, 1), 30px 10px 0 0 rgba(121, 85, 72, 1), 40px 10px 0 0 rgba(121, 85, 72, 1), 50px 10px 0 0 rgba(121, 85, 72, 1), 60px 10px 0 0 rgba(121, 85, 72, 1), 70px 10px 0 0 rgba(121, 85, 72, 1), 80px 10px 0 0 rgba(121, 85, 72, 1), 90px 10px 0 0 rgba(121, 85, 72, 1), 100px 10px 0 0 rgba(121, 85, 72, 1), 110px 10px 0 0 rgba(121, 85, 72, 1), 120px 10px 0 0 rgba(121, 85, 72, 1), 130px 10px 0 0 rgba(121, 85, 72, 1), 140px 10px 0 0 rgba(121, 85, 72, 1), 150px 10px 0 0 rgba(121, 85, 72, 1), 160px 10px 0 0 rgba(121, 85, 72, 1), 170px 10px 0 0 rgba(121, 85, 72, 1), 180px 10px 0 0 rgba(121, 85, 72, 1), 190px 10px 0 0 rgba(121, 85, 72, 1), 10px 20px 0 0 rgba(121, 85, 72, 1), 20px 20px 0 0 rgba(158, 224, 122, 1), 30px 20px 0 0 rgba(158, 224, 122, 1), 40px 20px 0 0 rgba(158, 224, 122, 1), 50px 20px 0 0 rgba(158, 224, 122, 1), 60px 20px 0 0 rgba(158, 224, 122, 1), 70px 20px 0 0 rgba(158, 224, 122, 1), 80px 20px 0 0 rgba(158, 224, 122, 1), 90px 20px 0 0 rgba(158, 224, 122, 1), 100px 20px 0 0 rgba(158, 224, 122, 1), 110px 20px 0 0 rgba(158, 224, 122, 1), 120px 20px 0 0 rgba(158, 224, 122, 1), 130px 20px 0 0 rgba(121, 85, 72, 1), 140px 20px 0 0 rgba(158, 224, 122, 1), 150px 20px 0 0 rgba(158, 224, 122, 1), 160px 20px 0 0 rgba(158, 224, 122, 1), 170px 20px 0 0 rgba(158, 224, 122, 1), 180px 20px 0 0 rgba(158, 224, 122, 1), 190px 20px 0 0 rgba(121, 85, 72, 1), 10px 30px 0 0 rgba(121, 85, 72, 1), 20px 30px 0 0 rgba(158, 224, 122, 1), 30px 30px 0 0 rgba(158, 224, 122, 1), 40px 30px 0 0 rgba(158, 224, 122, 1), 50px 30px 0 0 rgba(158, 224, 122, 1), 60px 30px 0 0 rgba(158, 224, 122, 1), 70px 30px 0 0 rgba(158, 224, 122, 1), 80px 30px 0 0 rgba(158, 224, 122, 1), 90px 30px 0 0 rgba(158, 224, 122, 1), 100px 30px 0 0 rgba(158, 224, 122, 1), 110px 30px 0 0 rgba(158, 224, 122, 1), 120px 30px 0 0 rgba(158, 224, 122, 1), 130px 30px 0 0 rgba(121, 85, 72, 1), 140px 30px 0 0 rgba(158, 224, 122, 1), 150px 30px 0 0 rgba(158, 224, 122, 1), 160px 30px 0 0 rgba(158, 224, 122, 1), 170px 30px 0 0 rgba(158, 224, 122, 1), 180px 30px 0 0 rgba(158, 224, 122, 1), 190px 30px 0 0 rgba(121, 85, 72, 1), 10px 40px 0 0 rgba(121, 85, 72, 1), 20px 40px 0 0 rgba(158, 224, 122, 1), 30px 40px 0 0 rgba(158, 224, 122, 1), 40px 40px 0 0 rgba(158, 224, 122, 1), 50px 40px 0 0 rgba(158, 224, 122, 1), 60px 40px 0 0 rgba(158, 224, 122, 1), 70px 40px 0 0 rgba(158, 224, 122, 1), 80px 40px 0 0 rgba(158, 224, 122, 1), 90px 40px 0 0 rgba(158, 224, 122, 1), 100px 40px 0 0 rgba(158, 224, 122, 1), 110px 40px 0 0 rgba(158, 224, 122, 1), 120px 40px 0 0 rgba(158, 224, 122, 1), 130px 40px 0 0 rgba(121, 85, 72, 1), 140px 40px 0 0 rgba(158, 224, 122, 1), 150px 40px 0 0 rgba(158, 224, 122, 1), 160px 40px 0 0 rgba(158, 224, 122, 1), 170px 40px 0 0 rgba(158, 224, 122, 1), 180px 40px 0 0 rgba(158, 224, 122, 1), 190px 40px 0 0 rgba(121, 85, 72, 1), 10px 50px 0 0 rgba(121, 85, 72, 1), 20px 50px 0 0 rgba(158, 224, 122, 1), 30px 50px 0 0 rgba(158, 224, 122, 1), 40px 50px 0 0 rgba(158, 224, 122, 1), 50px 50px 0 0 rgba(158, 224, 122, 1), 60px 50px 0 0 rgba(158, 224, 122, 1), 70px 50px 0 0 rgba(158, 224, 122, 1), 80px 50px 0 0 rgba(158, 224, 122, 1), 90px 50px 0 0 rgba(158, 224, 122, 1), 100px 50px 0 0 rgba(158, 224, 122, 1), 110px 50px 0 0 rgba(158, 224, 122, 1), 120px 50px 0 0 rgba(158, 224, 122, 1), 130px 50px 0 0 rgba(121, 85, 72, 1), 140px 50px 0 0 rgba(158, 224, 122, 1), 150px 50px 0 0 rgba(158, 224, 122, 1), 160px 50px 0 0 rgba(158, 224, 122, 1), 170px 50px 0 0 rgba(158, 224, 122, 1), 180px 50px 0 0 rgba(158, 224, 122, 1), 190px 50px 0 0 rgba(121, 85, 72, 1), 10px 60px 0 0 rgba(121, 85, 72, 1), 20px 60px 0 0 rgba(158, 224, 122, 1), 30px 60px 0 0 rgba(158, 224, 122, 1), 40px 60px 0 0 rgba(158, 224, 122, 1), 50px 60px 0 0 rgba(158, 224, 122, 1), 60px 60px 0 0 rgba(158, 224, 122, 1), 70px 60px 0 0 rgba(158, 224, 122, 1), 80px 60px 0 0 rgba(158, 224, 122, 1), 90px 60px 0 0 rgba(158, 224, 122, 1), 100px 60px 0 0 rgba(158, 224, 122, 1), 110px 60px 0 0 rgba(158, 224, 122, 1), 120px 60px 0 0 rgba(158, 224, 122, 1), 130px 60px 0 0 rgba(121, 85, 72, 1), 140px 60px 0 0 rgba(158, 224, 122, 1), 150px 60px 0 0 rgba(158, 224, 122, 1), 160px 60px 0 0 rgba(158, 224, 122, 1), 170px 60px 0 0 rgba(158, 224, 122, 1), 180px 60px 0 0 rgba(158, 224, 122, 1), 190px 60px 0 0 rgba(121, 85, 72, 1), 10px 70px 0 0 rgba(121, 85, 72, 1), 20px 70px 0 0 rgba(121, 85, 72, 1), 30px 70px 0 0 rgba(121, 85, 72, 1), 40px 70px 0 0 rgba(121, 85, 72, 1), 50px 70px 0 0 rgba(121, 85, 72, 1), 60px 70px 0 0 rgba(121, 85, 72, 1), 70px 70px 0 0 rgba(121, 85, 72, 1), 80px 70px 0 0 rgba(121, 85, 72, 1), 90px 70px 0 0 rgba(121, 85, 72, 1), 100px 70px 0 0 rgba(121, 85, 72, 1), 110px 70px 0 0 rgba(121, 85, 72, 1), 120px 70px 0 0 rgba(121, 85, 72, 1), 130px 70px 0 0 rgba(121, 85, 72, 1), 140px 70px 0 0 rgba(158, 224, 122, 1), 150px 70px 0 0 rgba(158, 224, 122, 1), 160px 70px 0 0 rgba(158, 224, 122, 1), 170px 70px 0 0 rgba(158, 224, 122, 1), 180px 70px 0 0 rgba(158, 224, 122, 1), 190px 70px 0 0 rgba(121, 85, 72, 1), 10px 80px 0 0 rgba(121, 85, 72, 1), 20px 80px 0 0 rgba(158, 224, 122, 1), 30px 80px 0 0 rgba(158, 224, 122, 1), 40px 80px 0 0 rgba(158, 224, 122, 1), 50px 80px 0 0 rgba(158, 224, 122, 1), 60px 80px 0 0 rgba(158, 224, 122, 1), 70px 80px 0 0 rgba(121, 85, 72, 1), 80px 80px 0 0 rgba(158, 224, 122, 1), 90px 80px 0 0 rgba(158, 224, 122, 1), 100px 80px 0 0 rgba(158, 224, 122, 1), 110px 80px 0 0 rgba(158, 224, 122, 1), 120px 80px 0 0 rgba(158, 224, 122, 1), 130px 80px 0 0 rgba(121, 85, 72, 1), 140px 80px 0 0 rgba(158, 224, 122, 1), 150px 80px 0 0 rgba(158, 224, 122, 1), 160px 80px 0 0 rgba(158, 224, 122, 1), 170px 80px 0 0 rgba(158, 224, 122, 1), 180px 80px 0 0 rgba(158, 224, 122, 1), 190px 80px 0 0 rgba(121, 85, 72, 1), 10px 90px 0 0 rgba(121, 85, 72, 1), 20px 90px 0 0 rgba(158, 224, 122, 1), 30px 90px 0 0 rgba(158, 224, 122, 1), 40px 90px 0 0 rgba(158, 224, 122, 1), 50px 90px 0 0 rgba(158, 224, 122, 1), 60px 90px 0 0 rgba(158, 224, 122, 1), 70px 90px 0 0 rgba(121, 85, 72, 1), 80px 90px 0 0 rgba(158, 224, 122, 1), 90px 90px 0 0 rgba(158, 224, 122, 1), 100px 90px 0 0 rgba(158, 224, 122, 1), 110px 90px 0 0 rgba(158, 224, 122, 1), 120px 90px 0 0 rgba(158, 224, 122, 1), 130px 90px 0 0 rgba(121, 85, 72, 1), 140px 90px 0 0 rgba(158, 224, 122, 1), 150px 90px 0 0 rgba(158, 224, 122, 1), 160px 90px 0 0 rgba(158, 224, 122, 1), 170px 90px 0 0 rgba(158, 224, 122, 1), 180px 90px 0 0 rgba(158, 224, 122, 1), 190px 90px 0 0 rgba(121, 85, 72, 1), 10px 100px 0 0 rgba(121, 85, 72, 1), 20px 100px 0 0 rgba(158, 224, 122, 1), 30px 100px 0 0 rgba(158, 224, 122, 1), 40px 100px 0 0 rgba(158, 224, 122, 1), 50px 100px 0 0 rgba(158, 224, 122, 1), 60px 100px 0 0 rgba(158, 224, 122, 1), 70px 100px 0 0 rgba(121, 85, 72, 1), 80px 100px 0 0 rgba(158, 224, 122, 1), 90px 100px 0 0 rgba(158, 224, 122, 1), 100px 100px 0 0 rgba(158, 224, 122, 1), 110px 100px 0 0 rgba(158, 224, 122, 1), 120px 100px 0 0 rgba(158, 224, 122, 1), 130px 100px 0 0 rgba(121, 85, 72, 1), 140px 100px 0 0 rgba(158, 224, 122, 1), 150px 100px 0 0 rgba(158, 224, 122, 1), 160px 100px 0 0 rgba(158, 224, 122, 1), 170px 100px 0 0 rgba(158, 224, 122, 1), 180px 100px 0 0 rgba(158, 224, 122, 1), 190px 100px 0 0 rgba(121, 85, 72, 1), 10px 110px 0 0 rgba(121, 85, 72, 1), 20px 110px 0 0 rgba(158, 224, 122, 1), 30px 110px 0 0 rgba(158, 224, 122, 1), 40px 110px 0 0 rgba(158, 224, 122, 1), 50px 110px 0 0 rgba(158, 224, 122, 1), 60px 110px 0 0 rgba(158, 224, 122, 1), 70px 110px 0 0 rgba(121, 85, 72, 1), 80px 110px 0 0 rgba(158, 224, 122, 1), 90px 110px 0 0 rgba(158, 224, 122, 1), 100px 110px 0 0 rgba(158, 224, 122, 1), 110px 110px 0 0 rgba(158, 224, 122, 1), 120px 110px 0 0 rgba(158, 224, 122, 1), 130px 110px 0 0 rgba(121, 85, 72, 1), 140px 110px 0 0 rgba(158, 224, 122, 1), 150px 110px 0 0 rgba(158, 224, 122, 1), 160px 110px 0 0 rgba(158, 224, 122, 1), 170px 110px 0 0 rgba(158, 224, 122, 1), 180px 110px 0 0 rgba(158, 224, 122, 1), 190px 110px 0 0 rgba(121, 85, 72, 1), 10px 120px 0 0 rgba(121, 85, 72, 1), 20px 120px 0 0 rgba(158, 224, 122, 1), 30px 120px 0 0 rgba(158, 224, 122, 1), 40px 120px 0 0 rgba(158, 224, 122, 1), 50px 120px 0 0 rgba(158, 224, 122, 1), 60px 120px 0 0 rgba(158, 224, 122, 1), 70px 120px 0 0 rgba(121, 85, 72, 1), 80px 120px 0 0 rgba(158, 224, 122, 1), 90px 120px 0 0 rgba(158, 224, 122, 1), 100px 120px 0 0 rgba(158, 224, 122, 1), 110px 120px 0 0 rgba(158, 224, 122, 1), 120px 120px 0 0 rgba(158, 224, 122, 1), 130px 120px 0 0 rgba(121, 85, 72, 1), 140px 120px 0 0 rgba(158, 224, 122, 1), 150px 120px 0 0 rgba(158, 224, 122, 1), 160px 120px 0 0 rgba(158, 224, 122, 1), 170px 120px 0 0 rgba(158, 224, 122, 1), 180px 120px 0 0 rgba(158, 224, 122, 1), 190px 120px 0 0 rgba(121, 85, 72, 1), 10px 130px 0 0 rgba(121, 85, 72, 1), 20px 130px 0 0 rgba(158, 224, 122, 1), 30px 130px 0 0 rgba(158, 224, 122, 1), 40px 130px 0 0 rgba(158, 224, 122, 1), 50px 130px 0 0 rgba(158, 224, 122, 1), 60px 130px 0 0 rgba(158, 224, 122, 1), 70px 130px 0 0 rgba(121, 85, 72, 1), 80px 130px 0 0 rgba(121, 85, 72, 1), 90px 130px 0 0 rgba(121, 85, 72, 1), 100px 130px 0 0 rgba(121, 85, 72, 1), 110px 130px 0 0 rgba(121, 85, 72, 1), 120px 130px 0 0 rgba(121, 85, 72, 1), 130px 130px 0 0 rgba(121, 85, 72, 1), 140px 130px 0 0 rgba(121, 85, 72, 1), 150px 130px 0 0 rgba(121, 85, 72, 1), 160px 130px 0 0 rgba(121, 85, 72, 1), 170px 130px 0 0 rgba(121, 85, 72, 1), 180px 130px 0 0 rgba(121, 85, 72, 1), 190px 130px 0 0 rgba(121, 85, 72, 1), 10px 140px 0 0 rgba(121, 85, 72, 1), 20px 140px 0 0 rgba(158, 224, 122, 1), 30px 140px 0 0 rgba(158, 224, 122, 1), 40px 140px 0 0 rgba(158, 224, 122, 1), 50px 140px 0 0 rgba(158, 224, 122, 1), 60px 140px 0 0 rgba(158, 224, 122, 1), 70px 140px 0 0 rgba(121, 85, 72, 1), 80px 140px 0 0 rgba(158, 224, 122, 1), 90px 140px 0 0 rgba(158, 224, 122, 1), 100px 140px 0 0 rgba(158, 224, 122, 1), 110px 140px 0 0 rgba(158, 224, 122, 1), 120px 140px 0 0 rgba(158, 224, 122, 1), 130px 140px 0 0 rgba(158, 224, 122, 1), 140px 140px 0 0 rgba(158, 224, 122, 1), 150px 140px 0 0 rgba(158, 224, 122, 1), 160px 140px 0 0 rgba(158, 224, 122, 1), 170px 140px 0 0 rgba(158, 224, 122, 1), 180px 140px 0 0 rgba(158, 224, 122, 1), 190px 140px 0 0 rgba(121, 85, 72, 1), 10px 150px 0 0 rgba(121, 85, 72, 1), 20px 150px 0 0 rgba(158, 224, 122, 1), 30px 150px 0 0 rgba(158, 224, 122, 1), 40px 150px 0 0 rgba(158, 224, 122, 1), 50px 150px 0 0 rgba(158, 224, 122, 1), 60px 150px 0 0 rgba(158, 224, 122, 1), 70px 150px 0 0 rgba(121, 85, 72, 1), 80px 150px 0 0 rgba(158, 224, 122, 1), 90px 150px 0 0 rgba(158, 224, 122, 1), 100px 150px 0 0 rgba(158, 224, 122, 1), 110px 150px 0 0 rgba(158, 224, 122, 1), 120px 150px 0 0 rgba(158, 224, 122, 1), 130px 150px 0 0 rgba(158, 224, 122, 1), 140px 150px 0 0 rgba(158, 224, 122, 1), 150px 150px 0 0 rgba(158, 224, 122, 1), 160px 150px 0 0 rgba(158, 224, 122, 1), 170px 150px 0 0 rgba(158, 224, 122, 1), 180px 150px 0 0 rgba(158, 224, 122, 1), 190px 150px 0 0 rgba(121, 85, 72, 1), 10px 160px 0 0 rgba(121, 85, 72, 1), 20px 160px 0 0 rgba(158, 224, 122, 1), 30px 160px 0 0 rgba(158, 224, 122, 1), 40px 160px 0 0 rgba(158, 224, 122, 1), 50px 160px 0 0 rgba(158, 224, 122, 1), 60px 160px 0 0 rgba(158, 224, 122, 1), 70px 160px 0 0 rgba(121, 85, 72, 1), 80px 160px 0 0 rgba(158, 224, 122, 1), 90px 160px 0 0 rgba(158, 224, 122, 1), 100px 160px 0 0 rgba(158, 224, 122, 1), 110px 160px 0 0 rgba(158, 224, 122, 1), 120px 160px 0 0 rgba(158, 224, 122, 1), 130px 160px 0 0 rgba(158, 224, 122, 1), 140px 160px 0 0 rgba(158, 224, 122, 1), 150px 160px 0 0 rgba(158, 224, 122, 1), 160px 160px 0 0 rgba(158, 224, 122, 1), 170px 160px 0 0 rgba(158, 224, 122, 1), 180px 160px 0 0 rgba(158, 224, 122, 1), 190px 160px 0 0 rgba(121, 85, 72, 1), 10px 170px 0 0 rgba(121, 85, 72, 1), 20px 170px 0 0 rgba(158, 224, 122, 1), 30px 170px 0 0 rgba(158, 224, 122, 1), 40px 170px 0 0 rgba(158, 224, 122, 1), 50px 170px 0 0 rgba(158, 224, 122, 1), 60px 170px 0 0 rgba(158, 224, 122, 1), 70px 170px 0 0 rgba(121, 85, 72, 1), 80px 170px 0 0 rgba(158, 224, 122, 1), 90px 170px 0 0 rgba(158, 224, 122, 1), 100px 170px 0 0 rgba(158, 224, 122, 1), 110px 170px 0 0 rgba(158, 224, 122, 1), 120px 170px 0 0 rgba(158, 224, 122, 1), 130px 170px 0 0 rgba(158, 224, 122, 1), 140px 170px 0 0 rgba(158, 224, 122, 1), 150px 170px 0 0 rgba(158, 224, 122, 1), 160px 170px 0 0 rgba(158, 224, 122, 1), 170px 170px 0 0 rgba(158, 224, 122, 1), 180px 170px 0 0 rgba(158, 224, 122, 1), 190px 170px 0 0 rgba(121, 85, 72, 1), 10px 180px 0 0 rgba(121, 85, 72, 1), 20px 180px 0 0 rgba(158, 224, 122, 1), 30px 180px 0 0 rgba(158, 224, 122, 1), 40px 180px 0 0 rgba(158, 224, 122, 1), 50px 180px 0 0 rgba(158, 224, 122, 1), 60px 180px 0 0 rgba(158, 224, 122, 1), 70px 180px 0 0 rgba(121, 85, 72, 1), 80px 180px 0 0 rgba(158, 224, 122, 1), 90px 180px 0 0 rgba(158, 224, 122, 1), 100px 180px 0 0 rgba(158, 224, 122, 1), 110px 180px 0 0 rgba(158, 224, 122, 1), 120px 180px 0 0 rgba(158, 224, 122, 1), 130px 180px 0 0 rgba(158, 224, 122, 1), 140px 180px 0 0 rgba(158, 224, 122, 1), 150px 180px 0 0 rgba(158, 224, 122, 1), 160px 180px 0 0 rgba(158, 224, 122, 1), 170px 180px 0 0 rgba(158, 224, 122, 1), 180px 180px 0 0 rgba(158, 224, 122, 1), 190px 180px 0 0 rgba(121, 85, 72, 1), 10px 190px 0 0 rgba(121, 85, 72, 1), 20px 190px 0 0 rgba(121, 85, 72, 1), 30px 190px 0 0 rgba(121, 85, 72, 1), 40px 190px 0 0 rgba(121, 85, 72, 1), 50px 190px 0 0 rgba(121, 85, 72, 1), 60px 190px 0 0 rgba(121, 85, 72, 1), 70px 190px 0 0 rgba(121, 85, 72, 1), 80px 190px 0 0 rgba(121, 85, 72, 1), 90px 190px 0 0 rgba(121, 85, 72, 1), 100px 190px 0 0 rgba(121, 85, 72, 1), 110px 190px 0 0 rgba(121, 85, 72, 1), 120px 190px 0 0 rgba(121, 85, 72, 1), 130px 190px 0 0 rgba(121, 85, 72, 1), 140px 190px 0 0 rgba(121, 85, 72, 1), 150px 190px 0 0 rgba(121, 85, 72, 1), 160px 190px 0 0 rgba(121, 85, 72, 1), 170px 190px 0 0 rgba(121, 85, 72, 1), 180px 190px 0 0 rgba(121, 85, 72, 1), 190px 190px 0 0 rgba(121, 85, 72, 1);
+  height: 10px;
+  width: 10px;
+}
+
+table { border-collapse: collapse; font-family: Calibri, sans-serif; }
+colgroup, tbody { border: solid medium; }
+td { border: solid thin; height: 1.4em; width: 1.4em; text-align: center; padding: 0; }
+
+</style>
+
+</head>
+
+
+<body  class="main_color main_background">
+
+<div class="long_text_div "> 
+<br>
+
+<div class="centered_bold">
+
+ <ruby>午前<rt>ごぜん</rt></ruby>10<ruby>時<rt>じ</rt></ruby>
+ <br>
+<div style="padding: 8px;">🕙</div>
+
+10.00am
+
+
+ </div>  
+
+<br>
+
+
+    
+<!--    They are called garaigo Tango = Kotoba
+Add LLPS after Garaigo ? USing first page ? And show world map and emoji ?
+Put apps before ? 
+Do you understand ?    -->
+<p>
+👨🏻‍🎓
+<br>    
+おはよう、<ruby>山田<rt>やまだ</rt></ruby>です。<ruby>京都<rt>きょうと</rt></ruby>に住んでいます。イギリスに住みたいです。<ruby>英語<rt>えいご</rt></ruby>になった<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>語<rt>ご</rt></ruby>をしよう。
+<br>
+<br>
+この<ruby>文章<rt>ぶんしょう</rt></ruby>はどういう<ruby>意味<rt>いみ</rt></ruby>ですか？
+<br>
+<div class="centered_bold">『道場の畳の上で空手をしています』
+<br>
+<br>
+<span class="onomatopeia">ドカー</span>
+<br>
+🤯
+</div>
+
+<br>
+<br>
+👨🏻‍🎓
+<br>
+ へへ、ふりがなをつけよう。
+<br>
+<br>
+<div class="centered_bold" style="font-size: 96%;">『<ruby>道場<rt>どうじょう</rt></ruby>の<ruby>畳<rt>たたみ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>で<ruby>空手<rt>からて</rt></ruby>をしています』</div>
+
+
+<!--日本語を<ruby>英語<rt>えいご</rt></ruby>にした<ruby>話<rt>ご</rt></ruby>です。-->
+
+<br>
+<br>
+<br>
+
+<div class="tatami " style="display:inline-block; margin-left: 140px;"> </div>
+<div class="centered_bold"> 
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<ruby>畳<rt>たたみ</rt></ruby>
+<br>
+<br>
+<br><br>
+&#129355;  🤜 🦵
+
+<br>
+<ruby>空手<rt>からて</rt></ruby>
+<br><br>
+<br>
+<br>
+🏯
+<br>
+<ruby>道場<rt> どうじょう </rt></ruby>
+<br>
+<br>
+
+<div class="centered_bold" style="font-size: 96%;">『<ruby>道場<rt>どうじょう</rt></ruby>の<ruby>畳<rt>たたみ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>で<ruby>空手<rt>からて</rt></ruby>をしています』</div>
+<Br>
+⌈<ruby>道場<rt>どうじょう</rt></ruby>⌋⌋や⌈<ruby>畳<rt>たたみ</rt></ruby>⌋や⌈<ruby>空手<rt>からて</rt></ruby>⌋という
+<br>
+<ruby>単語<rt>たんご</rt></ruby>は知っています。
+
+<br>
+<ruby>英語<rt>えいご</rt></ruby>になった<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>単語<rt>たんご</rt></ruby>は⌈<ruby>和製英語<rt>わせいえいご</rt></ruby>」といいます。
+
+<!--<div class="centered_bold" style="font-size: 96%;">『<ruby>道場<rt>どうじょう</rt></ruby>の<ruby>畳<rt>たたみ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>で<ruby>空手<rt>からて</rt></ruby>をしています』</div>
+-->
+<br>
+<br>
+<br>
+<br>
+👨🏻‍🎓
+<br>
+<ruby>次<rt>つぎ</rt></ruby></rt></ruby>の<ruby>文章<rt>ぶんしょう</rt></ruby>はどういう<ruby>意味<rt>いみ</rt></ruby>ですか？
+<br>
+<br>
+
+
+<br>
+🎭 👘 🍣
+<br>
+<br>
+『<ruby>芸者<rt>げいしゃ</rt></ruby>さんがお<ruby>寿司<rt>すし</rt></ruby>や<ruby>餃子<rt>ギョーザ</rt></ruby>や<ruby>刺身<rt>さしみ</rt></ruby>を
+<br>
+食べています』
+<br>
+<br>
+
+<br>
+🥷 <span style="font-size: 150%;">🟈</span> 🪴 
+<br>
+<br>
+『<ruby>忍者<rt>にんじゃ</rt></ruby>は<ruby>手裏剣<rt>しゅりけん</rt></ruby>を<ruby>盆栽<rt>ぼんさい</rt></ruby>に<ruby>投<rt>な</rt></ruby>げる』
+
+<br> 
+<br>
+<br>
+
+<span style="font-size: 97%;">『<ruby>侍<rt>さむらい</rt></ruby>は<ruby>布団<rt>ふとん</rt></ruby>の中で<ruby>数独<rt>すうどく</rt></ruby>をプレイする』</span>
+<br>
+<br>
+<caption><ruby>数独<rt>すうどく</rt></ruby></caption>
+<div style="padding-left:   50px;">
+<table>
+  
+  <br>
+  <colgroup><col><col><col>
+  <colgroup><col><col><col>
+  <colgroup><col><col><col>
+  <tbody>
+   <tr> <td>1 <td>  <td>3 <td>6 <td>  <td>4 <td>7 <td>  <td>9
+   <tr> <td>  <td>2 <td>  <td>  <td>9 <td>  <td>  <td>1 <td>
+   <tr> <td>7 <td>  <td>  <td>  <td>  <td>  <td>  <td>  <td>6
+  <tbody>
+   <tr> <td>2 <td>  <td>4 <td>  <td>3 <td>  <td>9 <td>  <td>8
+   <tr> <td>  <td>  <td>  <td>  <td>  <td>  <td>  <td>  <td>
+   <tr> <td>5 <td>  <td>  <td>9 <td>  <td>7 <td>  <td>  <td>1
+  <tbody>
+   <tr> <td>6 <td>  <td>  <td>  <td>5 <td>  <td>  <td>  <td>2
+   <tr> <td>  <td>  <td>  <td>  <td>7 <td>  <td>  <td>  <td>
+   <tr> <td>9 <td>  <td>  <td>8 <td>  <td>2 <td>  <td>  <td>5
+</table>
+   </div>
+
+
+
+<br>
+***
+<br>
+<br>
+
+
+<br>
+<div class="centered_bold"> 
+<ruby>単語<rt>たんご</rt></ruby> = <ruby>語<rt>ご</rt></ruby> = <ruby>言葉<rt>ことば</rt></ruby>
+</div>
+<br>
+この<ruby>言葉<rt>ことば</rt></ruby>も<ruby>和製英語<rt>わせいえいご</rt></ruby>です。
+
+<br>
+<br>
+<br>
+<ruby>折<rt>お</rt></ruby>り<ruby>紙<rt>がみ</rt></ruby>
+<br><br>
+<ruby>相撲<rt>すもう</rt></ruby> 
+<br><br>
+<ruby>津波<rt>つなみ</rt></ruby>
+<br><br>
+<ruby>酒<rt>さけ</rt></ruby>
+<br><br>
+<ruby>漫画<rt>まんが</rt></ruby>
+<br>
+<br>
+<ruby>腹<rt>はら</rt></ruby><ruby>切<rt>き</rt></ruby>り
+<br>
+
+<br>
+<br>
+<br>
+
+ <span class="icon_twittemoji60">👨🏻‍🎓</span> 
+<br>
+
+知っていますか？<br>
+じゃあまたね
+<br><Br>
+
+<span class="icon_twittemoji60">👋🏻</span></div>
+</p>
+<br><Br>
+</div>
+
+<div class="mid_size last_div centered_bold">
+<p>
+  <span class="ruby_under"><a href="../index.html"><ruby>&#127968;<rt> ホーム </rt></ruby></a></span> *** <ruby>終<rt>お</rt></ruby>わり *** <a href="./6_10_gairaigo.html"><ruby> &#10140;<rt><ruby>次<rt>つぎ</rt></ruby></rt></ruby></a></p>
+
+</div>
+
+
+ 
+<script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+  twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
+</script>
+
+</body>
