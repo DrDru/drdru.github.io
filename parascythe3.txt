@@ -2,7 +2,8 @@
 ふぅ 
 Phew 
 
-I'm beat ?
+とても疲れたよ。
+I'm so tired
 
 
 ホテルでも
@@ -24,13 +25,14 @@ You should try it sometime. You could dream up something nice.
 
 
 ### Hard to translate. Change something
-発電所は廃墟と化しているが...。
-The power plant is abandoned but...
+発電所ではまだ誰にも会っていないが
+I haven't met anyone yet in the power plant but
+# (rephrased from : The power plant is abandoned but...)
 
-I haven't met anyone yet
 
-このディープカットを見る限り、完全に空席ではない可能性があります。
-Possibly not entirely vacant, judging by these deep cuts.
+この深い切り口を見ていると、生き物に出会えるかもしれない。
+seeing this deeps cuts, I might encounter living creature 
+# (rephrased from : Possibly not entirely vacant, judging by these deep cuts.)
 ###
 
 ババのアクセラレータを試す時が来た。
