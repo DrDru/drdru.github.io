@@ -39,14 +39,14 @@ seeing this deeps cuts, I might encounter living creature
 Time to test Baba's accelerator.
 
 
-すぐに可能性のある結果を見ることができ
-Immediately I can see possible outcome 
-
-最も可能性の高いものを見つける。
-and find the most probable one.
+#すぐに可能性のある結果を見ることができ
+#Immediately I can see possible outcome 
+##
+#最も可能性の高いものを見つける。
+#and find the most probable one.
 
 I can see the consequences of my actions and their likelihood.
-自分の行動の結果とその可能性を見ることができる。
+すぐに自分の行動の結果とその可能性を見ることができる。
 
 5分先の未来を...
 5 minutes into the future...
@@ -78,10 +78,10 @@ Fuck
 死ねよクソ野郎。
 Die fucker
 
-もう一回！
+もう一つ！
 another
 
-まったく面白くない。
+本当に面白くない。
 is not funny at all.
 
 クソ
@@ -91,10 +91,14 @@ shit
 Like an idiot
 
 
-## added 'of the energy'
-残りのエネルギーは作戦のために取っておく。
-I'll keep the rest of the energy for the mission.
-  
+## use word mission 
+残りのエネルギーは作戦のために取っておく。 / 後に
+I'll keep the rest of the energy for the mission. / later
+
+## easier  
+残りのエネルギーは後にとっておくよ
+I'll keep the rest of the energy for later.
+
 別の道を探すのに1分半。
 A minute and a half to find another way.
 (grammar sounds strange in English but I believe is natrural in Japanese)
@@ -103,11 +107,11 @@ A minute and a half to find another way.
 くっ...またロックされた
 Damn... another one locked.
 
-## I've rephrased to simplify the Japanese and I think it's a bit clearer as well.
+## I've rephrased to simplify the Japanese
 あの巣に入った理由がわかったよ。
 I know why I ended up in that nest.
 
-## I've rephrased to simplify the Japanese and I think it's a bit clearer as well.
+## I've rephrased to simplify the Japanese
 見ただけで寒気がする。
 Just seeing it gives me the chill.
 
@@ -125,10 +129,8 @@ https://tapas.io/episode/2619158
 僕を殺せば、彼も殺されてしまう。
 If you kill me you will kill him too.
 
-
 そして、もし彼を殺したら......。
 and if you kill him you will...
-
 
 あなたは...何か言ったのか？
 You...said something?
@@ -136,7 +138,7 @@ You...said something?
 おいおい、もう行くなんて言うなよ。
 Hey don't tell me we're going already.
 
-### to do 
+### too hard 
 せめて食べるものがあるかどうかくらいは聞けるのでは？
 Can we at least ask if there is something to eat?
 
@@ -145,6 +147,19 @@ Sure, I won't die of hunger as long as I wear the suit.
 
 でも、基本的な栄養補給はカフェインや糖分ではありません。
 but basic nourishment isn't providing me with caffeine and sugar
+
+
+#### Replaced with :
+### check second sentence if correct
+
+でも、その前に何か食べたい。
+But I want to eat something first.
+
+スーツを着ているから食べる必要はないとわかっているけれど、
+I know I don't need to eat since I wear the suit but
+
+どうしてもコーヒーと甘いものが飲みたいんだ。
+ I really want some coffee and sugary food.
 ###
 
 まだ命中率は0％？
