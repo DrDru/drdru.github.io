@@ -132,6 +132,9 @@ If you kill me you will kill him too.
 そして、もし彼を殺したら......。
 and if you kill him you will...
 
+Lucia
+ルーシア
+
 あなたは...何か言ったのか？
 You...said something?
 
@@ -162,15 +165,19 @@ I know I don't need to eat since I wear the suit but
  I really want some coffee and sugary food.
 ###
 
-まだ命中率は0％？
-Still 0% hit chance?
+それでも彼に当たる可能性は0％？
+Still 0% chance to hit him ?
 
 どんな怪物なんだ。
 What kind of a monster.
 
-####
+#### very hard
 待ち伏せ中のタイミングを待つしかないですね。
 I'll have to wait for the right moment during the ambush.
+
+### easier
+タイミングを待つ必要があるね。
+I'll need to wait for the right moment.
 
 君なんだ...
 It's you...
@@ -193,8 +200,16 @@ Huh?! Someone else is here ?
 失敗したね。
 You missed.
 
+
+
+#### Harder
 いや、かわされた。
-No. He dodged it.
+No. He dodged it
+
+## Easier
+いや、彼は動いた。
+No. He moved.
+####
 
 楽しめそうだ。
 Looks like we'll have some fun.
@@ -237,21 +252,24 @@ Ah... an illusion.
 後で彼らを助けることができるが・・・今は彼らを倒せばいい。
 We can help them later... for now we have to defeat them.
 
+
+??? @marie : please add appropriate onomatopeia 
 ngh
 
-マターのマスターはあなただけじゃない。
+マターのマスターはあなただけじゃないよ。
 You're not the only master of the matter here.
 
 行って。アンチフィールドを作るよ。
 Go. I'll lift an anti-field.
 
-
 ### big change here
 マターの支配を止めることができる。
 It will stop his control of the Matter.
 
+よいや 
 ugh
 
+??? @marie : please add appropriate onomatopeia 
 nnnng
 
 なぜ捕まえなかった？
@@ -259,7 +277,6 @@ Why didn't you catch him?
 
 アンチフィールドを入れました。覚えていますか？
 I've put the anti-field. Remember?
-
 
 まあ、消さないとみんな下水になっちゃうからね。
 Well, turn it off or we'll all end up in the sewage.
