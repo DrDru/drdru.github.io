@@ -256,7 +256,7 @@ We can help them later... for now we have to defeat them.
 ??? @marie : please add appropriate onomatopeia 
 ngh
 
-マターのマスターはあなただけじゃないよ。
+物質のマスターはあなただけじゃないよ。
 You're not the only master of the matter here.
 
 行って。アンチフィールドを作るよ。
@@ -282,24 +282,26 @@ I've put the anti-field. Remember?
 Well, turn it off or we'll all end up in the sewage.
 
 
-彼の強さは超現実的です。
-His strengh is surreal.
+####### Lots of changes here
+彼はとても強い。
+He is so strong
 
-物質も心も彼の意志に従う。
-Matter and mind bend to his will.
+心と物質を支配している。
+He has control over mind and matter.
 
-彼は、私が今まで見た中で最も異常なアナロリアンであり、彼女もまたそうであるに違いない。
-He's a freaking Analoian if I've ever seen oneand she must be too.
+彼はアナロリアンだし、彼女もそうだろう。
+He's an Analoian and she must be too.
 
-温度とエネルギー障壁を操る。
-Manipulation of temperature and an energy barrier.
+Manipulation of temperature and an energy barrier. 
+## Can we remove the speech bubble entirely ?
 
-だから、糞ZOO機関は、彼女をとても欲しがっている。
-That's why the damn ZOO agency wants her so badly.
+だからZOOエージェンシーは彼女をとても欲しがっている。
+That's why the ZOO agency wants her so much.
 
 彼女はその場所を知っているはずだ。
 She must know where it is.
 
+###########
 
 彼は私たちが考えていたよりも強い。
 He is stronger than we tought.
