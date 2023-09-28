@@ -322,29 +322,37 @@ I will defeat these bastards for him.
 
 
 45
-従ってくれ！
-Obey!
+聞いてくれ！
+Listen to me!
 
 君は僕のボスじゃない。
 You're not my boss.
 
 ###
-Add onomatopeia
+Ahah
+ああ
 
-食え
 Take this!
+食らえ
 
+@Marie please add appropriate onomatopeia
 Gah
 
+@Marie please add appropriate onomatopeia
 Argh
 
 
-...遠距離アプローチは賢明な選択でしたね。
-...Long distance approach was a wise choice.
+あまり近くにいなくてよかった。
+It's good I did not stay too close.
 
-
+### Litteral 
 ただ...気が動転してしまったのです！
 It just... fazed him!
+
+### Easier
+何が！それだけか！？
+What ! That's it!?
+####
 
 ヤンネー！大丈夫ですか？
 Yannei! Are you ok ?
@@ -353,12 +361,14 @@ Yannei! Are you ok ?
 あ！わかった！ここに残る。
 Ah! OK! I'll stay here.
 
-やれやれ、お手上げか...。
-Oh boy, are you screwed...
 
-なぜなら、私は今...
-Cause I'm now...
+###  This is not gong to be easy to fit as is in the speech bubble.
+君は負けるよ。
+You're going to lose.
 
+僕は今、スーパーチャージされているからね。...
+Because I'm supercharged now.
+### 
 
 スーパーチャージドです！
 Supercharged!
@@ -379,13 +389,10 @@ while let loose by the girl...
 これは、少女に放たれながら...ということですね。
 So this is while let loose by the girl...
 
-
 ### Note to JK : I've removed 
 He's merciless
 まるで機械のようだ。
 He's like a machine.
-
-
 
 アイノロニアンの神格を含む...。
 Containing Ainolonian god entity...
@@ -397,7 +404,7 @@ The CAGE is doing little to restrict his power.
 Or... are his true elimits heve greater ?!
 
 生きて捕らえることはできないだろう。
-They will not be captured alive.
+We will not be able to capture them alive.
 
 今すぐ死ね！
 Now die!
