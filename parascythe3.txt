@@ -386,9 +386,6 @@ So this is how an Anoloian fights.
 ### Note to JK : I've removed 
 while let loose by the girl...
 
-これは、少女に放たれながら...ということですね。
-So this is while let loose by the girl...
-
 ### Note to JK : I've removed 
 He's merciless
 まるで機械のようだ。
@@ -397,11 +394,11 @@ He's like a machine.
 アイノロニアンの神格を含む...。
 Containing Ainolonian god entity...
 
-CAGEは、彼の力を制限することはほとんどしていない。
-The CAGE is doing little to restrict his power.
+CAGEはアイノロニアンの神のような存在には無力なのだ。
+It's like the CAGE is powerless against an Ainolonian god entity.
 
-それとも...彼の真のエリミネーションはもっと大きいのでしょうか？
-Or... are his true elimits heve greater ?!
+それとも...彼の力はもっとすごいのか？
+Or... is his power even greater?!
 
 生きて捕らえることはできないだろう。
 We will not be able to capture them alive.
@@ -409,6 +406,7 @@ We will not be able to capture them alive.
 今すぐ死ね！
 Now die!
 
+@marie : please select appropriate onomatopeia
 eeeek
 
 戻ってくる
@@ -435,8 +433,8 @@ That was a sniper shot!
 くそったれ！
 Fuck!
 
+@marie : please select appropriate onomatopeia
 Argh
-
 
 くそっ
 Fuck
@@ -449,22 +447,25 @@ Bad
 
 (運が悪かった is an expression that means bad luck)
 
+@marie : please select appropriate onomatopeia
 ugh
 
-私たちは、前進せずに退却すべきです。
-We should retreat not go forward.
+逃げる時だ。
+It's time to flee
+(original : We should retreat not go forward.)
 
-逃げ切れるわけがない。
-It's not like we can outrun him.
+あの怪物から逃げることはできない。すぐに捕まる。
+We can't flee that monster. He'll catch us in a minute.
 
-背を向けた瞬間に死ぬんだ。
-The moment we turn our backs we're dead.
+Original : It's not like we can outrun him. The moment we turn our backs we're dead.
 
-手を引くには遅すぎる。
-It's too late to back out.
+もう遅い。
+It's too late.
 
-全力投球が唯一の選択肢です。
-Going all in is our only option.
+我々は今、勝たなければならない。
+We have to defeat him now.
+
+(Original : Going all in is our only option.)
 
 なぜか？
 Why?!
@@ -478,8 +479,10 @@ so...
 彼女はあなたの弱点！
 She is your weak spot!
 
-アハハ 通りから出ることはできないんだろう？
-You can't get of the way, can you?
+アハハ 動けば彼女が怪我をするのは分かっているはずだ。
+Ahahah You know that if you move she'll be injured.
+
+(original : You can't get of the way, can you?)
 
 今すぐ燃やせ！
 Now burn!
