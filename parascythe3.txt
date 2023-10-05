@@ -509,8 +509,11 @@ He's an ainoloian.
 We-
 
 47
-近寄らない
-Stay away
+近づかないで
+Stay away from me.
+
+@marie : please choose appropriate onomatopeia
+AAAAAAARRRG
 
 もう疲れただろう。
 You must be tired now.
@@ -518,31 +521,36 @@ You must be tired now.
 今しかない。
 Now or never.
 
+@marie : please choose appropriate onomatopeia
 Hyiiia
 
-今度は、その代償を払うことになる。
-Now you will pay for it.
+今、あなたは死ぬ
+Now you will die.
+(original : Now you will pay for it.)
 
+@marie : please choose appropriate onomatopeia
 hmpf
 
-裏切り者もいい加減にしろ
-You're going down traitor.
+お前は終わりだ...裏切り者
+You are finished... Traitor.
+(original : You're going down... traitor)
 
-私はあなたを得た。
-I got you.
+捕まえた
+I've caught you
+(original : I got you)
 
 いや待てよ。
 No wait.
 
-やめて！お願いします。
+やめて！お願い。
 Stop it! Please.
 
 なぜ、そうしなければならないのか？
 Why should I?
 
-この野郎、自業自得だ。
-This bastard had it coming.
-
+すべてはこの野郎のせいだ。
+It's all this bastard's fault.
+(original : This bastard had it coming.)
 
 マスターは、彼のおかげでZOOの手に渡った。
 Master is in the hands of ZOO because of him.
@@ -550,11 +558,12 @@ Master is in the hands of ZOO because of him.
 私たちがお手伝いします。
 We can help you.
 
-ご主人様を救出します。
-We'll rescue your master.
+あなたのマスターには必ずお返しします。
+We will get your Master back to you.
+(original : We'll rescue your master.)
 
-嘘です。もう二度と騙されない。
-Lies. I don't fall for that again.
+嘘
+Lies. (deleted : I don't fall for that again.)
 
 いや......本当のことを言ってるんだ。
 No I'm telling the truth.
@@ -562,11 +571,18 @@ No I'm telling the truth.
 彼は私の言うとおりにしてくれる。
 He will do as I say.
 
+
+それでも、君の助けは必要ない。
+
 それでも私は、あなたの助けを求めてはいません。
 Even so I don't want your help.
 
 私は自分の力でマスターを救い出す。
 I will rescue master with my own strengh.
+
+
+では、なぜ彼はまだあなたと一緒にいないのですか？
+Why is he not already with you then ?
 
 その強さがあれば、そもそも彼を失うことはなかったはずです。
 If you had that strength you would not have lost him in the first place.
