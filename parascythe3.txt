@@ -603,16 +603,19 @@ ugh I
 
 
 48
+@marie : please add appropriate onomatopeia
 Whoah
 
 どのように？
 How ?
 
-結局のところ...
-After all this...
+この後、彼はまだ...
+After all of this he can still...
+(changed a bit to make it more explicit)
 
-膝をつく！
-Kneel!
+
+膝をついて！
+On your knees
 
 
 同じ間違いは二度としない。
@@ -621,10 +624,10 @@ I won't make the same mistake twice.
 彼はあなたを信頼していた。
 He trusted you.
 
-そして、彼を利用したんですね。
+そして、彼を利用したんだね。
 And you used him.
 
-あなたは彼の自由と彼女の自由を引き換えにした。
+マスターの自由と彼女の自由を交換した。
 You traded his freedom for hers.
 
 やめて！ 彼を殺してはいけない。
@@ -639,43 +642,51 @@ I'm gonna fucking kill you.
 彼を失うわけにはいかない。
 We can't afford to lose him.
 
-彼が誰なのか知らないのですか？
+誰なのか知らないのか？
 Don't you know who he is ?
 
 つまり...
 I mean...
 
-あなたはアイノロニアンなんでしょう？
+あなたはアイノロニアンもなんだろう？
 You're an Ainoloian are you not ?
 
-ああ知っています。わかったよ。
+ああ知っている。わかったよ。
 Oh I know. Allright.
 
-裏切り者のヤンネー。それが彼の正体です。
-Yannei the traitor. That's who he is.
+裏切り者のヤンネーだ。
+He is Yannei the traitor. 
 
-その通りです。ヤンネー。
+(delete : That's who he is. それが彼の正体です。_
+
+その通り。ヤンネー。
 Exactly. Yannei.
 
-アイノロニアンにはそれぞれ固有の名前があります。
-Ainolonians each have unique names. 
+アイノロニアンの名前がユニークなのは知っているよね？
+And you know Ainolonian names are unique don't you?
 
+( Original :  Ainolonians each have unique names. )
+
+(not sure it's needed
 私が間違っているのでしょうか？
 Am I wrong?
+)
 
-重複はありません。
-No duplicates.
+同じ名前は二つとない。
+No two have the same name
+(original : No duplicates)
 
-それなら知っておいてほしい。
-Then you should know.
+それなら、きっと知っているはずだ...
+Then you surely know that ...
+(original : Then you should know.)
 
 待てよ。
 Wait.
 
-あなたは、私に...
+つまり
 You're telling me...
 
-あのヤンネーですか？
+彼があのヤンネイ？
 He's that Yannei?
 
 うそつけ！
@@ -687,7 +698,7 @@ It can't be him.
 が、もしそうなら。
 but if it is.
 
-一番タフなソノバを選びました
+一番強い野郎を選んだ
 I picked the toughest Sonova
 
 神様のご子息の中から選ばなければならなかったのです。
