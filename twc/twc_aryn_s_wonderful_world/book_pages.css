@@ -32,7 +32,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 
 .top {
 
-  background-color: blue;
+  background-color: #22419e;
   border:5px solid white;
   border-radius: 25px;
   color: white;
@@ -48,7 +48,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
       
      float: left;
      border: 5px solid white;
-    background-color: blue;
+    background-color: #22419e;
      border-radius: 25px;
      color: white;
      font-size: 150%;
@@ -75,7 +75,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
      
      
      height: 640px;
-     background-color: blue;
+     background-color: #22419e;
      border-radius: 25px;
      margin-bottom: 10px;
     border: 5px solid white;
