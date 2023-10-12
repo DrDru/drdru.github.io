@@ -782,16 +782,24 @@ At first... I  was in for the money.
 But then, it got me thinking.
 
 
-なぜ、ZOOはあなたをそんなに欲しがっているのに、自分では追いかけないのでしょう、
-Why would the ZOO want you so badly and not go after you themselves.
+なぜZOOは自分たちであなたたちを捕まえようとしなかったのですか？
+Why didn't the ZOO try to catch you themselves?
 
-考えられることはひとつだけです。
-There is only one possible explanation.
+(original : Why would the ZOO want you so badly and not go after you themselves.)
 
+説明は一つしかない
+There is only one explanation.
+
+
+不思議なArtificial Neuro Computerized Intelligence Engine Lifeformは...
 The fabled Artificial Neuro Computerized Intelligence Engine Lifeform...
+# 不思議 : wonderful; marvelous; strange; incredible; amazing; curious; miraculous; mysterious
+# not exactly 'fabled' but very frequent and good enough I think
 
-一番高い確率で採用してもらえるという計算です。
-It calculated the highest rate of success is if they hire me.
+
+成功できるのが俺だけだとわかっていた。
+It knew I was the only one who could succeed.
+(original : It calculated the highest rate of success is if they hire me.)
 
 いや、そんなことはない。
 Oh , no you don't.
@@ -804,8 +812,9 @@ Gotcha
 このとき、心のアクセルを踏み直すいいきっかけになりました。
 That kick in th enuts was a good wake up call for me to turn the mind accelerator back on.
 
-もう必要ないだろうと思っていましたが、驚きの連続ですね。
-I thought I would not need it anymore but you never cease to surprise.
+もう必要ないだろうと思っていたが、間違っていたようだ。
+I thought I wouldn't need it anymore, but it seems I was wrong.
+(original : I thought I would not need it anymore but you never cease to surprise.)
 
 十分なゲーム！
 Enough games !
@@ -818,15 +827,15 @@ What?
 
 とぼけるな。
 Don't play dumb.
+# not easy but keep as is
 
-ZOOは原産地ごとの方法を探しています。
+ZOOは原産地ごとの方法を探していた。
 The ZOO is looking for a way to each the land of origin.
+# not easy but keep as is
 
-アイナロニア
-Ainalonia
-
-すべての生命の揺りかごである。
-It's the cradle of all life.
+アイノロイア、生命が生まれた場所。
+Ainoloia, the place where life was born.
+(original : Ainalonia. It's the cradle of all life.)
 
 地表を居住可能な状態にするため？
 To make the surface habitable ?
@@ -839,26 +848,27 @@ He could have done so much more.
 
 彼はみんなを救う力を持っていた。
 He had the power to save everyone.
+# keep as is. Maybe use 救う more
 
 アハハ、どこまで世間知らずなんだ？
 Ahaha how naive can you be ?
 
-彼らは、みんなが狙っているものを狙っているのです。
+彼らは、みんなが狙っているものを狙っているのだ。
 They are after what everyone else is after.
 
 パワー
 power
 
-でも、先に手を出してしまうんです。
+でも、先に手を出してしまう。
 But I'm going to get to it first.
 
-さあ、どこにあるのか教えてください！
+さあ、どこにあるのか教えて！
 Now tell me where it is!
 
-わからなくもない。
+わからない。
 I don't know.
 
-ウソツキ。あなたはL0 L1です。お前しか知らないんだよ。
+ウソツキ。あなたはL0 L1。お前しか知らないんだよ。
 Liar. You're L0 L1. You're the only one who knows.
 
 56
@@ -877,10 +887,10 @@ Bah. Don't be stupid.
 マインド・アクセルはまだ動く。
 The mind accelerator still works.
 
-私は知っている。
+俺は知っている。
 I would know because.
 
-私は自分の死を見てきた。
+自分の死を見てきた。
 I have seen my own death.
 
 なぜそんなことを言ったのか？
@@ -889,7 +899,7 @@ Why did I say that ?
 あなただったの！？
 It was you!!!
 
-あなたは私に質問するだろうが、なぜ私が？
+あなたは俺に質問するだろうが、なぜ俺が？
 You will ask me the question but why do I?
 
 教えてプリズム。
