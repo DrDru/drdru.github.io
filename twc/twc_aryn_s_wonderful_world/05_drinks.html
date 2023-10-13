@@ -46,6 +46,11 @@
   height: 3px;
   width: 3px;
 }
+
+.icon_twittemoji .emoji {
+    height: 50px;
+    width: 50px;
+}
 </style>
 </head><body class="">
 
@@ -71,8 +76,8 @@
 </div>
 
 
-<div style="padding-top: 10px; padding-left: 20px; padding-right: 20px; font-size: 180%; overflow-wrap: break-word;">
-キッチンには魔女がいました。
+<div style="padding-top: 15px; padding-left: 20px; padding-right: 20px; font-size: 180%; overflow-wrap: break-word;">
+キッチンには<ruby>魔女<rt>まじょ</rt></ruby>がいました。
 
 
 
@@ -83,27 +88,28 @@
 
 
 
- <div class="page" style="font-size: 80%;">
+ <div class="page" style=";">
 
-	<br>
 
-<div class="dialogue">
+<div class="dialogue" style="margin-top: 15px;">
 
 <div style="width: 24%; padding-left: 4px; padding-top: 10px" >
 <div class="faery" style="color: blue;">.</div></div>
-<div style="width: 80%; font-size: 160%; overflow-wrap: break-word; padding-right: 10px;">
-おはよう。パパの頭が痛い。何か薬はありますか？
+<div style="width: 80%; font-size: 165%; overflow-wrap: break-word; padding-right: 10px;padding-top: 3px">
+おはよう<ruby>魔女<rt>まじょ</rt></ruby>さん。
+<br>
+パパの<ruby>頭<rt>あたま</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>い。
+<br>
+<ruby>魔法薬<rt>まほうやく</rt></ruby>はあるのか？
 </div>
-
-
 </div>
 
 <div class="dialogue">
 
 <div style="width: 24%; padding-left: 4px; padding-top: 10px" >
 <div class="centaur" style="color: blue;">.</div></div>
-<div style="width: 80%; font-size: 160%; overflow-wrap: break-word; padding-right: 10px; padding-top: 10px">
-リンゴとイチゴを持っているのが見えるから、それで薬を作ろう。
+<div style="width: 80%; font-size: 160%; overflow-wrap: break-word; padding-right: 10px; padding-top: 5px">
+<ruby>持<rt>も</rt></ruby>っていないけど、<ruby>君<rt>きみ</rt></ruby>のリンゴとイチゴで<ruby>作<rt>つく</rt></ruby>れるよ
 
 </div>
 
@@ -111,29 +117,18 @@
 </div>
 
 
-
-<div class="dialogue">
-
-<div style="width: 24%; padding-left: 4px; padding-top: 10px" >
-<div class="faery" style="color: blue;">.</div></div>
-<div style="width: 80%; font-size: 160%; overflow-wrap: break-word;padding-right: 10px; padding-top: 10px">
-そうだね。待って。
-
-</div>
-</div>
-
-<div style="padding-top: 20px; padding-left: 20px; padding-right: 20px; font-size: 200%; overflow-wrap: break-word; text-align: center; margin-bottom: 15px;">
+<div style="padding-top: 350px; padding-left: 0px; padding-right: 20px; font-size: 200%; overflow-wrap: break-word; text-align: center; margin-bottom: 15px;">
   
-🍻
+<span class="icon_twittemoji">🍏 🍓 >>>  🧉</span>
 </div>
 
 
 <div class="dialogue">
 
-<div style="width: 24%; padding-left: 4px; padding-top: 10px" >
+<div style="width: 24%; padding-left: 4px; padding-top: 4px" >
 <div class="centaur" style="color: blue;">.</div></div>
 <div style="width: 80%; font-size: 160%; overflow-wrap: break-word;padding-right: 10px; padding-top: 20px;">
- さあ、ポーションをどうぞ。
+さあ、どうぞ
 
 
 </div>
@@ -167,5 +162,12 @@
 
 </div>
 
+<script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
+</script>
 
 </body></html>
