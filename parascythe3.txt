@@ -945,7 +945,7 @@ Why did I say that ?
 あなただったの！？
 It was you!!!
 
-あなたは俺に質問するだろうが、なぜ俺が？
+俺に質問するだろうが、なぜ俺が？
 You will ask me the question but why do I?
 
 教えてプリズム。
@@ -955,44 +955,53 @@ Tell me Prism.
 What good is the ability to see the future if you are powerless to change it?
 
 
-さあ、答えてください。何を見た？
+さあ、答えて。何を見た？
 Now answer me. What did you see ?
 
-私は自分の死を見てきた。
+自分の死を見てきた。
 I have seen my own death.
 
 ヤンネイ．生きていたんだね！
 Yannei . You're alive!
 
-助けてくれ。私はここにいる。
+助けて。ここにいる。
 Help. I'm down here.
 
 私は思った。
 I thought.
 
-OKだ。言わないよ。
+
+そうだと思った。
+I thought so. (hard to translate MArie will surely find something better)
+(original : I thought you were ...)
+
+OK。言わないよ。
 OK. I won't say it.
 
 行こう
 Let's go.
 
-まだ長い道のりだ。
+まだ長い道だ。
 It's still a long way.
 
 分かった。私が持つよ。
 All right. I'll take it.
 
-でも、私は致命傷を与えない設定にしている。
-But I'm using the non lethal setting.
+##
+しかし、殺さない力を使っている。
+But I use the power that does not kill. (not sure if the Japanese translates well)
+(original : But I'm using the non lethal setting.)
 
-いや、君がすべきことをしたのは理解している
-No, I understand you did what you had to do
-
-全パワーにアクセスできるようになったら、残りと一緒に保存しておこう。
-We'll save them with the rest once you have access to all your power.
-
-私が殺人についてどう思っているか知っているだろう。
+殺人についてどう思っているか知っているだろう
 You know how I feel about killing.
+
+殺すしかなかったのは知っている
+I know you had no choice but to kill them.
+(original : No, I understand you did what you had to do)
+
+パワーが戻ったら、治すよ。
+We'll heal them once you get all your power are back.
+(original : We'll save them with the rest once you have access to all your power.)
 
 思い出させる必要はない。
 You don't have to remind me. 
@@ -1003,18 +1012,20 @@ Once it's all over, I'll honor the deal
 ハンターさん？
 Mr Hunter ?
 
-ライオン、バイタルを確認する。
-Lion, check his vitals.
+ライオン、ボディーセンサーは何と言ってる？
+Lion, what do the body sensors say?
+(original : Lion, check his vitals)
 
 やはり...殺されたのか。
 So... he was killed after all.
 
-つまり...テストは成功...ミッションは達成されたことになります。
-That means.. yes the test is a success... mark the mission has accomplished.
+つまり、テストは成功ということだ。
+That means.. the test is a success (cut : ... mark the mission has accomplished).
 
 The Artificial Neuro Computerized Intelligence Engine Lifeform...
+Artificial Neuro Computerized Intelligence Engine Lifeform、
 
-ANCIELの言うとおりでした。
+ANCIELの言うとおりだった。
 ANCIEL was correct.
 
 
