@@ -30,8 +30,8 @@ You can't put a price on his life.
 痛がっている
 He is in pain
 
-おいおい、こんなこと言うのやめろよ。
-Come on, stop saying this.
+面倒くさい 
+(to replace Oh puh-leaze spare me)
 
 何もないのなら、消えてしまえ。
 If you have nothing to offer, go away.
@@ -53,7 +53,7 @@ Stop
 人間の子を使う？
 Using a human child ?
 
-私は違う。
+違うよ。
 I differ / I disagree (違う is a common polite way to say no in Japanese and it does not translate well).
 
 子じゃないんだから、いろんなことができるんだよ。
@@ -129,7 +129,7 @@ I'm sorry, we had no chance to wash.
 人間の嫌な臭いは洗い流せない。特に上の階の類は。
 You can't wash away your offensive/bad human smell. Especially the upper level kind.
 
-あなたの匂いのせいで、他のオーグリーチがみんな去ってしまった。お客さんかな。
+あなたの匂いのせいで、他のオルグリアッシュがみんな去ってしまった。お客さんかな。
 Because of your smell, all the other Orgriash have left. Customers maybe.
 
 何がしたいんだ？
@@ -212,12 +212,13 @@ Please
 倉庫の片付けさえすれば、そこにいてもいい...。
 You can stay there as long as you clean up the warehouse...
 
-よーし
+やった 
 alright
 
 28
-よいや
 ugh
+@marie : please use appropriate onomatopeia 
+(not from the creator : this ugh means "good" as in "Oh great, just what we needed")
 
 さて...そろそろ始めようかな
 Well... I think it's time to get started.
@@ -291,12 +292,12 @@ I wonder if it works.
 重要な機材を盗んだとして、ZOOに追われることになります。
 They are pursued by the ZOO for stealing important equipment.
 
-エエッ
-eeeek
-
 ご注意ください、近づかないでください
 Caution, do not approach.
 (set phrase)
+
+エエッ
+eeeek
 
 水が冷たい ゾクゾク
 The water's cold. ゾクゾク (onomatopeia for It's chilling).
@@ -417,8 +418,6 @@ I know it is more than one!
 心・体・要素・物質の術を使しているのが見えた。
 I saw him using the art of mind, body, element and matter.
 
-
-### Check with JK
 彼は単なる遊牧民ではありません。
 He is not a mere nomad.
 
@@ -485,12 +484,10 @@ It's that I am a seeress (this Japanese bit does not translate well)
 Then you know I won't pay much right?
 
 
-#### Choose one. Sentence changed to remove the word "threat". See with JK. Is ther one you prefer ?
+####  Sentence changed to remove the word "threat".
 銃を見せても無駄だ、賞金稼ぎ。
 Showing me your gun is useless, bounty hunter.
 
-あなたの銃は怖くないわ、賞金稼ぎ。
-I'm not afraid of your gun, bounty hunter.
 ####
 
 あなたが私を撃つつもりがないことはもうわかっている。
@@ -533,15 +530,10 @@ Hmmm...using the chip will kill you. Definitely.
 
 あなたは、物事が違うように起こってほしいですか？
 Do you want things to happen differently?
+(simplifies I could tell you how to avoid it)
 
 5000円で、教えてあげよう
 5000 and I'll tell you
-
-
-### Discarded options. Ignore ##
-# 起こらなくてもいい。5000円で方法を教える。
-# 別の5000のためにそれを回避する方法を伝えることができます
-###
 
 それをくれ！
 Give me that
@@ -570,11 +562,6 @@ Stupid Baba
 
 私の小さな友人、今まで2度、君は酷い運命から逃れられたのだ。
 My little friend, twice now you have escaped terrible fates.
-
-### Discarded options. Ignore ##
-# 私の小さな友人よ、あなたは今までに2度、死を免れた。
-# My little friend, twice now you have escaped death.
-####
 
 食べて。
 Eat. 
