@@ -5,16 +5,20 @@ Phew
 とても疲れたよ。
 I'm so tired
 
-
 ホテルでも
 Even in a hotel
 
 一晩中見張りをするつもりなのか？
 are you going to stand a guard the whole night ?
 
+
+#### Pick best sentence
 寝なくてもいいとは思うが、ただ待っているのは疲れないか？
 I know you don't have to sleep but isn't it tiring to just wait?
 
+眠る必要はないが、ただ待つことに疲れてはいないだろうか？
+You don't have to sleep, but aren't you tired of just waiting?
+####
 
 今度、試してみて。何かいい夢が見られるかもよ。
 You should try it sometime. You could dream up something nice. 
@@ -24,7 +28,7 @@ You should try it sometime. You could dream up something nice.
 36
 
 
-### Hard to translate. Change something
+### Hard to translate. I had to change something
 発電所ではまだ誰にも会っていないが
 I haven't met anyone yet in the power plant but
 # (rephrased from : The power plant is abandoned but...)
@@ -39,14 +43,16 @@ seeing this deeps cuts, I might encounter living creature
 Time to test Baba's accelerator.
 
 
+### Ignore this
 #すぐに可能性のある結果を見ることができ
 #Immediately I can see possible outcome 
 ##
 #最も可能性の高いものを見つける。
 #and find the most probable one.
 
-I can see the consequences of my actions and their likelihood.
+
 すぐに自分の行動の結果とその可能性を見ることができる。
+I can see the consequences of my actions and their likelihood.
 
 5分先の未来を...
 5 minutes into the future...
@@ -58,7 +64,7 @@ I can see.
 Such a strange feeling.
 
 
-
+### Ignore this
 # sentence order is reversed here
 # 自分が歩いているのを見るのは、まったく面白くない。
 # Into that place  watching myself walking is not funny at all.
@@ -90,14 +96,8 @@ shit
 バカのように。
 Like an idiot
 
-
-## use word mission 
-残りのエネルギーは作戦のために取っておく。 / 後に
-I'll keep the rest of the energy for the mission. / later
-
-## easier  
-残りのエネルギーは後にとっておくよ
-I'll keep the rest of the energy for later.
+残りのエネルギーは作戦のために取っておく
+I'll keep the rest of the energy for the mission. 
 
 別の道を探すのに1分半。
 A minute and a half to find another way.
