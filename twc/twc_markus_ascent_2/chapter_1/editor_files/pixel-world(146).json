@@ -1,0 +1,75 @@
+{
+  "settings": {
+    "autosave": true,
+    "grid": true,
+    "pixelSize": 5,
+    "background": "#222222",
+    "activeLayer": 0,
+    "activeSprite": 8
+  },
+  "sprites": [
+    [
+      0,
+      16,
+      16,
+      "oVtS/8B6V//Aelf/wHpX/8B6V//Aelf/wHpX/8B6V//Aelf/wHpX/8B6V//Aelf/wHpX/8B6V//Aelf/wHpX/8B6V//Aelf/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/Aelf/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/wHpX/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/8B6V//vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/Aelf/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/wHpX/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/8B6V//vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/Aelf/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/wHpX/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/8B6V//vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/Aelf/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/wHpX/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/8B6V//vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/Aelf/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/wHpX/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/++jYP/vo2D/76Ng/w=="
+    ],
+    [
+      1,
+      16,
+      16,
+      "/////4vs8f82XY7/Nl2O/zZdjv82ean/Nnmp/4vs8f82ean/LKTF/4vs8f82XY7/Nl2O/zZ5qf82ean/LKTF//////+L7PH/Nl2O/zZdjv82XY7/Nnmp/zZ5qf8spMX/Nnmp/yykxf82ean/Nl2O/zZdjv82ean/Nnmp/yykxf//////i+zx/zZdjv82XY7/Nl2O/zZ5qf82ean/Nnmp/zZ5qf82ean/Nnmp/zZdjv82XY7/Nnmp/zZ5qf8spMX//////4vs8f82XY7/Nl2O/zZdjv82ean/Nnmp/yykxf82ean/Nnmp/zZ5qf82XY7/Nl2O/zZ5qf82ean/Nnmp//////+L7PH/Nl2O/zZdjv82XY7/Nnmp/zZ5qf8spMX/Nnmp/yykxf82ean/Nl2O/zZdjv82ean/Nnmp/yykxf//////i+zx/zZdjv82XY7/I83g/zZ5qf82ean/LKTF/zZ5qf8spMX/Nnmp/zZdjv8jzeD/Nnmp/zZ5qf8spMX//////4vs8f82XY7/Nl2O/4vs8f82ean/Nnmp/zZ5qf82ean/I83g/zZ5qf82XY7/Nl2O/zZ5qf82ean/LKTF//////+L7PH/I83g/zZdjv8jzeD/Nnmp/zZ5qf8jzeD/Nnmp/zZ5qf82ean/Nl2O/4vs8f82ean/I83g/yykxf//////i+zx/4vs8f82XY7/I83g/zZ5qf82ean/i+zx/zZ5qf8jzeD/Nnmp/zZdjv8jzeD/Nnmp/4vs8f8spMX//////4vs8f+L7PH/Nl2O/4vs8f82ean/Nnmp/yPN4P82ean/i+zx/zZ5qf82XY7/I83g/zZ5qf+L7PH/I83g//////+L7PH/4Pb1/yPN4P+L7PH/I83g/zZ5qf+L7PH/Nnmp/4vs8f82ean/I83g/4vs8f8jzeD/4Pb1/4vs8f//////i+zx//////+L7PH/4Pb1/4vs8f8jzeD/4Pb1/zZ5qf/g9vX/I83g/4vs8f/g9vX/i+zx///////g9vX//////4vs8f/////////////////g9vX/i+zx//////+L7PH//////4vs8f///////////+D29f////////////////+L7PH//////+D29f///////////+D29f//////4Pb1///////g9vX//////////////////////4vs8f//////i+zx//////+L7PH/i+zx/+D29f///////////////////////////+D29f+L7PH/i+zx/+D29f8jzeD//////4vs8f+L7PH/Nl2O/zZdjv8jzeD/i+zx/+D29f+L7PH/i+zx/+D29f+L7PH/I83g/zZ5qf+L7PH/LKTF/w=="
+    ],
+    [
+      2,
+      16,
+      16,
+      "mYup/4Nxlf+DcZX/aWKB/2ligf9pYoH/TlNr/0JBW/+Zi6n/g3GV/4Nxlf9pYoH/aWKB/2ligf9OU2v/QkFb/4Nxlf+DcZX/g3GV/2ligf9pYoH/aWKB/05Ta/9CQVv/g3GV/4Nxlf+DcZX/aWKB/2ligf9pYoH/TlNr/0JBW/9DVZP/g3GV/2ligf9pYoH/aWKB/05Ta/9DVZP/LKTF/0NVk/+DcZX/aWKB/2ligf9pYoH/TlNr/0NVk/8spMX/i+zx/+D29f/g9vX/4Pb1/+D29f/g9vX/i+zx/zxmnv+L7PH/4Pb1/+D29f/g9vX/4Pb1/+D29f+L7PH/PGae/z6a3f82ean/Nnmp/0NVk/8m6/L/LKTF/zZ5qf82ean/Nnmp/zZ5qf82ean/Q1WT/yPN4P8spMX/Pprd/z6a3f82ean/Pprd/z6a3f9OZsT/Mdro/zZ5qf82ean/Nnmp/zZ5qf82ean/Nnmp/0NVk/8spMX/Nnmp/z6a3f82ean/PGae/zxmnv9DVZP/Nnmp/05mxP9Ef9f/PGae/zxmnv88Zp7/PGae/0NVk/82ean/Q1WT/zxmnv9Ef9f/PGae/yykxf8spMX/LKTF/yykxf8spMX/Mdro/zHa6P8spMX/LKTF/yykxf8spMX/LKTF/yykxf8x2uj/LKTF/yykxf8jzeD/I83g/yPN4P8jzeD/Juvy/yPN4P8jzeD/Juvy/ybr8v8jzeD/I83g/ybr8v8m6/L/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/Juvy/yPN4P8jzeD/I83g/yPN4P8jzeD/Juvy/ybr8v8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/ybr8v8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/Juvy/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/ybr8v8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8m6/L/I83g/yPN4P8jzeD/Juvy/ybr8v8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/ybr8v8jzeD/I83g/yPN4P8jzeD/Juvy/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/Juvy/ybr8v8jzeD/I83g/yPN4P8m6/L/Juvy/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/Juvy/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8m6/L/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/ybr8v8jzeD/I83g/w=="
+    ],
+    [
+      3,
+      16,
+      16,
+      "ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v+sqs//ztnq/87Z6v+sqs//rKrP/6yqz/+sqs//rKrP/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/rKrP/87Z6v/O2er/rKrP/6yqz/+sqs//rKrP/6yqz/+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/2ligf+DcZX/g3GV/2ligf9pYoH/aWKB/2ligf9pYoH/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf9OU2v/g3GV/4Nxlf9OU2v/TlNr/05Ta/9OU2v/TlNr/87Z6v/O2er/ztnq/87Z6v/O2er/rKrP/87Z6v/O2er/ztnq/87Z6v/O2er/rKrP/6yqz/+sqs//rKrP/6yqz//O2er/ztnq/87Z6v/O2er/ztnq/6yqz/+sqs//ztnq/87Z6v/O2er/ztnq/6yqz/+sqs//rKrP/6yqz/+sqs//g3GV/4Nxlf+DcZX/g3GV/4Nxlf9pYoH/g3GV/4Nxlf+DcZX/rKrP/4Nxlf9pYoH/aWKB/2ligf9pYoH/aWKB/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/TlNr/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/TlNr/05Ta/9OU2v/TlNr/05Ta//O2er/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/6yqz/+sqs//rKrP/6yqz/+sqs//ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v+sqs//rKrP/6yqz/+sqs//rKrP/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/aWKB/2ligf9pYoH/aWKB/2ligf+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/05Ta/9OU2v/TlNr/05Ta/9OU2v/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/rKrP/87Z6v/O2er/ztnq/87Z6v+sqs//rKrP/6yqz/+sqs//rKrP/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/6yqz//O2er/ztnq/87Z6v/O2er/rKrP/6yqz/+sqs//rKrP/6yqz/+DcZX/g3GV/4Nxlf+sqs//rKrP/4Nxlf9pYoH/g3GV/4Nxlf+DcZX/g3GV/2ligf9pYoH/aWKB/2ligf9pYoH/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/TlNr/4Nxlf+DcZX/g3GV/4Nxlf9OU2v/TlNr/05Ta/9OU2v/TlNr/w=="
+    ],
+    [
+      4,
+      16,
+      16,
+      "ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v+sqs//ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/rKrP/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/2ligf+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf9OU2v/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/87Z6v/O2er/ztnq/87Z6v/O2er/rKrP/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/6yqz/+sqs//ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/g3GV/4Nxlf+DcZX/g3GV/4Nxlf9pYoH/g3GV/4Nxlf+DcZX/rKrP/4Nxlf+sqs//rKrP/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/TlNr/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/rKrP/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/6yqz/+sqs//ztnq/87Z6v/O2er/ztnq/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf9pYoH/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/TlNr/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/rKrP/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/6yqz//O2er/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v+DcZX/g3GV/4Nxlf+sqs//rKrP/4Nxlf9pYoH/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/TlNr/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/4Nxlf+DcZX/g3GV/w=="
+    ],
+    [
+      5,
+      10,
+      16,
+      "Juvy/yPN4P8jzeD/I83g/yPN4P8jzeD/Juvy/yPN4P8jzeD/4Pb1/ybr8v8m6/L/Juvy/ybr8v8jzeD/I83g/ybr8v8jzeD/I83g/+D29f8jzeD/I83g/yPN4P8jzeD/Juvy/ybr8v8m6/L/I83g/yPN4P/g9vX/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/ybr8v8jzeD/4Pb1/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/Juvy/+D29f8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/ybr8v/g9vX/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8m6/L/4Pb1/ybr8v8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8m6/L/I83g/+D29f8jzeD/Juvy/ybr8v8jzeD/I83g/ybr8v8m6/L/I83g/yPN4P/g9vX/I83g/yPN4P8jzeD/Juvy/ybr8v8jzeD/I83g/yPN4P8jzeD/4Pb1/yPN4P8jzeD/I83g/yPN4P8jzeD/Juvy/yPN4P8jzeD/I83g/+D29f8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8m6/L/I83g/yPN4P/g9vX/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/ybr8v8jzeD/4Pb1/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/Juvy/+D29f8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/Juvy/yPN4P/g9vX/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/ybr8v8jzeD/4Pb1/w=="
+    ],
+    [
+      6,
+      16,
+      8,
+      "I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/Juvy/yPN4P8jzeD/I83g/yPN4P8jzeD/Juvy/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/ybr8v8m6/L/Juvy/ybr8v8jzeD/I83g/ybr8v8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/ybr8v8jzeD/I83g/yPN4P8jzeD/Juvy/ybr8v8m6/L/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/ybr8v8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/ybr8v8jzeD/I83g/ybr8v8jzeD/I83g/yPN4P8m6/L/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/Juvy/ybr8v8jzeD/Juvy/ybr8v8m6/L/Juvy/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/ybr8v8jzeD/I83g/yPN4P8jzeD/I83g/ybr8v8m6/L/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8m6/L/I83g/yPN4P8jzeD/I83g/yPN4P8jzeD/Juvy/ybr8v8jzeD/I83g/yPN4P8jzeD/I83g/yPN4P8m6/L/I83g/yPN4P8="
+    ],
+    [
+      7,
+      16,
+      16,
+      "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAINxlf+DcZX/g3GV/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAINxlf+DcZX/aWKB/zYtSv/O2er/rKrP/6yqz/8AAAAAAAAAAAAAAAAAAAAAAAAAAINxlf+DcZX/aWKB/zYtSv/O2er/rKrP/6yqz/9OU2v/g3GV/4Nxlf+DcZX/AAAAAINxlf+DcZX/aWKB/zYtSv/O2er/rKrP/6yqz/9OU2v/g3GV/4Nxlf9pYoH/TlNr/4Nxlf+DcZX/g3GV/zYtSv/O2er/rKrP/6yqz/9OU2v/g3GV/4Nxlf9pYoH/TlNr/4Nxlf+DcZX/aWKB/05Ta/+DcZX/g3GV/4Nxlf9OU2v/g3GV/4Nxlf9pYoH/TlNr/4Nxlf+DcZX/aWKB/05Ta/+DcZX/g3GV/2ligf9OU2v/g3GV/4Nxlf+DcZX/TlNr/4Nxlf+DcZX/aWKB/05Ta/+DcZX/g3GV/2ligf9OU2v/g3GV/4Nxlf9pYoH/TlNr/4Nxlf+DcZX/g3GV/05Ta/+DcZX/g3GV/2ligf9OU2v/g3GV/4Nxlf9pYoH/TlNr/4Nxlf+DcZX/aWKB/05Ta/+DcZX/g3GV/4Nxlf9OU2v/g3GV/4Nxlf9pYoH/TlNr/4Nxlf+DcZX/aWKB/05Ta/+DcZX/g3GV/2ligf9OU2v/g3GV/4Nxlf+DcZX/TlNr/4Nxlf+DcZX/aWKB/05Ta/+DcZX/g3GV/2ligf9OU2v/g3GV/4Nxlf9pYoH/Ni1K/87Z6v+sqs//rKrP/05Ta/+DcZX/g3GV/2ligf9OU2v/g3GV/4Nxlf9pYoH/Ni1K/87Z6v+sqs//rKrP/05Ta/+DcZX/g3GV/4Nxlf9OU2v/g3GV/4Nxlf9pYoH/Ni1K/87Z6v+sqs//rKrP/05Ta/+DcZX/g3GV/2ligf8sKCr/TlNr/05Ta/9OU2v/Ni1K/87Z6v+sqs//rKrP/05Ta/+DcZX/g3GV/2ligf8sKCr/TlNr/05Ta/9OU2v/LCgq/ywoKv8sKCr/LCgq/05Ta/+DcZX/g3GV/2ligf8sKCr/TlNr/05Ta/9OU2v/LCgq/ywoKv8sKCr/LCgq/wAAAAAAAAAAAAAAAAAAAAAsKCr/TlNr/05Ta/9OU2v/LCgq/ywoKv8sKCr/LCgq/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwoKv8sKCr/LCgq/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+    ],
+    [
+      8,
+      10,
+      16,
+      "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAINxlf+DcZX/g3GV/wAAAAAAAAAAAAAAAINxlf+DcZX/aWKB/zYtSv/O2er/rKrP/6yqz/+DcZX/aWKB/zYtSv/O2er/rKrP/6yqz/9OU2v/g3GV/4Nxlf+DcZX/rKrP/6yqz/9OU2v/g3GV/4Nxlf9pYoH/TlNr/4Nxlf+DcZX/g3GV/4Nxlf9pYoH/TlNr/4Nxlf+DcZX/aWKB/05Ta/+DcZX/g3GV/4Nxlf+DcZX/aWKB/05Ta/+DcZX/g3GV/2ligf9OU2v/g3GV/4Nxlf+DcZX/g3GV/2ligf9OU2v/g3GV/4Nxlf9pYoH/TlNr/4Nxlf+DcZX/g3GV/4Nxlf9pYoH/TlNr/4Nxlf+DcZX/aWKB/05Ta/+DcZX/g3GV/4Nxlf+DcZX/aWKB/05Ta/+DcZX/g3GV/2ligf9OU2v/g3GV/4Nxlf+DcZX/g3GV/2ligf9OU2v/g3GV/4Nxlf9pYoH/Ni1K/87Z6v+sqs//rKrP/4Nxlf9pYoH/Ni1K/87Z6v+sqs//rKrP/05Ta/+DcZX/g3GV/4Nxlf+sqs//rKrP/05Ta/+DcZX/g3GV/2ligf8sKCr/TlNr/05Ta/9OU2v/g3GV/2ligf8sKCr/TlNr/05Ta/9OU2v/LCgq/ywoKv8sKCr/LCgq/05Ta/9OU2v/LCgq/ywoKv8sKCr/LCgq/wAAAAAAAAAAAAAAAAAAAAAsKCr/LCgq/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+    ]
+  ],
+  "layers": [
+    {
+      "id": 0,
+      "n": "Layer 1",
+      "s": [
+        
+      ]
+    }
+  ]
+}
