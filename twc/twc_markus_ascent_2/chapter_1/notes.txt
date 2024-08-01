@@ -1,5 +1,8 @@
-00_intro_akotis_tower
-In akotis, the university is everything. The student live on the GF and teachers upstairs.
+Need to show that IDs have increased productivity
+That Markus is liked
+That the university leads the knights.
+
+
 
 01_bedrooms
 The students room are strict
@@ -7,57 +10,94 @@ The students room are strict
 02_meet_sofia
 Hey Markus
 
-03_on_the_way
-How are you feeling about the demo ? 
+03 by the way Nikolo is back
 
-04_demo_1
+04_on_the_way
+How are you feeling about the demo ? 
+I leave you here. I'l come see you at your place.
+
+05_demo_1
 Presentation of MArkus and his Work/ achievements
 
-05_demo_2
+06_demo_2
 Demo
 
-06_demo3
+07_demo3
 Demo moaner
 
-07_lunchroom with students ? 2 pages 
+08 Bridge 
 
-07_out_of_tower
+
+
+
+11 Markus' house 
+
+12 market 
+buys a book about Genjuu he can't find any at the university
+
+13 market
+
+
+14 on the way
 Talk with Sofia about the city ?
 
 They walk on a place and there is a crzzy man saying runes are not cool. Knights tell him nicely to move.
 
 
-08_on_the_way
+15_on_the_way
 Talk about project 
 
-09_on_the_way_fight
+
+16_on_the_way_fight
 Bandits attack
 
-10_on_the_way_batz
+17_on_the_way_batz
 I'll deal with them One is punched on the ground
 
-11_outside_nikolos_house
+18_outside_nikolos_house
 Thanks Batz You 're strong now.'
 
-12_meet_nikolo
+19_meet_nikolo
 Catch up about trade / Rcoktown / Nerobi
 
-13_meet_nikolo_2
+20_meet_nikolo_2
 Project to trade more ?
 
 Drinks a carrot Juice.
-Makus are you ok. Is it due to my carrot juice ?
+Makus are you ok. Is it due to my carrot juice ? bitter taste
 
-14_meet_nikolo_3
-Give ID device
+09 house 
 
-15_private message : come to my room
+10 corridor or shared kittchen
 
-16_catch up in room : they have to go downstairs.
+Markus reads book in his room. He#ll talk about it in the shared kitchen an other day.s
+
+The relay is in the middle of the town. Maybe at the top of a pole.
+
+#####
+Chapter 2 
+
+They decide to go visit the first mine and might find an other wonder. The mine where the first rune stones were found. Will batz be with them ? 
+He makes an other relay that tracks with this stone without telling others.
+
+when he comes back he wants to tell it but he s told he might be expelled. that's when he decides to take power using the new relay.
 
 
-Chapter 2 go downstairs and explore runecrafting rooom + sewers.
+They meet Batz on the way at teh camp ?
+
+go downstairs and explore runecrafting rooom + sewers.
 and crafts some runes and scolded 
+
+
+08 rich maybe does not say anything but now that he knows who Markus' is he helps him in part 2.
+
+09 rich
+
+un bandit capture a vendu la meche sur les groupes.
+L univ a envoye des nights pour proteger.
+
+
+
 
 Chapter 3 
 Try to play it the right way but half the professors do not agree
