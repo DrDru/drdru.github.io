@@ -1,3 +1,14 @@
+####]
+
+249 street for fight
+Markus' house 193s
+
+
+
+212 fight
+
+213 Nikolos
+
 Need to show that IDs have increased productivity
 That Markus is liked
 That the university leads the knights.
@@ -5,14 +16,16 @@ That the university leads the knights.
 
 
 01_bedrooms
-The students room are strict
+Bank
 
 02_meet_sofia
-Hey Markus
+Bank with sofia
 
-03 by the way Nikolo is back
+03 bridge
+by the way Nikolo is back
 
-04_on_the_way
+
+04 building
 How are you feeling about the demo ? 
 I leave you here. I'l come see you at your place.
 
@@ -25,48 +38,50 @@ Demo
 07_demo3
 Demo moaner
 
-08 Bridge 
+08 Bridge  1 they talk about the moaner
 
+09 rich
+Hey There's something I need to show you
 
-
-
-11 Markus' house 
-
-12 market 
+10 market 
 buys a book about Genjuu he can't find any at the university
 
-13 market
+11 market
 
+12 on the way
+They reach plazza X
 
-14 on the way
 Talk with Sofia about the city ?
 
 They walk on a place and there is a crzzy man saying runes are not cool. Knights tell him nicely to move.
 
 
-15_on_the_way
+13 _on_the_way
 Talk about project 
 
 
-16_on_the_way_fight
+14_on_the_way_fight
 Bandits attack
+Batz is alos going to Nikolo's
 
-17_on_the_way_batz
+15_on_the_way_batz
 I'll deal with them One is punched on the ground
 
-18_outside_nikolos_house
+16_outside_nikolos_house
 Thanks Batz You 're strong now.'
+Batz has friends who work for Nikolo
 
-19_meet_nikolo
+17_meet_nikolo
 Catch up about trade / Rcoktown / Nerobi
 
-20_meet_nikolo_2
+18_meet_nikolo_2
 Project to trade more ?
 
+19
 Drinks a carrot Juice.
 Makus are you ok. Is it due to my carrot juice ? bitter taste
 
-09 house 
+20 house ?
 
 10 corridor or shared kittchen
 
