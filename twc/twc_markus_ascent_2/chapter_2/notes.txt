@@ -1,11 +1,157 @@
-####]
+###
 
-249 street for fight
-Markus' house 193s
+1 Front of building
+Introduce woman teacher 
+
+2 talk to Rich 1 
+about the engraving
+Says I have not told the teacher
+
+
+4 talk to Rich 3
+offer to come
+
+5 Front of  the house
+Rich can not come
+
+6 Leave city ?
+I'm excited to go to the cave I read that ...
+
+Oh so you don't know ?
+That;s what happens when you spend 3 years in the workshop !
+###
+17 Tower
+
+18 Alexander
+
+19 Bahamut
+###
+
+Arrive at crossing
+Her we are, let's find Batz and we'll continue next tehre's still a long way 
+
+7 Training camp 1 
+Rich is performing
+
+8 Training camp 2
+
+That was a good one wasn't it but i have ot go
+
+9
+Crossing again
+
+
+10 Enter Forest 
+I know a shortcut
+
+11 Walk into the forest ?
+
+
+12 In forest : meet fairy
+
+13 In forest : question 
+
+14 In forest : reward
+
+15 cross the bridge
+That was a strange encounter we're close
+
+Flowers ? 
 
 
 
-212 fight
+16 bottom of hill 
+We come here with my friend the view over the plains is amazing
+
+On the hill 
+You did not really believe me did you
+
+20 watch the hole
+Wow so that's it.
+
+21 last screen : rest at the top
+Let's take some rest. We'll leave after lunch 
+Make some joke
+
+
+
+
+Sprites 8 9 and 24
+#105610
+
+They decide to go to war
+
+
+
+
+At the beginning they tlk about the tooth of Zolom
+
+We fought and injured one of them.
+
+So they went to Alexander
+
+Alexander says : you're making a mistake human. We're not your ennemies.
+Die ! 
+
+After they filled him. 
+His friend Bahamut decids to avenge him
+
+An esper !
+
+You will pay for what you're done human 
+
+No !
+Run away !
+
+And with a great ball of cold fire he totally destroyed the city.
+
+OMG it's the first time I here about that !
+
+That's what happens when you spend your time in the workshop.
+
+Follow me Batz is down here.
+
+The main road is what miners used to use but there is a shortcut by the forest. 
+The river is too dangerous and that's why it was not used.
+
+
+They kill him : I curse you
+
+Bahamut shows up in onepicture
+
+and hits hard in the next
+
+Since then the tree have turned blue (show before they enter and fight in the middle the trees are green and then blue)
+
+
+Same room talk via devices
+
+
+Fairy (maybe an evil one, a bit like an evil Gandalf). Rena ??? she was stuck.
+She asks a question
+They answeer and gte item +10 strenght
+Sofia gets potino and they are non plussed
+
+But hten in  the cave they fight and she uses potion on their weapons to kill skeletons
+They a re a good team and she shows she knows gher stuff.
+
+When they left the house she said. Thanks for the book I already read it.
+
+
+
+Sofia loves learning
+maybe she solves a puzzle in the forest. 
+
+She's fascinated by the olf lift
+she will develop math and SQL
+Maybe she's read MArku's book
+
+The mushrooms in the cave feel like things are strating again.
+
+
+
+
+
 
 213 Nikolos
 
@@ -15,82 +161,12 @@ That the university leads the knights.
 
 
 
-01_bedrooms
-Bank
-
-02_meet_sofia
-Bank with sofia
-
-03 bridge
-by the way Nikolo is back
-
-
-04 building
-How are you feeling about the demo ? 
-I leave you here. I'l come see you at your place.
-
-05_demo_1
-Presentation of MArkus and his Work/ achievements
-
-06_demo_2
-Demo
-
-07_demo3
-Demo moaner
-
-08 Bridge  1 they talk about the moaner
-
-09 rich
-Hey There's something I need to show you
-
-10 market 
-buys a book about Genjuu he can't find any at the university
-
-11 market
-
-12 on the way
-They reach plazza X
-
-Talk with Sofia about the city ?
-
-They walk on a place and there is a crzzy man saying runes are not cool. Knights tell him nicely to move.
-
-
-13 _on_the_way
-Talk about project 
-
-
-14_on_the_way_fight
-Bandits attack
-Batz is alos going to Nikolo's
-
-15_on_the_way_batz
-I'll deal with them One is punched on the ground
-
-16_outside_nikolos_house
-Thanks Batz You 're strong now.'
-Batz has friends who work for Nikolo
-
-17_meet_nikolo
-Catch up about trade / Rcoktown / Nerobi
-
-18_meet_nikolo_2
-Project to trade more ?
-
-19
-Drinks a carrot Juice.
-Makus are you ok. Is it due to my carrot juice ? bitter taste
-
-20 house ?
-
 10 corridor or shared kittchen
 
 Markus reads book in his room. He#ll talk about it in the shared kitchen an other day.s
 
 The relay is in the middle of the town. Maybe at the top of a pole.
 
-#####
-Chapter 2 
 
 They decide to go visit the first mine and might find an other wonder. The mine where the first rune stones were found. Will batz be with them ? 
 He makes an other relay that tracks with this stone without telling others.
@@ -194,7 +270,7 @@ It's very dangerous. Only the fools go in there with the hope of finding the old
 8 Get to the top
 
 9 view through lens (comment about lens ?)
-https://www.flaticon.com/free-icon/spyglass_475466
+https://www.flaticon.com/free-icon/spyglass_475466 
 
 
 10  Out of the mine
