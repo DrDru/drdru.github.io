@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<html style=""><head><title>The Tile World Chronicles</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=420">
+<link rel="stylesheet" type="text/css" href="./book_pages.css">
+<link rel="stylesheet" type="text/css" href="./forest_1.css">
+
+<style>
+
+.black {
+
+  color: black;
+
+}
+
+.layer {
+  position: absolute;
+
+}
+.s, #placeholder {
+  position: absolute;
+}
+.s::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 100%;
+}
+.edit .s:hover::before {
+  border: 2px solid #3399FF;
+}
+
+.open_book {
+
+  box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 1), 20px 10px 0 0 rgba(0, 0, 0, 1), 50px 10px 0 0 rgba(0, 0, 0, 1), 60px 10px 0 0 rgba(0, 0, 0, 1), 80px 10px 0 0 rgba(0, 0, 0, 1), 90px 10px 0 0 rgba(0, 0, 0, 1), 10px 20px 0 0 rgba(0, 0, 0, 1), 20px 20px 0 0 rgba(158, 158, 158, 1), 30px 20px 0 0 rgba(0, 0, 0, 1), 40px 20px 0 0 rgba(0, 0, 0, 1), 50px 20px 0 0 rgba(158, 158, 158, 1), 60px 20px 0 0 rgba(158, 158, 158, 1), 70px 20px 0 0 rgba(0, 0, 0, 1), 80px 20px 0 0 rgba(158, 158, 158, 1), 90px 20px 0 0 rgba(0, 0, 0, 1), 10px 30px 0 0 rgba(0, 0, 0, 1), 20px 30px 0 0 rgba(158, 158, 158, 1), 30px 30px 0 0 rgba(158, 158, 158, 1), 40px 30px 0 0 rgba(158, 158, 158, 1), 50px 30px 0 0 rgba(158, 158, 158, 1), 60px 30px 0 0 rgba(158, 158, 158, 1), 70px 30px 0 0 rgba(158, 158, 158, 1), 80px 30px 0 0 rgba(158, 158, 158, 1), 90px 30px 0 0 rgba(0, 0, 0, 1), 10px 40px 0 0 rgba(0, 0, 0, 1), 20px 40px 0 0 rgba(0, 0, 0, 1), 30px 40px 0 0 rgba(200,206,187,1), 40px 40px 0 0 rgba(200,206,187,1), 50px 40px 0 0 rgba(158, 158, 158, 1), 60px 40px 0 0 rgba(158, 158, 158, 1), 70px 40px 0 0 rgba(158, 158, 158, 1), 80px 40px 0 0 rgba(158, 158, 158, 1), 90px 40px 0 0 rgba(0, 0, 0, 1), 20px 50px 0 0 rgba(0, 0, 0, 1), 30px 50px 0 0 rgba(200,206,187,1), 40px 50px 0 0 rgba(200,206,187,1), 50px 50px 0 0 rgba(200,206,187,1), 60px 50px 0 0 rgba(200,206,187,1), 70px 50px 0 0 rgba(158, 158, 158, 1), 80px 50px 0 0 rgba(158, 158, 158, 1), 90px 50px 0 0 rgba(0, 0, 0, 1), 20px 60px 0 0 rgba(0, 0, 0, 1), 30px 60px 0 0 rgba(0, 0, 0, 1), 40px 60px 0 0 rgba(200,206,187,1), 50px 60px 0 0 rgba(200,206,187,1), 60px 60px 0 0 rgba(200,206,187,1), 70px 60px 0 0 rgba(158, 158, 158, 1), 80px 60px 0 0 rgba(158, 158, 158, 1), 90px 60px 0 0 rgba(0, 0, 0, 1), 30px 70px 0 0 rgba(0, 0, 0, 1), 40px 70px 0 0 rgba(200,206,187,1), 50px 70px 0 0 rgba(200,206,187,1), 60px 70px 0 0 rgba(200,206,187,1), 70px 70px 0 0 rgba(158, 158, 158, 1), 80px 70px 0 0 rgba(158, 158, 158, 1), 90px 70px 0 0 rgba(0, 0, 0, 1), 30px 80px 0 0 rgba(0, 0, 0, 1), 40px 80px 0 0 rgba(200,206,187,1), 50px 80px 0 0 rgba(200,206,187,1), 60px 80px 0 0 rgba(200,206,187,1), 70px 80px 0 0 rgba(200,206,187,1), 80px 80px 0 0 rgba(158, 158, 158, 1), 90px 80px 0 0 rgba(0, 0, 0, 1), 40px 90px 0 0 rgba(0, 0, 0, 1), 50px 90px 0 0 rgba(200,206,187,1), 60px 90px 0 0 rgba(200,206,187,1), 70px 90px 0 0 rgba(200,206,187,1), 80px 90px 0 0 rgba(158, 158, 158, 1), 90px 90px 0 0 rgba(0, 0, 0, 1), 40px 100px 0 0 rgba(0, 0, 0, 1), 50px 100px 0 0 rgba(200,206,187,1), 60px 100px 0 0 rgba(200,206,187,1), 70px 100px 0 0 rgba(200,206,187,1), 80px 100px 0 0 rgba(158, 158, 158, 1), 90px 100px 0 0 rgba(0, 0, 0, 1), 50px 110px 0 0 rgba(0, 0, 0, 1), 60px 110px 0 0 rgba(200,206,187,1), 70px 110px 0 0 rgba(200,206,187,1), 80px 110px 0 0 rgba(158, 158, 158, 1), 90px 110px 0 0 rgba(0, 0, 0, 1), 50px 120px 0 0 rgba(0, 0, 0, 1), 60px 120px 0 0 rgba(200,206,187,1), 70px 120px 0 0 rgba(200,206,187,1), 80px 120px 0 0 rgba(158, 158, 158, 1), 90px 120px 0 0 rgba(0, 0, 0, 1), 60px 130px 0 0 rgba(0, 0, 0, 1), 70px 130px 0 0 rgba(200,206,187,1), 80px 130px 0 0 rgba(200,206,187,1), 90px 130px 0 0 rgba(0, 0, 0, 1), 60px 140px 0 0 rgba(0, 0, 0, 1), 70px 140px 0 0 rgba(200,206,187,1), 80px 140px 0 0 rgba(200,206,187,1), 90px 140px 0 0 rgba(0, 0, 0, 1), 70px 150px 0 0 rgba(0, 0, 0, 1), 80px 150px 0 0 rgba(200,206,187,1), 90px 150px 0 0 rgba(0, 0, 0, 1), 70px 160px 0 0 rgba(0, 0, 0, 1), 80px 160px 0 0 rgba(200,206,187,1), 90px 160px 0 0 rgba(0, 0, 0, 1), 80px 170px 0 0 rgba(0, 0, 0, 1), 90px 170px 0 0 rgba(0, 0, 0, 1);
+  height: 10px;
+  width: 10px;
+
+}
+
+.rune_stone {
+
+  box-shadow: 3px 3px 0 0 rgba(0,0,0,0), 6px 3px 0 0 rgba(0,0,0,0), 9px 3px 0 0 rgba(0,0,0,0), 12px 3px 0 0 rgba(0,0,0,0), 15px 3px 0 0 rgba(0,0,0,0), 18px 3px 0 0 rgba(0,0,0,0), 21px 3px 0 0 rgba(0,0,0,0), 24px 3px 0 0 rgba(0,0,0,0), 27px 3px 0 0 rgba(0,0,0,0), 30px 3px 0 0 rgba(0,0,0,0), 33px 3px 0 0 rgba(0,0,0,0), 36px 3px 0 0 rgba(0,0,0,0), 39px 3px 0 0 rgba(0,0,0,0), 42px 3px 0 0 rgba(0,0,0,0), 45px 3px 0 0 rgba(0,0,0,0), 48px 3px 0 0 rgba(0,0,0,0), 3px 6px 0 0 rgba(0,0,0,0), 6px 6px 0 0 rgba(0,0,0,0), 9px 6px 0 0 rgba(0,0,0,0), 12px 6px 0 0 rgba(0,0,0,0), 15px 6px 0 0 rgba(0,0,0,0), 18px 6px 0 0 rgba(0,0,0,0), 21px 6px 0 0 rgba(0,0,0,255), 24px 6px 0 0 rgba(0,0,0,255), 27px 6px 0 0 rgba(0,0,0,255), 30px 6px 0 0 rgba(0,0,0,255), 33px 6px 0 0 rgba(0,0,0,0), 36px 6px 0 0 rgba(0,0,0,0), 39px 6px 0 0 rgba(0,0,0,0), 42px 6px 0 0 rgba(0,0,0,0), 45px 6px 0 0 rgba(0,0,0,0), 48px 6px 0 0 rgba(0,0,0,0), 3px 9px 0 0 rgba(0,0,0,0), 6px 9px 0 0 rgba(0,0,0,0), 9px 9px 0 0 rgba(0,0,0,0), 12px 9px 0 0 rgba(0,0,0,0), 15px 9px 0 0 rgba(0,0,0,255), 18px 9px 0 0 rgba(0,0,0,255), 21px 9px 0 0 rgba(102,102,102,255), 24px 9px 0 0 rgba(102,102,102,255), 27px 9px 0 0 rgba(102,102,102,255), 30px 9px 0 0 rgba(102,102,102,255), 33px 9px 0 0 rgba(0,0,0,255), 36px 9px 0 0 rgba(0,0,0,255), 39px 9px 0 0 rgba(0,0,0,0), 42px 9px 0 0 rgba(0,0,0,0), 45px 9px 0 0 rgba(0,0,0,0), 48px 9px 0 0 rgba(0,0,0,0), 3px 12px 0 0 rgba(0,0,0,0), 6px 12px 0 0 rgba(0,0,0,0), 9px 12px 0 0 rgba(0,0,0,0), 12px 12px 0 0 rgba(0,0,0,255), 15px 12px 0 0 rgba(102,102,102,255), 18px 12px 0 0 rgba(102,102,102,255), 21px 12px 0 0 rgba(132,132,132,255), 24px 12px 0 0 rgba(132,132,132,255), 27px 12px 0 0 rgba(132,132,132,255), 30px 12px 0 0 rgba(102,102,102,255), 33px 12px 0 0 rgba(102,102,102,255), 36px 12px 0 0 rgba(74,74,74,255), 39px 12px 0 0 rgba(0,0,0,255), 42px 12px 0 0 rgba(0,0,0,0), 45px 12px 0 0 rgba(0,0,0,0), 48px 12px 0 0 rgba(0,0,0,0), 3px 15px 0 0 rgba(0,0,0,0), 6px 15px 0 0 rgba(0,0,0,0), 9px 15px 0 0 rgba(0,0,0,255), 12px 15px 0 0 rgba(102,102,102,255), 15px 15px 0 0 rgba(132,132,132,255), 18px 15px 0 0 rgba(217,217,217,255), 21px 15px 0 0 rgba(179,179,179,255), 24px 15px 0 0 rgba(179,179,179,255), 27px 15px 0 0 rgba(132,132,132,255), 30px 15px 0 0 rgba(132,132,132,255), 33px 15px 0 0 rgba(102,102,102,255), 36px 15px 0 0 rgba(102,102,102,255), 39px 15px 0 0 rgba(74,74,74,255), 42px 15px 0 0 rgba(0,0,0,255), 45px 15px 0 0 rgba(0,0,0,0), 48px 15px 0 0 rgba(0,0,0,0), 3px 18px 0 0 rgba(0,0,0,0), 6px 18px 0 0 rgba(0,0,0,0), 9px 18px 0 0 rgba(0,0,0,255), 12px 18px 0 0 rgba(102,102,102,255), 15px 18px 0 0 rgba(217,217,217,255), 18px 18px 0 0 rgba(255,255,255,255), 21px 18px 0 0 rgba(217,217,217,255), 24px 18px 0 0 rgba(179,179,179,255), 27px 18px 0 0 rgba(132,132,132,255), 30px 18px 0 0 rgba(132,132,132,255), 33px 18px 0 0 rgba(102,102,102,255), 36px 18px 0 0 rgba(102,102,102,255), 39px 18px 0 0 rgba(74,74,74,255), 42px 18px 0 0 rgba(0,0,0,255), 45px 18px 0 0 rgba(0,0,0,0), 48px 18px 0 0 rgba(0,0,0,0), 3px 21px 0 0 rgba(0,0,0,0), 6px 21px 0 0 rgba(0,0,0,255), 9px 21px 0 0 rgba(102,102,102,255), 12px 21px 0 0 rgba(132,132,132,255), 15px 21px 0 0 rgba(179,179,179,255), 18px 21px 0 0 rgba(217,217,217,255), 21px 21px 0 0 rgba(179,179,179,255), 24px 21px 0 0 rgba(179,179,179,255), 27px 21px 0 0 rgba(132,132,132,255), 30px 21px 0 0 rgba(132,132,132,255), 33px 21px 0 0 rgba(102,102,102,255), 36px 21px 0 0 rgba(102,102,102,255), 39px 21px 0 0 rgba(74,74,74,255), 42px 21px 0 0 rgba(37,37,37,255), 45px 21px 0 0 rgba(0,0,0,255), 48px 21px 0 0 rgba(0,0,0,0), 3px 24px 0 0 rgba(0,0,0,0), 6px 24px 0 0 rgba(0,0,0,255), 9px 24px 0 0 rgba(102,102,102,255), 12px 24px 0 0 rgba(132,132,132,255), 15px 24px 0 0 rgba(179,179,179,255), 18px 24px 0 0 rgba(179,179,179,255), 21px 24px 0 0 rgba(179,179,179,255), 24px 24px 0 0 rgba(132,132,132,255), 27px 24px 0 0 rgba(132,132,132,255), 30px 24px 0 0 rgba(132,132,132,255), 33px 24px 0 0 rgba(102,102,102,255), 36px 24px 0 0 rgba(102,102,102,255), 39px 24px 0 0 rgba(74,74,74,255), 42px 24px 0 0 rgba(37,37,37,255), 45px 24px 0 0 rgba(0,0,0,255), 48px 24px 0 0 rgba(0,0,0,0), 3px 27px 0 0 rgba(0,0,0,0), 6px 27px 0 0 rgba(0,0,0,255), 9px 27px 0 0 rgba(102,102,102,255), 12px 27px 0 0 rgba(132,132,132,255), 15px 27px 0 0 rgba(132,132,132,255), 18px 27px 0 0 rgba(132,132,132,255), 21px 27px 0 0 rgba(132,132,132,255), 24px 27px 0 0 rgba(132,132,132,255), 27px 27px 0 0 rgba(132,132,132,255), 30px 27px 0 0 rgba(102,102,102,255), 33px 27px 0 0 rgba(102,102,102,255), 36px 27px 0 0 rgba(102,102,102,255), 39px 27px 0 0 rgba(74,74,74,255), 42px 27px 0 0 rgba(37,37,37,255), 45px 27px 0 0 rgba(0,0,0,255), 48px 27px 0 0 rgba(0,0,0,0), 3px 30px 0 0 rgba(0,0,0,0), 6px 30px 0 0 rgba(0,0,0,255), 9px 30px 0 0 rgba(102,102,102,255), 12px 30px 0 0 rgba(102,102,102,255), 15px 30px 0 0 rgba(132,132,132,255), 18px 30px 0 0 rgba(132,132,132,255), 21px 30px 0 0 rgba(132,132,132,255), 24px 30px 0 0 rgba(132,132,132,255), 27px 30px 0 0 rgba(102,102,102,255), 30px 30px 0 0 rgba(102,102,102,255), 33px 30px 0 0 rgba(102,102,102,255), 36px 30px 0 0 rgba(74,74,74,255), 39px 30px 0 0 rgba(74,74,74,255), 42px 30px 0 0 rgba(37,37,37,255), 45px 30px 0 0 rgba(0,0,0,255), 48px 30px 0 0 rgba(0,0,0,0), 3px 33px 0 0 rgba(0,0,0,0), 6px 33px 0 0 rgba(0,0,0,0), 9px 33px 0 0 rgba(0,0,0,255), 12px 33px 0 0 rgba(102,102,102,255), 15px 33px 0 0 rgba(102,102,102,255), 18px 33px 0 0 rgba(102,102,102,255), 21px 33px 0 0 rgba(102,102,102,255), 24px 33px 0 0 rgba(102,102,102,255), 27px 33px 0 0 rgba(102,102,102,255), 30px 33px 0 0 rgba(102,102,102,255), 33px 33px 0 0 rgba(74,74,74,255), 36px 33px 0 0 rgba(74,74,74,255), 39px 33px 0 0 rgba(37,37,37,255), 42px 33px 0 0 rgba(0,0,0,255), 45px 33px 0 0 rgba(0,0,0,0), 48px 33px 0 0 rgba(0,0,0,0), 3px 36px 0 0 rgba(0,0,0,0), 6px 36px 0 0 rgba(0,0,0,0), 9px 36px 0 0 rgba(0,0,0,255), 12px 36px 0 0 rgba(74,74,74,255), 15px 36px 0 0 rgba(102,102,102,255), 18px 36px 0 0 rgba(102,102,102,255), 21px 36px 0 0 rgba(102,102,102,255), 24px 36px 0 0 rgba(102,102,102,255), 27px 36px 0 0 rgba(102,102,102,255), 30px 36px 0 0 rgba(74,74,74,255), 33px 36px 0 0 rgba(74,74,74,255), 36px 36px 0 0 rgba(74,74,74,255), 39px 36px 0 0 rgba(37,37,37,255), 42px 36px 0 0 rgba(0,0,0,255), 45px 36px 0 0 rgba(0,0,0,0), 48px 36px 0 0 rgba(0,0,0,0), 3px 39px 0 0 rgba(0,0,0,0), 6px 39px 0 0 rgba(0,0,0,0), 9px 39px 0 0 rgba(0,0,0,0), 12px 39px 0 0 rgba(0,0,0,255), 15px 39px 0 0 rgba(74,74,74,255), 18px 39px 0 0 rgba(74,74,74,255), 21px 39px 0 0 rgba(74,74,74,255), 24px 39px 0 0 rgba(74,74,74,255), 27px 39px 0 0 rgba(74,74,74,255), 30px 39px 0 0 rgba(74,74,74,255), 33px 39px 0 0 rgba(37,37,37,255), 36px 39px 0 0 rgba(37,37,37,255), 39px 39px 0 0 rgba(0,0,0,255), 42px 39px 0 0 rgba(0,0,0,0), 45px 39px 0 0 rgba(0,0,0,0), 48px 39px 0 0 rgba(0,0,0,0), 3px 42px 0 0 rgba(0,0,0,0), 6px 42px 0 0 rgba(0,0,0,0), 9px 42px 0 0 rgba(0,0,0,0), 12px 42px 0 0 rgba(0,0,0,0), 15px 42px 0 0 rgba(0,0,0,255), 18px 42px 0 0 rgba(0,0,0,255), 21px 42px 0 0 rgba(37,37,37,255), 24px 42px 0 0 rgba(37,37,37,255), 27px 42px 0 0 rgba(37,37,37,255), 30px 42px 0 0 rgba(37,37,37,255), 33px 42px 0 0 rgba(0,0,0,255), 36px 42px 0 0 rgba(0,0,0,255), 39px 42px 0 0 rgba(0,0,0,0), 42px 42px 0 0 rgba(0,0,0,0), 45px 42px 0 0 rgba(0,0,0,0), 48px 42px 0 0 rgba(0,0,0,0), 3px 45px 0 0 rgba(0,0,0,0), 6px 45px 0 0 rgba(0,0,0,0), 9px 45px 0 0 rgba(0,0,0,0), 12px 45px 0 0 rgba(0,0,0,0), 15px 45px 0 0 rgba(0,0,0,0), 18px 45px 0 0 rgba(0,0,0,0), 21px 45px 0 0 rgba(0,0,0,255), 24px 45px 0 0 rgba(0,0,0,255), 27px 45px 0 0 rgba(0,0,0,255), 30px 45px 0 0 rgba(0,0,0,255), 33px 45px 0 0 rgba(0,0,0,0), 36px 45px 0 0 rgba(0,0,0,0), 39px 45px 0 0 rgba(0,0,0,0), 42px 45px 0 0 rgba(0,0,0,0), 45px 45px 0 0 rgba(0,0,0,0), 48px 45px 0 0 rgba(0,0,0,0), 3px 48px 0 0 rgba(0,0,0,0), 6px 48px 0 0 rgba(0,0,0,0), 9px 48px 0 0 rgba(0,0,0,0), 12px 48px 0 0 rgba(0,0,0,0), 15px 48px 0 0 rgba(0,0,0,0), 18px 48px 0 0 rgba(0,0,0,0), 21px 48px 0 0 rgba(0,0,0,0), 24px 48px 0 0 rgba(0,0,0,0), 27px 48px 0 0 rgba(0,0,0,0), 30px 48px 0 0 rgba(0,0,0,0), 33px 48px 0 0 rgba(0,0,0,0), 36px 48px 0 0 rgba(0,0,0,0), 39px 48px 0 0 rgba(0,0,0,0), 42px 48px 0 0 rgba(0,0,0,0), 45px 48px 0 0 rgba(0,0,0,0), 48px 48px 0 0 rgba(0,0,0,0);
+  height: 3px;
+  width: 3px;
+}
+</style>
+
+
+<!--
+  Rune powered devices are everywhere. Lead by Grand Engineer Markus and his 3 companions, Rune crafters in Akotis are making more of them everyday, always more powerful. Their spread has changed the world for ever.
+
+Due to the world's dependency on these devices, his rule his felt everywhere and his opponents are destroyed.
+
+Before being Grand Engineer, Markus was a passionate boy from Rocktown.
+-->
+</head><body class="">
+
+
+
+<br>
+
+<div class="main">
+
+
+
+    <div class="top">
+    <span class="next"><p> イントロ (1 / 22)</p></span>
+  </div>
+  <div class="page left_page" style="background-color:black;">
+
+<div style="padding-top:  5px; padding-left:   140px; height:  110px;">
+ <div class="open_book" style="display:  inline-block  ;"></div>
+</div>
+
+<div style="padding-top: 20px; padding-left: 20px; padding-right: 20px; font-size: 170%; overflow-wrap: break-word; text-align: center;">
+タイルワールドでは
+<br>
+ルーンが入ったデバイスの
+<br><ruby>利用<rt>りよう</rt></ruby>が<ruby>広<rt>ひろ</rt></ruby>がっていました
+</div>
+<div style="padding-top:  5px; padding-left:   170px; height:  60px;">
+ <div class="rune_stone" style="display:  inline-block  ;"></div>
+</div>
+<div style="padding-top: 20px; padding-left: 20px; padding-right: 20px; font-size: 170%; overflow-wrap: break-word; text-align: center;">
+新しいコミュニケーションを<ruby>可能<rt>かのう</rt></ruby>にする
+<br>
+このデバイスは世界を
+<br>
+<ruby>完全<rt>かんぜん</rt></ruby>に<ruby>変<rt>か</rt></ruby>えてしまいました</div>
+
+
+
+
+🐍
+
+
+
+</div>  
+
+ <div class="page"  style="background-color:black;">
+
+	<br>
+
+<div style="padding-top: 0px; padding-left: 20px; padding-right: 20px; font-size: 170%; overflow-wrap: break-word; text-align: center;">
+マーカス<ruby>大技師<rt>だいぎし</rt></ruby>とその<ruby>仲間<rt>なかま</rt></ruby>３人の<ruby>支配下<rt>しはいか</rt></ruby>で
+<br>
+アコティス<ruby>市<rt>し</rt></ruby>の
+<br>
+ルーンクラフターたちが
+<br>
+毎日<ruby>数多<rt>かずおお</rt></ruby>く
+<br><ruby>作<rt>つく</rt></ruby>り<ruby>出<rt>だ</rt></ruby>していました
+</div>
+<div style="padding-top:  5px; padding-left:   170px; height:  60px;">
+ <div class="rune_stone" style="display:  inline-block  ;"></div>
+</div>
+<div style="padding-top: 20px; padding-left: 20px; padding-right: 20px; font-size: 170%; overflow-wrap: break-word; text-align: center;">
+<ruby>大技師<rt>だいぎし</rt></ruby>になる前、
+<br>
+
+マーカスは
+<br>
+<ruby>親切<rt>しんせつ</rt></ruby>な<ruby>少年<rt>しょうねん</rt></ruby>だったのです
+</div>
+
+
+
+
+</div>
+
+
+<div class="bottom"> 
+  <span class="next">
+    <p><a href="./../../twc.html" class="a2">前</a>
+       | 
+       <a href="./02_war.html" class="a2">次</a>
+     </p>
+     </span>
+</div>
+
+
+</div>
+
+
+</body></html>
